@@ -5511,6 +5511,39 @@
 		"description": "You worked in a church, temple, or other religious institution as part of the clergy.",
 		"features": [
 			{
+				"id": "career-disciple-feature-1",
+				"name": "Lore Skill",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 1,
+					"selected": [
+						"Strategy"
+					]
+				}
+			},
+			{
+				"id": "career-disciple-feature-2",
+				"name": "Lore Skills",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 2,
+					"selected": [
+						"Magic",
+						"Psionics"
+					]
+				}
+			},
+			{
 				"id": "career-disciple-feature-3",
 				"name": "Project Points",
 				"description": "",
@@ -5639,39 +5672,6 @@
 						}
 					]
 				}
-			},
-			{
-				"id": "career-disciple-feature-1",
-				"name": "Lore Skill",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 1,
-					"selected": [
-						"Strategy"
-					]
-				}
-			},
-			{
-				"id": "career-disciple-feature-2",
-				"name": "Lore Skills",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 2,
-					"selected": [
-						"Magic",
-						"Psionics"
-					]
-				}
 			}
 		],
 		"incitingIncidents": {
@@ -5722,14 +5722,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
