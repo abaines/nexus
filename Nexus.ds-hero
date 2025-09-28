@@ -5511,6 +5511,39 @@
 		"description": "You worked in a church, temple, or other religious institution as part of the clergy.",
 		"features": [
 			{
+				"id": "career-disciple-feature-1",
+				"name": "Lore Skill",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 1,
+					"selected": [
+						"Strategy"
+					]
+				}
+			},
+			{
+				"id": "career-disciple-feature-2",
+				"name": "Lore Skills",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 2,
+					"selected": [
+						"Magic",
+						"Psionics"
+					]
+				}
+			},
+			{
 				"id": "career-disciple-feature-3",
 				"name": "Project Points",
 				"description": "",
@@ -5639,39 +5672,6 @@
 						}
 					]
 				}
-			},
-			{
-				"id": "career-disciple-feature-1",
-				"name": "Lore Skill",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 1,
-					"selected": [
-						"Strategy"
-					]
-				}
-			},
-			{
-				"id": "career-disciple-feature-2",
-				"name": "Lore Skills",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 2,
-					"selected": [
-						"Magic",
-						"Psionics"
-					]
-				}
 			}
 		],
 		"incitingIncidents": {
@@ -5722,14 +5722,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5756,17 +5756,61 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 1,
 		"xp": 0,
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
 		"projectPoints": 0,
 		"conditions": [],
-		"inventory": [],
+		"inventory": [
+			{
+				"id": "pwG1riPWqV8gn3Z6",
+				"name": "Buzz Balm",
+				"description": "This cooling orange salve crackles and pops when exposed to the air.",
+				"type": "Consumable Item",
+				"keywords": [
+					"Magic",
+					"Oil"
+				],
+				"crafting": {
+					"id": "item-buzz-balm-crafting",
+					"name": "Craft Buzz Balm",
+					"description": "Craft a Buzz Balm",
+					"itemPrerequisites": "An ounce of demon honey",
+					"source": "Texts or lore in Kalliak",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 45,
+					"effect": "",
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1,
+				"customizationsByLevel": []
+			}
+		],
 		"projects": [],
 		"controlledSlots": [],
-		"notes": "",
+		"notes": "Inventory:\nconstruct crow parts (BKC initials)\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false
