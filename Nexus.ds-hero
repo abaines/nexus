@@ -5749,6 +5749,71 @@
 					"Caelian"
 				]
 			}
+		},
+		{
+			"id": "WnV9zwWWWu2ChWTe",
+			"name": "🔸 Motivate Earth",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "WnV9zwWWWu2ChWTe",
+					"name": "🔸 Motivate Earth",
+					"description": "**Effect:** You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface.",
+					"type": {
+						"usage": "Main Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [
+						"Earth",
+						"Magic",
+						"Melee"
+					],
+					"distance": [
+						{
+							"type": "Self",
+							"value": 0,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Special",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			}
+		},
+		{
+			"id": "UQmDww4QKNAYNGkl",
+			"name": "Ability",
+			"description": "",
+			"type": "Class Ability",
+			"data": {
+				"cost": 0,
+				"allowAnySource": true,
+				"minLevel": 1,
+				"count": 1,
+				"selectedIDs": [
+					"elementalist-sub-1-1-2"
+				],
+				"classID": "class-elementalist"
+			}
 		}
 	],
 	"state": {
