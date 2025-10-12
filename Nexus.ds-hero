@@ -1,5 +1,5 @@
 {
-	"id": "7uinZ0Tr3qB5mOZH",
+	"id": "SPlsR86nccfs39u6",
 	"name": "Nexus",
 	"picture": null,
 	"folder": "",
@@ -319,6 +319,7 @@
 						"data": {
 							"field": "Stamina",
 							"value": 18,
+							"valueFromController": null,
 							"valueCharacteristics": [],
 							"valueCharacteristicMultiplier": 1,
 							"valuePerLevel": 6,
@@ -333,6 +334,7 @@
 						"data": {
 							"field": "Recoveries",
 							"value": 8,
+							"valueFromController": null,
 							"valueCharacteristics": [],
 							"valueCharacteristicMultiplier": 1,
 							"valuePerLevel": 0,
@@ -365,33 +367,21 @@
 					},
 					{
 						"id": "talent-skill-a",
-						"name": "Lore Skill",
+						"name": "Skills",
 						"description": "",
 						"type": "Skill Choice",
 						"data": {
 							"options": [],
 							"listOptions": [
+								"Crafting",
+								"Exploration",
+								"Interpersonal",
+								"Intrigue",
 								"Lore"
 							],
-							"count": 1,
+							"count": 2,
 							"selected": [
 								"Monsters"
-							]
-						}
-					},
-					{
-						"id": "talent-skill-b",
-						"name": "Interpersonal Skill",
-						"description": "",
-						"type": "Skill Choice",
-						"data": {
-							"options": [],
-							"listOptions": [
-								"Interpersonal"
-							],
-							"count": 1,
-							"selected": [
-								"Music"
 							]
 						}
 					},
@@ -536,6 +526,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 0,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -577,6 +568,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 0,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -591,6 +583,7 @@
 													"data": {
 														"field": "Stability",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -614,6 +607,7 @@
 												"Ranged"
 											],
 											"value": 2,
+											"valueFromController": null,
 											"valueCharacteristics": [],
 											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
@@ -633,6 +627,7 @@
 												"Psionic"
 											],
 											"value": 1,
+											"valueFromController": null,
 											"valueCharacteristics": [],
 											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
@@ -658,6 +653,7 @@
 													"data": {
 														"field": "Speed",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -672,6 +668,7 @@
 													"data": {
 														"field": "Disengage",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -701,6 +698,7 @@
 												"data": {
 													"field": "Speed",
 													"value": 1,
+													"valueFromController": null,
 													"valueCharacteristics": [],
 													"valueCharacteristicMultiplier": 1,
 													"valuePerLevel": 0,
@@ -715,6 +713,7 @@
 												"data": {
 													"field": "Disengage",
 													"value": 1,
+													"valueFromController": null,
 													"valueCharacteristics": [],
 													"valueCharacteristicMultiplier": 1,
 													"valuePerLevel": 0,
@@ -1111,61 +1110,9 @@
 					{
 						"id": "talent-6-2",
 						"name": "Psi Boost",
-						"description": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional clarity to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost.",
-						"type": "Multiple Features",
-						"data": {
-							"features": [
-								{
-									"id": "talent-6-2a",
-									"name": "Psi Boost: Dynamic Power (1 Clarity)",
-									"description": "If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2b",
-									"name": "Psi Boost: Expanded Power (3 Clarity)",
-									"description": "If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2c",
-									"name": "Psi Boost: Extended Power (1 Clarity)",
-									"description": "If the ability is ranged, the distance gains a bonus equal to your Reason score. If the ability is melee, the distance gains a +2 bonus.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2d",
-									"name": "Psi Boost: Heightened Power (1 Clarity)",
-									"description": "If the ability deals rolled damage, it deals extra damage equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2e",
-									"name": "Psi Boost: Magnified Power (5 Clarity)",
-									"description": "If the ability has a potency, you increase that potency by an amount equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2f",
-									"name": "Psi Boost: Shared Power (5 Clarity)",
-									"description": "If the ability targets individual creatures or objects, you target one additional creature or object within distance.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2g",
-									"name": "Psi Boost: Sharpened Power (1 Clarity)",
-									"description": "If the ability has any power roll, that roll gains an edge.",
-									"type": "Text",
-									"data": null
-								}
-							]
-						}
+						"description": "\nWhenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n\n**Dynamic Power** (1 Clarity) If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score.\n**Expanded Power** (3 Clarity) If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.\n**Extended Power** (1 Clarity) If the ability is ranged, the distance gains a bonus equal to your Reason score. If the ability is melee, the distance gains a +2 bonus.\n**Heightened Power** (1 Clarity) If the ability deals rolled damage, it deals extra damage equal to your Reason score.\n**Magnified Power** (5 Clarity) If the ability has a potency, you increase that potency by an amount equal to your Reason score.\n**Shared Power** (5 Clarity) If the ability targets individual creatures or objects, you target one additional creature or object within distance.\n**Sharpened Power** (1 Clarity) If the ability has any power roll, that roll gains an edge.",
+						"type": "Text",
+						"data": null
 					}
 				]
 			},
@@ -1334,6 +1281,7 @@
 												"damageType": "Psychic",
 												"type": "Immunity",
 												"value": 10,
+												"valueFromController": null,
 												"valueCharacteristics": [],
 												"valueCharacteristicMultiplier": 1,
 												"valuePerLevel": 0,
@@ -1414,6 +1362,7 @@
 											"Ranged"
 										],
 										"value": 10,
+										"valueFromController": null,
 										"valueCharacteristics": [],
 										"valueCharacteristicMultiplier": 0,
 										"valuePerLevel": 0,
@@ -1743,7 +1692,7 @@
 						"qualifier": ""
 					}
 				],
-				"target": "One size 1 creature or object",
+				"target": "One creature or object",
 				"cost": "signature",
 				"repeatable": false,
 				"minLevel": 1,
@@ -5098,6 +5047,7 @@
 													"Psionic"
 												],
 												"value": 5,
+												"valueFromController": null,
 												"valueCharacteristics": [],
 												"valueCharacteristicMultiplier": 0,
 												"valuePerLevel": 0,
@@ -5511,6 +5461,43 @@
 		"description": "You worked in a church, temple, or other religious institution as part of the clergy.",
 		"features": [
 			{
+				"id": "career-disciple-feature-1",
+				"name": "Skill",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Crafting",
+						"Exploration",
+						"Interpersonal",
+						"Intrigue",
+						"Lore"
+					],
+					"count": 1,
+					"selected": [
+						"Strategy"
+					]
+				}
+			},
+			{
+				"id": "career-disciple-feature-2",
+				"name": "Lore Skills",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 2,
+					"selected": [
+						"Magic",
+						"Psionics"
+					]
+				}
+			},
+			{
 				"id": "career-disciple-feature-3",
 				"name": "Project Points",
 				"description": "",
@@ -5518,6 +5505,7 @@
 				"data": {
 					"field": "Project Points",
 					"value": 240,
+					"valueFromController": null,
 					"valueCharacteristics": [],
 					"valueCharacteristicMultiplier": 1,
 					"valuePerLevel": 0,
@@ -5639,39 +5627,6 @@
 						}
 					]
 				}
-			},
-			{
-				"id": "career-disciple-feature-1",
-				"name": "Lore Skill",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 1,
-					"selected": [
-						"Strategy"
-					]
-				}
-			},
-			{
-				"id": "career-disciple-feature-2",
-				"name": "Lore Skills",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 2,
-					"selected": [
-						"Magic",
-						"Psionics"
-					]
-				}
 			}
 		],
 		"incitingIncidents": {
@@ -5722,14 +5677,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
