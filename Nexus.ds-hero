@@ -5677,14 +5677,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5715,24 +5715,83 @@
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
-				"selectedIDs": [],
+				"selectedIDs": [
+					"elementalist-sub-1-1-2"
+				],
 				"classID": "class-elementalist"
 			}
 		}
 	],
 	"state": {
-		"staminaDamage": 4,
-		"staminaTemp": 4,
-		"recoveriesUsed": 1,
+		"staminaDamage": 0,
+		"staminaTemp": 0,
+		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 4,
-		"xp": 0,
+		"victories": 0,
+		"xp": 4,
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
 		"projectPoints": 0,
 		"conditions": [],
 		"inventory": [
+			{
+				"id": "96g6fs5avtYZ0Kr8",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [
+					{
+						"id": "imbuement-forceful-i",
+						"name": "Forceful I",
+						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+						"type": "Imbued Implement",
+						"crafting": {
+							"id": "imbuement-forceful-i-crafting",
+							"name": "Imbue Forceful I",
+							"description": "Imbue an item with Forceful I",
+							"itemPrerequisites": "A lead slingstone that killed a giant",
+							"source": "Texts or lore in High Kuric",
+							"characteristic": [
+								"Might",
+								"Reason",
+								"Intuition"
+							],
+							"goal": 150,
+							"effect": "",
+							"isCustom": false,
+							"progress": null
+						},
+						"level": 1,
+						"feature": {
+							"id": "imbuement-forceful-i",
+							"name": "Forceful I",
+							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+							"type": "Text",
+							"data": null
+						}
+					}
+				],
+				"count": 1,
+				"customizationsByLevel": []
+			},
 			{
 				"id": "pwG1riPWqV8gn3Z6",
 				"name": "Buzz Balm",
@@ -5777,9 +5836,52 @@
 				"customizationsByLevel": []
 			}
 		],
-		"projects": [],
+		"projects": [
+			{
+				"id": "OjoiFUVDefwDCh6F",
+				"name": "Imbue Forceful I",
+				"description": "Imbue an item with Forceful I",
+				"itemPrerequisites": "A lead slingstone that killed a giant",
+				"source": "Texts or lore in High Kuric",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 150
+				}
+			},
+			{
+				"id": "NdIpO9iSSVRytFoX",
+				"name": "Imbue Seeking",
+				"description": "Imbue an item with Seeking",
+				"itemPrerequisites": "An inch-long needle carved from a diamond",
+				"source": "Texts or lore in Caelian",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 110
+				}
+			}
+		],
 		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\nfirst rest +20\n\n\n= 110 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false
