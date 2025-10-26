@@ -421,7 +421,7 @@
 									"qualifiers": [
 										"can be used as a ranged free strike"
 									],
-									"freeStrike": false
+									"freeStrike": true
 								},
 								"keywords": [
 									"Psionic",
@@ -831,7 +831,7 @@
 					},
 					{
 						"id": "talent-1-7",
-						"name": "Ability",
+						"name": "Signature Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -847,7 +847,7 @@
 					},
 					{
 						"id": "talent-1-8",
-						"name": "Ability",
+						"name": "3pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -862,7 +862,7 @@
 					},
 					{
 						"id": "talent-1-9",
-						"name": "Ability",
+						"name": "5pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -909,7 +909,7 @@
 					},
 					{
 						"id": "talent-3-2",
-						"name": "Ability",
+						"name": "7pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -1076,7 +1076,7 @@
 				"features": [
 					{
 						"id": "talent-5-1",
-						"name": "Ability",
+						"name": "9pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -1240,7 +1240,7 @@
 					},
 					{
 						"id": "talent-8-2",
-						"name": "Ability",
+						"name": "11pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
@@ -5677,14 +5677,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5715,9 +5715,7 @@
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
-				"selectedIDs": [
-					"elementalist-sub-1-1-2"
-				],
+				"selectedIDs": [],
 				"classID": "class-elementalist"
 			}
 		}
@@ -5727,7 +5725,7 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 1,
 		"xp": 4,
 		"heroTokens": 0,
 		"renown": 0,
