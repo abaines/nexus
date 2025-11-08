@@ -1,5 +1,5 @@
 {
-	"id": "SPlsR86nccfs39u6",
+	"id": "WNSDjqhg81mzt5P4",
 	"name": "Nexus",
 	"picture": null,
 	"folder": "",
@@ -93,17 +93,8 @@
 											"freeStrike": false
 										},
 										"keywords": [],
-										"distance": [
-											{
-												"type": "Self",
-												"value": 0,
-												"value2": 0,
-												"within": 0,
-												"special": "",
-												"qualifier": ""
-											}
-										],
-										"target": "Self",
+										"distance": [],
+										"target": "",
 										"cost": 0,
 										"repeatable": false,
 										"minLevel": 1,
@@ -174,17 +165,8 @@
 										"freeStrike": false
 									},
 									"keywords": [],
-									"distance": [
-										{
-											"type": "Self",
-											"value": 0,
-											"value2": 0,
-											"within": 0,
-											"special": "",
-											"qualifier": ""
-										}
-									],
-									"target": "Self",
+									"distance": [],
+									"target": "",
 									"cost": 0,
 									"repeatable": false,
 									"minLevel": 1,
@@ -381,7 +363,8 @@
 							],
 							"count": 2,
 							"selected": [
-								"Monsters"
+								"Monsters",
+								"Music"
 							]
 						}
 					},
