@@ -875,7 +875,16 @@
 								"Supernatural"
 							],
 							"count": 1,
-							"selected": []
+							"selected": [
+								{
+									"id": "perk-lie-detector",
+									"name": "Lie Detector",
+									"description": "In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.",
+									"type": "Text",
+									"data": null,
+									"list": "Interpersonal"
+								}
+							]
 						}
 					}
 				]
@@ -4234,7 +4243,78 @@
 										}
 									],
 									"count": 1,
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-2-2a",
+											"name": "Gravitic Burst",
+											"description": "Everyone get away from me!",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-2-2a",
+													"name": "Gravitic Burst",
+													"description": "Everyone get away from me!",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Area",
+														"Psionic",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Burst",
+															"value": 1,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "Each enemy in the area",
+													"cost": 5,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Reason"
+																],
+																"bonus": 0,
+																"tier1": "3 damage; vertical push 2",
+																"tier2": "6 damage; vertical push 4",
+																"tier3": "9 damage; vertical push 6",
+																"crit": ""
+															}
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
+														}
+													],
+													"preEffect": "",
+													"powerRoll": null,
+													"test": null,
+													"effect": "",
+													"strained": "",
+													"alternateEffects": [],
+													"spend": [],
+													"persistence": []
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -5414,7 +5494,7 @@
 				"selected": false
 			}
 		],
-		"level": 1,
+		"level": 2,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5516,7 +5596,7 @@
 									{
 										"id": "familiar",
 										"name": "Familiar",
-										"description": "",
+										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
 										"monster": {
 											"id": "familiar",
 											"name": "Familiar",
@@ -5572,6 +5652,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 2,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 2,
@@ -5601,7 +5682,10 @@
 										"info": {
 											"isSignature": false,
 											"cost": 0,
-											"count": 1
+											"count": 1,
+											"level3": [],
+											"level6": [],
+											"level10": []
 										}
 									}
 								]
@@ -5660,14 +5744,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5709,7 +5793,7 @@
 		"recoveriesUsed": 0,
 		"surges": 0,
 		"victories": 1,
-		"xp": 4,
+		"xp": 16,
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
