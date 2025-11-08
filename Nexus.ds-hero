@@ -5782,7 +5782,9 @@
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
-				"selectedIDs": [],
+				"selectedIDs": [
+					"elementalist-sub-1-1-2"
+				],
 				"classID": "class-elementalist"
 			}
 		}
@@ -5797,7 +5799,7 @@
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
-		"projectPoints": 0,
+		"projectPoints": -240,
 		"conditions": [],
 		"inventory": [
 			{
@@ -5951,5 +5953,60 @@
 		"hidden": false,
 		"defeated": false
 	},
-	"abilityCustomizations": []
+	"abilityCustomizations": [
+		{
+			"abilityID": "comp-grounded-b",
+			"name": "Motivate Earth",
+			"description": "",
+			"notes": "🔸Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded",
+			"description": "",
+			"notes": "🔸Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "elementalist-sub-1-1-2",
+			"name": "",
+			"description": "",
+			"notes": "🔸 Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "talent-sub-2-2-2a",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "talent-ability-9",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "talent-sub-2-1-1",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		}
+	]
 }
