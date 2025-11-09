@@ -93,17 +93,8 @@
 											"freeStrike": false
 										},
 										"keywords": [],
-										"distance": [
-											{
-												"type": "Self",
-												"value": 0,
-												"value2": 0,
-												"within": 0,
-												"special": "",
-												"qualifier": ""
-											}
-										],
-										"target": "Self",
+										"distance": [],
+										"target": "",
 										"cost": 0,
 										"repeatable": false,
 										"minLevel": 1,
@@ -174,17 +165,8 @@
 										"freeStrike": false
 									},
 									"keywords": [],
-									"distance": [
-										{
-											"type": "Self",
-											"value": 0,
-											"value2": 0,
-											"within": 0,
-											"special": "",
-											"qualifier": ""
-										}
-									],
-									"target": "Self",
+									"distance": [],
+									"target": "",
 									"cost": 0,
 									"repeatable": false,
 									"minLevel": 1,
@@ -5796,9 +5778,7 @@
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
-				"selectedIDs": [
-					"elementalist-sub-1-1-2"
-				],
+				"selectedIDs": [],
 				"classID": "class-elementalist"
 			}
 		}
