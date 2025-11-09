@@ -5954,7 +5954,25 @@
 			"abilityID": "elementalist-sub-1-1-2",
 			"name": "",
 			"description": "",
-			"notes": "🔸",
+			"notes": "🔸 Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "comp-grounded-b",
+			"name": "Grounded Benefit",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded Drawback",
+			"description": "",
+			"notes": "",
 			"distanceBonus": 0,
 			"damageBonus": 0,
 			"characteristic": null
