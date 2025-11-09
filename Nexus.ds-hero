@@ -5786,11 +5786,11 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 0,
+		"staminaDamage": 3,
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 1,
 		"xp": 8,
 		"heroTokens": 0,
 		"renown": 0,
