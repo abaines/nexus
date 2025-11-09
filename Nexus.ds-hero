@@ -1,6 +1,6 @@
 {
-	"id": "WNSDjqhg81mzt5P4",
-	"name": "Nexus",
+	"id": "SPlsR86nccfs39u6",
+	"name": "Nexus2",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -93,8 +93,17 @@
 											"freeStrike": false
 										},
 										"keywords": [],
-										"distance": [],
-										"target": "",
+										"distance": [
+											{
+												"type": "Self",
+												"value": 0,
+												"value2": 0,
+												"within": 0,
+												"special": "",
+												"qualifier": ""
+											}
+										],
+										"target": "Self",
 										"cost": 0,
 										"repeatable": false,
 										"minLevel": 1,
@@ -165,8 +174,17 @@
 										"freeStrike": false
 									},
 									"keywords": [],
-									"distance": [],
-									"target": "",
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
+									"target": "Self",
 									"cost": 0,
 									"repeatable": false,
 									"minLevel": 1,
@@ -5596,7 +5614,7 @@
 									{
 										"id": "familiar",
 										"name": "Familiar",
-										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+										"description": "",
 										"monster": {
 											"id": "familiar",
 											"name": "Familiar",
@@ -5652,7 +5670,6 @@
 													"data": {
 														"field": "Stamina",
 														"value": 2,
-														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 2,
@@ -5682,10 +5699,7 @@
 										"info": {
 											"isSignature": false,
 											"cost": 0,
-											"count": 1,
-											"level3": [],
-											"level6": [],
-											"level10": []
+											"count": 1
 										}
 									}
 								]
@@ -5744,14 +5758,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5955,55 +5969,10 @@
 	},
 	"abilityCustomizations": [
 		{
-			"abilityID": "comp-grounded-b",
-			"name": "Motivate Earth",
-			"description": "",
-			"notes": "🔸Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "comp-grounded-d",
-			"name": "Grounded",
-			"description": "",
-			"notes": "🔸Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
 			"abilityID": "elementalist-sub-1-1-2",
 			"name": "",
 			"description": "",
-			"notes": "🔸 Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "talent-sub-2-2-2a",
-			"name": "",
-			"description": "",
-			"notes": "",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "talent-ability-9",
-			"name": "",
-			"description": "",
-			"notes": "",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "talent-sub-2-1-1",
-			"name": "",
-			"description": "",
-			"notes": "",
+			"notes": "🔸",
 			"distanceBonus": 0,
 			"damageBonus": 0,
 			"characteristic": null
