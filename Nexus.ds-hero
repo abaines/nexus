@@ -1,10 +1,10 @@
 {
-	"id": "SPlsR86nccfs39u6",
-	"name": "Nexus2",
+	"id": "m94APlbGeCoeXGOb",
+	"name": "Nexus2.2",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
-		"",
+		"core",
 		"orden"
 	],
 	"ancestry": {
@@ -200,7 +200,71 @@
 				}
 			}
 		],
-		"ancestryPoints": 4
+		"ancestryPoints": 4,
+		"culture": {
+			"id": "culture-memonek",
+			"name": "Memonek",
+			"description": "Nomadic, communal, academic.",
+			"type": "Ancestral",
+			"language": {
+				"id": "culture-memonek",
+				"name": "Language",
+				"description": "",
+				"type": "Language Choice",
+				"data": {
+					"options": [],
+					"count": 1,
+					"selected": [
+						"Axiomatic"
+					]
+				}
+			},
+			"languages": [],
+			"environment": {
+				"id": "env-nomadic",
+				"name": "Nomadic",
+				"description": "A nomadic culture travels from place to place to survive. Members of a nomadic culture might follow animal migrations or the weather, travel to sell their wares or services, or simply enjoy a restless lifestyle full of new experiences and peoples. Those who grow up in nomadic cultures learn to navigate the wilderness and work closely with others to survive.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Exploration",
+						"Interpersonal"
+					],
+					"count": 1,
+					"selected": []
+				}
+			},
+			"organization": {
+				"id": "org-communal",
+				"name": "Communal",
+				"description": "A communal culture is a place where all members of the culture are considered equal. The community works together to make important decisions that affect the majority of the culture. While they elect leaders to carry out these decisions and organize their efforts, each person has a relatively equal say in how the culture operates, and everyone contributes to help their people survive and thrive. Individuals often share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures. Many communal cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in communal cultures focus on fending for themselves while avoiding the danger that other groups can represent.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Crafting",
+						"Exploration"
+					],
+					"count": 1,
+					"selected": []
+				}
+			},
+			"upbringing": {
+				"id": "up-academic",
+				"name": "Academic",
+				"description": "Your hero was raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 1,
+					"selected": []
+				}
+			}
+		}
 	},
 	"culture": {
 		"id": "culture-memonek",
@@ -436,8 +500,7 @@
 											"bonus": 0,
 											"tier1": "2 + R psychic damage",
 											"tier2": "4 + R psychic damage",
-											"tier3": "6 + R psychic damage",
-											"crit": ""
+											"tier3": "6 + R psychic damage"
 										}
 									},
 									{
@@ -819,7 +882,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": "signature",
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 2,
 							"selectedIDs": [
@@ -835,7 +905,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 3,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": [
@@ -850,7 +927,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 5,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": [
@@ -906,7 +990,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 7,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1073,7 +1164,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 9,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1237,7 +1335,14 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 11,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1265,7 +1370,7 @@
 								{
 									"id": "talent-9-1b",
 									"name": "Damage Modifier",
-									"description": "Psychic Immunity + 10",
+									"description": "Psychic Immunity +10",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -1501,8 +1606,7 @@
 							"bonus": 0,
 							"tier1": "2 + P corruption damage; P < [weak], slowed (save ends)",
 							"tier2": "3 + P corruption damage; P < [average], slowed (save ends)",
-							"tier3": "5 + P corruption damage; P < [strong], slowed (save ends)",
-							"crit": ""
+							"tier3": "5 + P corruption damage; P < [strong], slowed (save ends)"
 						}
 					},
 					{
@@ -1568,8 +1672,7 @@
 							"bonus": 0,
 							"tier1": "2 + R cold damage; M < [weak], slowed (EoT)",
 							"tier2": "4 + R cold damage; M < [average], slowed (EoT)",
-							"tier3": "6 + R cold damage; M < [strong], slowed (EoT)",
-							"crit": ""
+							"tier3": "6 + R cold damage; M < [strong], slowed (EoT)"
 						}
 					},
 					{
@@ -1632,8 +1735,7 @@
 							"bonus": 0,
 							"tier1": "2 fire damage",
 							"tier2": "4 fire damage",
-							"tier3": "6 fire damage",
-							"crit": ""
+							"tier3": "6 fire damage"
 						}
 					},
 					{
@@ -1698,8 +1800,7 @@
 							"bonus": 0,
 							"tier1": "Slide 2 + R",
 							"tier2": "Slide 4 + R",
-							"tier3": "Slide 6 + R; prone",
-							"crit": ""
+							"tier3": "Slide 6 + R; prone"
 						}
 					},
 					{
@@ -1760,8 +1861,7 @@
 							"bonus": 0,
 							"tier1": "2 psychic damage",
 							"tier2": "5 psychic damage; push 1",
-							"tier3": "7 psychic damage; push 2",
-							"crit": ""
+							"tier3": "7 psychic damage; push 2"
 						}
 					},
 					{
@@ -1823,8 +1923,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage",
 							"tier2": "5 + R damage",
-							"tier3": "8 + R damage",
-							"crit": ""
+							"tier3": "8 + R damage"
 						}
 					},
 					{
@@ -1890,8 +1989,7 @@
 							"bonus": 0,
 							"tier1": "2 + R damage; M < [weak], prone",
 							"tier2": "4 + R damage; M < [average], prone",
-							"tier3": "6 + R damage; M < [strong], prone",
-							"crit": ""
+							"tier3": "6 + R damage; M < [strong], prone"
 						}
 					},
 					{
@@ -1957,8 +2055,7 @@
 							"bonus": 0,
 							"tier1": "3 + P damage",
 							"tier2": "6 + P damage",
-							"tier3": "9 + P damage",
-							"crit": ""
+							"tier3": "9 + P damage"
 						}
 					},
 					{
@@ -2028,8 +2125,7 @@
 							"bonus": 0,
 							"tier1": "3 + P psychic damage; I < [weak], frightened (save ends)",
 							"tier2": "6 + P psychic damage; I < [average], frightened (save ends)",
-							"tier3": "9 + P psychic damage; I < [strong], frightened (save ends)",
-							"crit": ""
+							"tier3": "9 + P psychic damage; I < [strong], frightened (save ends)"
 						}
 					}
 				],
@@ -2084,8 +2180,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage; M < [weak], slowed (save ends)",
 							"tier2": "5 + R damage; M < [average], slowed (save ends)",
-							"tier3": "8 + R damage; M < [strong], restrained (save ends)",
-							"crit": ""
+							"tier3": "8 + R damage; M < [strong], restrained (save ends)"
 						}
 					},
 					{
@@ -2194,8 +2289,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage; R < [weak], the target has weakness 5 (save ends)",
 							"tier2": "6 + R damage; R < [average], the target has weakness 5 (save ends)",
-							"tier3": "9 + R damage; R < [strong], the target has weakness equal to 5 + your Reason score (save ends)",
-							"crit": ""
+							"tier3": "9 + R damage; R < [strong], the target has weakness equal to 5 + your Reason score (save ends)"
 						}
 					}
 				],
@@ -2462,8 +2556,7 @@
 							"bonus": 0,
 							"tier1": "3 + P corruption damage; P < [weak], weakened (save ends)",
 							"tier2": "5 + P corruption damage; the target is flung through time, and if P < [average] they are weakened (save ends)",
-							"tier3": "8 + P corruption damage; the target is flung through time, and if P < [strong] they are weakened (save ends)",
-							"crit": ""
+							"tier3": "8 + P corruption damage; the target is flung through time, and if P < [strong] they are weakened (save ends)"
 						}
 					},
 					{
@@ -2533,8 +2626,7 @@
 							"bonus": 0,
 							"tier1": "2 damage",
 							"tier2": "3 damage",
-							"tier3": "5 damage",
-							"crit": ""
+							"tier3": "5 damage"
 						}
 					},
 					{
@@ -2649,8 +2741,7 @@
 							"bonus": 0,
 							"tier1": "6 + P damage; P < [weak], dazed (save ends)",
 							"tier2": "10 + P damage; P < [average], dazed (save ends)",
-							"tier3": "14 + P damage; P < [strong], dazed (save ends)",
-							"crit": ""
+							"tier3": "14 + P damage; P < [strong], dazed (save ends)"
 						}
 					},
 					{
@@ -2773,8 +2864,7 @@
 							"bonus": 0,
 							"tier1": "12 sonic damage",
 							"tier2": "18 sonic damage",
-							"tier3": "24 sonic damage",
-							"crit": ""
+							"tier3": "24 sonic damage"
 						}
 					},
 					{
@@ -2836,8 +2926,7 @@
 							"bonus": 0,
 							"tier1": "10 + R psychic damage; R < [weak], slowed (save ends)",
 							"tier2": "14 + R psychic damage; R < [average], slowed (save ends)",
-							"tier3": "20 + R psychic damage; R < [strong], slowed (save ends)",
-							"crit": ""
+							"tier3": "20 + R psychic damage; R < [strong], slowed (save ends)"
 						}
 					},
 					{
@@ -2903,8 +2992,7 @@
 							"bonus": 0,
 							"tier1": "8 damage; A < [weak], the target is stitched to the other target (save ends)",
 							"tier2": "13 damage; A < [average], the target is stitched to the other target (save ends)",
-							"tier3": "17 damage; A < [strong], the target is stitched to the other target (save ends)",
-							"crit": ""
+							"tier3": "17 damage; A < [strong], the target is stitched to the other target (save ends)"
 						}
 					},
 					{
@@ -2970,8 +3058,7 @@
 							"bonus": 0,
 							"tier1": "10 + P damage; P < [weak], weakened (save ends)",
 							"tier2": "14 + P damage; P < [average], weakened (save ends)",
-							"tier3": "20 + P damage; P < [strong], weakened and slowed (save ends)",
-							"crit": ""
+							"tier3": "20 + P damage; P < [strong], weakened and slowed (save ends)"
 						}
 					},
 					{
@@ -3037,8 +3124,7 @@
 							"bonus": 0,
 							"tier1": "12 + R damage; R < [weak], the target takes a bane on their next power roll",
 							"tier2": "17 + R damage; R < [average], the target takes a bane on power rolls (save ends)",
-							"tier3": "23 + R damage; R < [strong], the target has a double bane on power rolls (save ends)",
-							"crit": ""
+							"tier3": "23 + R damage; R < [strong], the target has a double bane on power rolls (save ends)"
 						}
 					},
 					{
@@ -3358,8 +3444,7 @@
 																	"bonus": 0,
 																	"tier1": "You target two creatures, one of which can be you",
 																	"tier2": "You target three creatures, one of which can be you",
-																	"tier3": "You target four creatures, one of which can be you",
-																	"crit": ""
+																	"tier3": "You target four creatures, one of which can be you"
 																}
 															},
 															{
@@ -3435,8 +3520,7 @@
 																	"bonus": 0,
 																	"tier1": "The target’s speed is halved (save ends), or if P < [weak], the target is slowed (save ends).",
 																	"tier2": "The target is slowed (save ends), or if P < [average], the target’s speed is 0 (save ends).",
-																	"tier3": "The target is slowed (save ends), or if P < [strong], the target’s speed is 0 (save ends).",
-																	"crit": ""
+																	"tier3": "The target is slowed (save ends), or if P < [strong], the target’s speed is 0 (save ends)."
 																}
 															},
 															{
@@ -3567,8 +3651,7 @@
 																	"bonus": 0,
 																	"tier1": "8 + P psychic damage",
 																	"tier2": "13 + P psychic damage",
-																	"tier3": "17 + P psychic damage",
-																	"crit": ""
+																	"tier3": "17 + P psychic damage"
 																}
 															}
 														],
@@ -3638,8 +3721,7 @@
 																	"bonus": 0,
 																	"tier1": "P < [weak], the target is slowed until the effect ends",
 																	"tier2": "P < [average], the target’s speed is 0 until the effect ends",
-																	"tier3": "P < [strong], the target is restrained until the effect ends",
-																	"crit": ""
+																	"tier3": "P < [strong], the target is restrained until the effect ends"
 																}
 															},
 															{
@@ -3815,8 +3897,7 @@
 																	"bonus": 0,
 																	"tier1": "4 corruption damage; slowed (save ends)",
 																	"tier2": "6 corruption damage; slowed (save ends)",
-																	"tier3": "10 corruption damage; slowed (save ends)",
-																	"crit": ""
+																	"tier3": "10 corruption damage; slowed (save ends)"
 																}
 															}
 														],
@@ -3902,6 +3983,7 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": false
 			},
 			{
@@ -4142,8 +4224,7 @@
 																	"bonus": 0,
 																	"tier1": "3 damage; vertical push 2",
 																	"tier2": "6 damage; vertical push 4",
-																	"tier3": "9 damage; vertical push 6",
-																	"crit": ""
+																	"tier3": "9 damage; vertical push 6"
 																}
 															},
 															{
@@ -4216,8 +4297,7 @@
 																	"bonus": 0,
 																	"tier1": "6 + R damage; M < [weak], prone",
 																	"tier2": "10 + R damage; M < [average], prone",
-																	"tier3": "14 + R damage; M < [strong], prone and can’t stand (save ends)",
-																	"crit": ""
+																	"tier3": "14 + R damage; M < [strong], prone and can’t stand (save ends)"
 																}
 															},
 															{
@@ -4291,8 +4371,7 @@
 																"bonus": 0,
 																"tier1": "3 damage; vertical push 2",
 																"tier2": "6 damage; vertical push 4",
-																"tier3": "9 damage; vertical push 6",
-																"crit": ""
+																"tier3": "9 damage; vertical push 6"
 															}
 														},
 														{
@@ -4405,8 +4484,7 @@
 																	"bonus": 0,
 																	"tier1": "6 damage; vertical pull 5 toward the center of the a",
 																	"tier2": "9 damage; vertical pull 7 toward the center of the area",
-																	"tier3": "13 damage; vertical pull 10 toward the center of the area",
-																	"crit": ""
+																	"tier3": "13 damage; vertical pull 10 toward the center of the area"
 																}
 															},
 															{
@@ -4483,8 +4561,7 @@
 																	"bonus": 0,
 																	"tier1": "Slide 4 + R; M < [weak], the forced movement is vertic",
 																	"tier2": "Slide 8 + R; M < [average], the forced movement is vertical",
-																	"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical",
-																	"crit": ""
+																	"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical"
 																}
 															},
 															{
@@ -4653,8 +4730,7 @@
 																	"bonus": 0,
 																	"tier1": "2 burst",
 																	"tier2": "3 burst",
-																	"tier3": "4 burst",
-																	"crit": ""
+																	"tier3": "4 burst"
 																}
 															},
 															{
@@ -4726,8 +4802,7 @@
 																	"bonus": 0,
 																	"tier1": "6 damage; push 7",
 																	"tier2": "9 damage; push 10",
-																	"tier3": "13 damage; push 15",
-																	"crit": ""
+																	"tier3": "13 damage; push 15"
 																}
 															},
 															{
@@ -4767,6 +4842,7 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": true
 			},
 			{
@@ -4958,8 +5034,7 @@
 																	"bonus": 0,
 																	"tier1": "6 + R psychic damage; I < [weak], slowed (save ends)",
 																	"tier2": "10 + R psychic damage; I < [average], weakened (save ends)",
-																	"tier3": "14 + R psychic damage; I < [strong], dazed (save ends)",
-																	"crit": ""
+																	"tier3": "14 + R psychic damage; I < [strong], dazed (save ends)"
 																}
 															},
 															{
@@ -5031,8 +5106,7 @@
 																	"bonus": 0,
 																	"tier1": "The target makes a free strike against one enemy of your choice.",
 																	"tier2": "The target shifts up to their speed and uses their signature ability against any enemies of your choice.",
-																	"tier3": "The target moves up to their speed and uses their signature ability against any enemies of your choice.",
-																	"crit": ""
+																	"tier3": "The target moves up to their speed and uses their signature ability against any enemies of your choice."
 																}
 															},
 															{
@@ -5181,8 +5255,7 @@
 																	"bonus": 0,
 																	"tier1": "10 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends)",
 																	"tier2": "14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends)",
-																	"tier3": "20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)",
-																	"crit": ""
+																	"tier3": "20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)"
 																}
 															},
 															{
@@ -5259,8 +5332,7 @@
 																	"bonus": 0,
 																	"tier1": "Two creatures",
 																	"tier2": "Three creatures",
-																	"tier3": "Five creatures",
-																	"crit": ""
+																	"tier3": "Five creatures"
 																}
 															},
 															{
@@ -5373,8 +5445,7 @@
 																	"bonus": 0,
 																	"tier1": "15 + R psychic damage",
 																	"tier2": "24 + R psychic damage",
-																	"tier3": "28 + R psychic damage",
-																	"crit": ""
+																	"tier3": "28 + R psychic damage"
 																}
 															},
 															{
@@ -5454,8 +5525,7 @@
 																	"bonus": 0,
 																	"tier1": "R < [weak], frightened (save ends)",
 																	"tier2": "R < [average], frightened (save ends)",
-																	"tier3": "R < [strong], frightened (save ends)",
-																	"crit": ""
+																	"tier3": "R < [strong], frightened (save ends)"
 																}
 															},
 															{
@@ -5491,6 +5561,7 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": false
 			}
 		],
@@ -5740,14 +5811,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5778,10 +5849,16 @@
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
-				"selectedIDs": [
-					"elementalist-sub-1-1-2"
-				],
-				"classID": "class-elementalist"
+				"selectedIDs": [],
+				"classID": "class-elementalist",
+				"source": {
+					"fromClassAbilities": true,
+					"fromSelectedSubclassAbilities": true,
+					"fromUnselectedSubclassAbilities": false,
+					"fromClassLevels": false,
+					"fromSelectedSubclassLevels": false,
+					"fromUnselectedSubclassLevels": false
+				}
 			}
 		}
 	],
@@ -5957,7 +6034,8 @@
 			"notes": "🔸 Complication",
 			"distanceBonus": 0,
 			"damageBonus": 0,
-			"characteristic": null
+			"characteristic": null,
+			"costModifier": 0
 		},
 		{
 			"abilityID": "comp-grounded-b",
@@ -5966,7 +6044,8 @@
 			"notes": "",
 			"distanceBonus": 0,
 			"damageBonus": 0,
-			"characteristic": null
+			"characteristic": null,
+			"costModifier": 0
 		},
 		{
 			"abilityID": "comp-grounded-d",
@@ -5975,7 +6054,8 @@
 			"notes": "",
 			"distanceBonus": 0,
 			"damageBonus": 0,
-			"characteristic": null
+			"characteristic": null,
+			"costModifier": 0
 		}
 	]
 }
