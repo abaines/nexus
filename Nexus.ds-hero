@@ -5811,14 +5811,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5837,28 +5837,6 @@
 				"selected": [
 					"Caelian"
 				]
-			}
-		},
-		{
-			"id": "UQmDww4QKNAYNGkl",
-			"name": "Ability",
-			"description": "",
-			"type": "Class Ability",
-			"data": {
-				"cost": "signature",
-				"allowAnySource": true,
-				"minLevel": 1,
-				"count": 1,
-				"selectedIDs": [],
-				"classID": "class-elementalist",
-				"source": {
-					"fromClassAbilities": true,
-					"fromSelectedSubclassAbilities": true,
-					"fromUnselectedSubclassAbilities": false,
-					"fromClassLevels": false,
-					"fromSelectedSubclassLevels": false,
-					"fromUnselectedSubclassLevels": false
-				}
 			}
 		},
 		{
@@ -5918,10 +5896,10 @@
 	],
 	"state": {
 		"staminaDamage": 2,
-		"staminaTemp": 9,
+		"staminaTemp": 0,
 		"recoveriesUsed": 3,
 		"surges": 0,
-		"victories": 5,
+		"victories": 6,
 		"xp": 8,
 		"heroTokens": 0,
 		"renown": 0,
@@ -6074,7 +6052,112 @@
 				}
 			}
 		],
-		"controlledSlots": [],
+		"controlledSlots": [
+			{
+				"id": "U7InSuCjvElfP0or",
+				"monsterID": "familiar",
+				"count": 1,
+				"customization": {
+					"addOnIDs": [],
+					"itemIDs": [],
+					"levelAdjustment": 0,
+					"convertToSolo": false
+				},
+				"monsters": [
+					{
+						"id": "ybnT54QHc4YxZqgZ",
+						"name": "Familiar",
+						"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+						"picture": null,
+						"level": 0,
+						"role": {
+							"type": "No Role",
+							"organization": "No Organization"
+						},
+						"keywords": [],
+						"encounterValue": 0,
+						"size": {
+							"value": 1,
+							"mod": "T"
+						},
+						"speed": {
+							"value": 5,
+							"modes": []
+						},
+						"stamina": 0,
+						"stability": 0,
+						"freeStrikeDamage": 0,
+						"freeStrikeType": "Damage",
+						"characteristics": [
+							{
+								"characteristic": "Might",
+								"value": -3
+							},
+							{
+								"characteristic": "Agility",
+								"value": 2
+							},
+							{
+								"characteristic": "Reason",
+								"value": 0
+							},
+							{
+								"characteristic": "Intuition",
+								"value": 0
+							},
+							{
+								"characteristic": "Presence",
+								"value": 1
+							}
+						],
+						"features": [
+							{
+								"id": "familiar-1",
+								"name": "Stamina",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Stamina",
+									"value": 4,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0,
+									"valueFromController": null
+								}
+							},
+							{
+								"id": "familiar-2",
+								"name": "Telepathic",
+								"description": "While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.",
+								"type": "Text",
+								"data": null
+							}
+						],
+						"withCaptain": "",
+						"retainer": null,
+						"state": {
+							"staminaDamage": 0,
+							"staminaTemp": 0,
+							"recoveriesUsed": 0,
+							"conditions": [],
+							"reactionUsed": false,
+							"hidden": false,
+							"defeated": false
+						}
+					}
+				],
+				"state": {
+					"staminaDamage": 0,
+					"staminaTemp": 0,
+					"recoveriesUsed": 0,
+					"conditions": [],
+					"reactionUsed": false,
+					"hidden": false,
+					"defeated": false
+				}
+			}
+		],
 		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\n\n= 120 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
