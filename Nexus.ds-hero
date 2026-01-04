@@ -1,6 +1,6 @@
 {
-	"id": "cVrGLy94xPFtKI1j",
-	"name": "❌Copy of Nexus",
+	"id": "m94APlbGeCoeXGOb",
+	"name": "Nexus2.4",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -427,7 +427,8 @@
 							],
 							"count": 2,
 							"selected": [
-								"Monsters"
+								"Monsters",
+								"Music"
 							]
 						}
 					},
@@ -958,7 +959,16 @@
 								"Supernatural"
 							],
 							"count": 1,
-							"selected": []
+							"selected": [
+								{
+									"id": "perk-lie-detector",
+									"name": "Lie Detector",
+									"description": "In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.",
+									"type": "Text",
+									"data": null,
+									"list": "Interpersonal"
+								}
+							]
 						}
 					}
 				]
@@ -4313,7 +4323,77 @@
 										}
 									],
 									"count": 1,
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-2-2a",
+											"name": "Gravitic Burst",
+											"description": "Everyone get away from me!",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-2-2a",
+													"name": "Gravitic Burst",
+													"description": "Everyone get away from me!",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Area",
+														"Psionic",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Burst",
+															"value": 1,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "Each enemy in the area",
+													"cost": 5,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Reason"
+																],
+																"bonus": 0,
+																"tier1": "3 damage; vertical push 2",
+																"tier2": "6 damage; vertical push 4",
+																"tier3": "9 damage; vertical push 6"
+															}
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
+														}
+													],
+													"preEffect": "",
+													"powerRoll": null,
+													"test": null,
+													"effect": "",
+													"strained": "",
+													"alternateEffects": [],
+													"spend": [],
+													"persistence": []
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -5485,7 +5565,7 @@
 				"selected": false
 			}
 		],
-		"level": 1,
+		"level": 2,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5765,7 +5845,7 @@
 			"description": "",
 			"type": "Class Ability",
 			"data": {
-				"cost": 0,
+				"cost": "signature",
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
@@ -5780,19 +5860,73 @@
 					"fromUnselectedSubclassLevels": false
 				}
 			}
+		},
+		{
+			"id": "2EjfSfjKkz9cfpF7",
+			"name": "🔸 Motivate Earth",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "2EjfSfjKkz9cfpF7",
+					"name": "🔸 Motivate Earth",
+					"description": "The earth rises, falls, or opens up at your command.",
+					"type": {
+						"usage": "Main Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [
+						"Earth",
+						"Magic",
+						"Melee"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Special",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "text",
+							"text": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface."
+						}
+					],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			}
 		}
 	],
 	"state": {
-		"staminaDamage": 0,
-		"staminaTemp": 0,
-		"recoveriesUsed": 0,
+		"staminaDamage": 2,
+		"staminaTemp": 9,
+		"recoveriesUsed": 3,
 		"surges": 0,
-		"victories": 1,
-		"xp": 4,
+		"victories": 5,
+		"xp": 8,
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
-		"projectPoints": 0,
+		"projectPoints": -240,
 		"conditions": [],
 		"inventory": [
 			{
@@ -5936,15 +6070,46 @@
 					"prerequisites": true,
 					"source": true,
 					"followerID": null,
-					"points": 110
+					"points": 120
 				}
 			}
 		],
 		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\nfirst rest +20\n\n\n= 110 / 150 for seeking item\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\n\n= 120 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false
 	},
-	"abilityCustomizations": []
+	"abilityCustomizations": [
+		{
+			"abilityID": "elementalist-sub-1-1-2",
+			"name": "",
+			"description": "",
+			"notes": "🔸 Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "comp-grounded-b",
+			"name": "Grounded Benefit",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded Drawback",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		}
+	]
 }
