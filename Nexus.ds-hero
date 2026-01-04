@@ -1,6 +1,6 @@
 {
-	"id": "m94APlbGeCoeXGOb",
-	"name": "Nexus2.3",
+	"id": "LHL9wQG89KYezM6Y",
+	"name": "❌Nexus2y",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -5845,7 +5845,7 @@
 			"description": "",
 			"type": "Class Ability",
 			"data": {
-				"cost": "signature",
+				"cost": 0,
 				"allowAnySource": true,
 				"minLevel": 1,
 				"count": 1,
@@ -5860,68 +5860,14 @@
 					"fromUnselectedSubclassLevels": false
 				}
 			}
-		},
-		{
-			"id": "2EjfSfjKkz9cfpF7",
-			"name": "🔸 Motivate Earth",
-			"description": "",
-			"type": "Ability",
-			"data": {
-				"ability": {
-					"id": "2EjfSfjKkz9cfpF7",
-					"name": "🔸 Motivate Earth",
-					"description": "The earth rises, falls, or opens up at your command.",
-					"type": {
-						"usage": "Main Action",
-						"free": false,
-						"trigger": "",
-						"time": "",
-						"qualifiers": [],
-						"freeStrike": false
-					},
-					"keywords": [
-						"Earth",
-						"Magic",
-						"Melee"
-					],
-					"distance": [
-						{
-							"type": "Melee",
-							"value": 1,
-							"value2": 0,
-							"within": 0,
-							"special": "",
-							"qualifier": ""
-						}
-					],
-					"target": "Special",
-					"cost": 0,
-					"repeatable": false,
-					"minLevel": 1,
-					"sections": [
-						{
-							"type": "text",
-							"text": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface."
-						}
-					],
-					"preEffect": "",
-					"powerRoll": null,
-					"test": null,
-					"effect": "",
-					"strained": "",
-					"alternateEffects": [],
-					"spend": [],
-					"persistence": []
-				}
-			}
 		}
 	],
 	"state": {
-		"staminaDamage": 2,
-		"staminaTemp": 9,
-		"recoveriesUsed": 3,
+		"staminaDamage": 3,
+		"staminaTemp": 0,
+		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 5,
+		"victories": 1,
 		"xp": 8,
 		"heroTokens": 0,
 		"renown": 0,
