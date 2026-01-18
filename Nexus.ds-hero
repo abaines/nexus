@@ -1,6 +1,6 @@
 {
 	"id": "m94APlbGeCoeXGOb",
-	"name": "Nexus2.4",
+	"name": "Nexus2.5",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -5811,14 +5811,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5895,7 +5895,7 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 2,
+		"staminaDamage": 0,
 		"staminaTemp": 0,
 		"recoveriesUsed": 3,
 		"surges": 0,
@@ -6161,7 +6161,8 @@
 		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\n\n= 120 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
-		"defeated": false
+		"defeated": false,
+		"titles": []
 	},
 	"abilityCustomizations": [
 		{
