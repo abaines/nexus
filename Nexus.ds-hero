@@ -1014,7 +1014,9 @@
 							},
 							"minLevel": 1,
 							"count": 1,
-							"selectedIDs": []
+							"selectedIDs": [
+								"talent-ability-19"
+							]
 						}
 					}
 				]
@@ -5588,7 +5590,7 @@
 				"selected": false
 			}
 		],
-		"level": 2,
+		"level": 3,
 		"characteristics": [
 			{
 				"characteristic": "Might",
