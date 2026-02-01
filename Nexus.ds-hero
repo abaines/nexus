@@ -1,10 +1,10 @@
 {
-	"id": "SPlsR86nccfs39u6",
-	"name": "Nexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010",
+	"id": "m94APlbGeCoeXGOb",
+	"name": "Nexus2.5",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
-		"",
+		"core",
 		"orden"
 	],
 	"ancestry": {
@@ -93,17 +93,8 @@
 											"freeStrike": false
 										},
 										"keywords": [],
-										"distance": [
-											{
-												"type": "Self",
-												"value": 0,
-												"value2": 0,
-												"within": 0,
-												"special": "",
-												"qualifier": ""
-											}
-										],
-										"target": "Self",
+										"distance": [],
+										"target": "",
 										"cost": 0,
 										"repeatable": false,
 										"minLevel": 1,
@@ -153,6 +144,7 @@
 							"value": 2
 						}
 					],
+					"respiteChange": false,
 					"count": "ancestry",
 					"selected": [
 						{
@@ -174,17 +166,8 @@
 										"freeStrike": false
 									},
 									"keywords": [],
-									"distance": [
-										{
-											"type": "Self",
-											"value": 0,
-											"value2": 0,
-											"within": 0,
-											"special": "",
-											"qualifier": ""
-										}
-									],
-									"target": "Self",
+									"distance": [],
+									"target": "",
 									"cost": 0,
 									"repeatable": false,
 									"minLevel": 1,
@@ -218,7 +201,71 @@
 				}
 			}
 		],
-		"ancestryPoints": 4
+		"ancestryPoints": 4,
+		"culture": {
+			"id": "culture-memonek",
+			"name": "Memonek",
+			"description": "Nomadic, communal, academic.",
+			"type": "Ancestral",
+			"language": {
+				"id": "culture-memonek",
+				"name": "Language",
+				"description": "",
+				"type": "Language Choice",
+				"data": {
+					"options": [],
+					"count": 1,
+					"selected": [
+						"Axiomatic"
+					]
+				}
+			},
+			"languages": [],
+			"environment": {
+				"id": "env-nomadic",
+				"name": "Nomadic",
+				"description": "A nomadic culture travels from place to place to survive. Members of a nomadic culture might follow animal migrations or the weather, travel to sell their wares or services, or simply enjoy a restless lifestyle full of new experiences and peoples. Those who grow up in nomadic cultures learn to navigate the wilderness and work closely with others to survive.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Exploration",
+						"Interpersonal"
+					],
+					"count": 1,
+					"selected": []
+				}
+			},
+			"organization": {
+				"id": "org-communal",
+				"name": "Communal",
+				"description": "A communal culture is a place where all members of the culture are considered equal. The community works together to make important decisions that affect the majority of the culture. While they elect leaders to carry out these decisions and organize their efforts, each person has a relatively equal say in how the culture operates, and everyone contributes to help their people survive and thrive. Individuals often share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures. Many communal cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in communal cultures focus on fending for themselves while avoiding the danger that other groups can represent.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Crafting",
+						"Exploration"
+					],
+					"count": 1,
+					"selected": []
+				}
+			},
+			"upbringing": {
+				"id": "up-academic",
+				"name": "Academic",
+				"description": "Your hero was raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 1,
+					"selected": []
+				}
+			}
+		}
 	},
 	"culture": {
 		"id": "culture-memonek",
@@ -319,6 +366,7 @@
 						"data": {
 							"field": "Stamina",
 							"value": 18,
+							"valueFromController": null,
 							"valueCharacteristics": [],
 							"valueCharacteristicMultiplier": 1,
 							"valuePerLevel": 6,
@@ -333,6 +381,7 @@
 						"data": {
 							"field": "Recoveries",
 							"value": 8,
+							"valueFromController": null,
 							"valueCharacteristics": [],
 							"valueCharacteristicMultiplier": 1,
 							"valuePerLevel": 0,
@@ -365,32 +414,21 @@
 					},
 					{
 						"id": "talent-skill-a",
-						"name": "Lore Skill",
+						"name": "Skills",
 						"description": "",
 						"type": "Skill Choice",
 						"data": {
 							"options": [],
 							"listOptions": [
+								"Crafting",
+								"Exploration",
+								"Interpersonal",
+								"Intrigue",
 								"Lore"
 							],
-							"count": 1,
+							"count": 2,
 							"selected": [
-								"Monsters"
-							]
-						}
-					},
-					{
-						"id": "talent-skill-b",
-						"name": "Interpersonal Skill",
-						"description": "",
-						"type": "Skill Choice",
-						"data": {
-							"options": [],
-							"listOptions": [
-								"Interpersonal"
-							],
-							"count": 1,
-							"selected": [
+								"Monsters",
 								"Music"
 							]
 						}
@@ -431,7 +469,7 @@
 									"qualifiers": [
 										"can be used as a ranged free strike"
 									],
-									"freeStrike": false
+									"freeStrike": true
 								},
 								"keywords": [
 									"Psionic",
@@ -463,8 +501,7 @@
 											"bonus": 0,
 											"tier1": "2 + R psychic damage",
 											"tier2": "4 + R psychic damage",
-											"tier3": "6 + R psychic damage",
-											"crit": ""
+											"tier3": "6 + R psychic damage"
 										}
 									},
 									{
@@ -517,29 +554,41 @@
 									"feature": {
 										"id": "talent-1-5a",
 										"name": "Battle Augmentation",
-										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\nYou can use light armor treasures and light weapon treasures. If you have a kit, you can’t take this augmentation.",
+										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\n* While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels.\n* While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.\n* You can use light armor treasures and light weapon treasures.\n\nIf you have a kit, you can’t take this augmentation.",
 										"type": "Multiple Features",
 										"data": {
 											"features": [
 												{
 													"id": "talent-1-5aa",
-													"name": "Battle Augmentation",
-													"description": "While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.",
-													"type": "Text",
-													"data": null
-												},
-												{
-													"id": "talent-1-5ab",
 													"name": "Stamina",
 													"description": "",
 													"type": "Bonus",
 													"data": {
 														"field": "Stamina",
 														"value": 0,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
 														"valuePerEchelon": 3
+													}
+												},
+												{
+													"id": "talent-1-5ab",
+													"name": "Ability damage modifier",
+													"description": "",
+													"type": "Ability Damage",
+													"data": {
+														"keywords": [
+															"Weapon"
+														],
+														"value": 1,
+														"valueFromController": null,
+														"valueCharacteristics": [],
+														"valueCharacteristicMultiplier": 0,
+														"valuePerLevel": 0,
+														"valuePerEchelon": 0,
+														"damageType": "Damage"
 													}
 												},
 												{
@@ -577,6 +626,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 0,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -591,6 +641,7 @@
 													"data": {
 														"field": "Stability",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -614,6 +665,7 @@
 												"Ranged"
 											],
 											"value": 2,
+											"valueFromController": null,
 											"valueCharacteristics": [],
 											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
@@ -633,6 +685,7 @@
 												"Psionic"
 											],
 											"value": 1,
+											"valueFromController": null,
 											"valueCharacteristics": [],
 											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
@@ -658,6 +711,7 @@
 													"data": {
 														"field": "Speed",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -672,6 +726,7 @@
 													"data": {
 														"field": "Disengage",
 														"value": 1,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
@@ -684,6 +739,7 @@
 									"value": 1
 								}
 							],
+							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -701,6 +757,7 @@
 												"data": {
 													"field": "Speed",
 													"value": 1,
+													"valueFromController": null,
 													"valueCharacteristics": [],
 													"valueCharacteristicMultiplier": 1,
 													"valuePerLevel": 0,
@@ -715,6 +772,7 @@
 												"data": {
 													"field": "Disengage",
 													"value": 1,
+													"valueFromController": null,
 													"valueCharacteristics": [],
 													"valueCharacteristicMultiplier": 1,
 													"valuePerLevel": 0,
@@ -818,6 +876,7 @@
 									"value": 1
 								}
 							],
+							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -832,12 +891,19 @@
 					},
 					{
 						"id": "talent-1-7",
-						"name": "Ability",
+						"name": "Signature Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": "signature",
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 2,
 							"selectedIDs": [
@@ -848,12 +914,19 @@
 					},
 					{
 						"id": "talent-1-8",
-						"name": "Ability",
+						"name": "3pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": 3,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": [
@@ -863,12 +936,19 @@
 					},
 					{
 						"id": "talent-1-9",
-						"name": "Ability",
+						"name": "5pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": 5,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": [
@@ -893,7 +973,16 @@
 								"Supernatural"
 							],
 							"count": 1,
-							"selected": []
+							"selected": [
+								{
+									"id": "perk-lie-detector",
+									"name": "Lie Detector",
+									"description": "In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.",
+									"type": "Text",
+									"data": null,
+									"list": "Interpersonal"
+								}
+							]
 						}
 					}
 				]
@@ -910,12 +999,19 @@
 					},
 					{
 						"id": "talent-3-2",
-						"name": "Ability",
+						"name": "7pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": 7,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1077,12 +1173,19 @@
 				"features": [
 					{
 						"id": "talent-5-1",
-						"name": "Ability",
+						"name": "9pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": 9,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1111,61 +1214,9 @@
 					{
 						"id": "talent-6-2",
 						"name": "Psi Boost",
-						"description": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional clarity to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost.",
-						"type": "Multiple Features",
-						"data": {
-							"features": [
-								{
-									"id": "talent-6-2a",
-									"name": "Psi Boost: Dynamic Power (1 Clarity)",
-									"description": "If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2b",
-									"name": "Psi Boost: Expanded Power (3 Clarity)",
-									"description": "If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2c",
-									"name": "Psi Boost: Extended Power (1 Clarity)",
-									"description": "If the ability is ranged, the distance gains a bonus equal to your Reason score. If the ability is melee, the distance gains a +2 bonus.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2d",
-									"name": "Psi Boost: Heightened Power (1 Clarity)",
-									"description": "If the ability deals rolled damage, it deals extra damage equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2e",
-									"name": "Psi Boost: Magnified Power (5 Clarity)",
-									"description": "If the ability has a potency, you increase that potency by an amount equal to your Reason score.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2f",
-									"name": "Psi Boost: Shared Power (5 Clarity)",
-									"description": "If the ability targets individual creatures or objects, you target one additional creature or object within distance.",
-									"type": "Text",
-									"data": null
-								},
-								{
-									"id": "talent-6-2g",
-									"name": "Psi Boost: Sharpened Power (1 Clarity)",
-									"description": "If the ability has any power roll, that roll gains an edge.",
-									"type": "Text",
-									"data": null
-								}
-							]
-						}
+						"description": "\nWhenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n\n**Dynamic Power** (1 Clarity) If the ability force moves a target, the forced movement distance gains a bonus equal to your Reason score.\n**Expanded Power** (3 Clarity) If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.\n**Extended Power** (1 Clarity) If the ability is ranged, the distance gains a bonus equal to your Reason score. If the ability is melee, the distance gains a +2 bonus.\n**Heightened Power** (1 Clarity) If the ability deals rolled damage, it deals extra damage equal to your Reason score.\n**Magnified Power** (5 Clarity) If the ability has a potency, you increase that potency by an amount equal to your Reason score.\n**Shared Power** (5 Clarity) If the ability targets individual creatures or objects, you target one additional creature or object within distance.\n**Sharpened Power** (1 Clarity) If the ability has any power roll, that roll gains an edge.",
+						"type": "Text",
+						"data": null
 					}
 				]
 			},
@@ -1293,12 +1344,19 @@
 					},
 					{
 						"id": "talent-8-2",
-						"name": "Ability",
+						"name": "11pt Ability",
 						"description": "",
 						"type": "Class Ability",
 						"data": {
 							"cost": 11,
-							"allowAnySource": false,
+							"source": {
+								"fromClassAbilities": true,
+								"fromSelectedSubclassAbilities": true,
+								"fromUnselectedSubclassAbilities": false,
+								"fromClassLevels": false,
+								"fromSelectedSubclassLevels": false,
+								"fromUnselectedSubclassLevels": false
+							},
 							"minLevel": 1,
 							"count": 1,
 							"selectedIDs": []
@@ -1326,7 +1384,7 @@
 								{
 									"id": "talent-9-1b",
 									"name": "Damage Modifier",
-									"description": "Psychic Immunity + 10",
+									"description": "Psychic Immunity +10",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -1334,6 +1392,7 @@
 												"damageType": "Psychic",
 												"type": "Immunity",
 												"value": 10,
+												"valueFromController": null,
 												"valueCharacteristics": [],
 												"valueCharacteristicMultiplier": 1,
 												"valuePerLevel": 0,
@@ -1414,6 +1473,7 @@
 											"Ranged"
 										],
 										"value": 10,
+										"valueFromController": null,
 										"valueCharacteristics": [],
 										"valueCharacteristicMultiplier": 0,
 										"valuePerLevel": 0,
@@ -1560,8 +1620,7 @@
 							"bonus": 0,
 							"tier1": "2 + P corruption damage; P < [weak], slowed (save ends)",
 							"tier2": "3 + P corruption damage; P < [average], slowed (save ends)",
-							"tier3": "5 + P corruption damage; P < [strong], slowed (save ends)",
-							"crit": ""
+							"tier3": "5 + P corruption damage; P < [strong], slowed (save ends)"
 						}
 					},
 					{
@@ -1627,8 +1686,7 @@
 							"bonus": 0,
 							"tier1": "2 + R cold damage; M < [weak], slowed (EoT)",
 							"tier2": "4 + R cold damage; M < [average], slowed (EoT)",
-							"tier3": "6 + R cold damage; M < [strong], slowed (EoT)",
-							"crit": ""
+							"tier3": "6 + R cold damage; M < [strong], slowed (EoT)"
 						}
 					},
 					{
@@ -1691,8 +1749,7 @@
 							"bonus": 0,
 							"tier1": "2 fire damage",
 							"tier2": "4 fire damage",
-							"tier3": "6 fire damage",
-							"crit": ""
+							"tier3": "6 fire damage"
 						}
 					},
 					{
@@ -1743,7 +1800,7 @@
 						"qualifier": ""
 					}
 				],
-				"target": "One size 1 creature or object",
+				"target": "One creature or object",
 				"cost": "signature",
 				"repeatable": false,
 				"minLevel": 1,
@@ -1757,8 +1814,7 @@
 							"bonus": 0,
 							"tier1": "Slide 2 + R",
 							"tier2": "Slide 4 + R",
-							"tier3": "Slide 6 + R; prone",
-							"crit": ""
+							"tier3": "Slide 6 + R; prone"
 						}
 					},
 					{
@@ -1819,8 +1875,7 @@
 							"bonus": 0,
 							"tier1": "2 psychic damage",
 							"tier2": "5 psychic damage; push 1",
-							"tier3": "7 psychic damage; push 2",
-							"crit": ""
+							"tier3": "7 psychic damage; push 2"
 						}
 					},
 					{
@@ -1882,8 +1937,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage",
 							"tier2": "5 + R damage",
-							"tier3": "8 + R damage",
-							"crit": ""
+							"tier3": "8 + R damage"
 						}
 					},
 					{
@@ -1949,8 +2003,7 @@
 							"bonus": 0,
 							"tier1": "2 + R damage; M < [weak], prone",
 							"tier2": "4 + R damage; M < [average], prone",
-							"tier3": "6 + R damage; M < [strong], prone",
-							"crit": ""
+							"tier3": "6 + R damage; M < [strong], prone"
 						}
 					},
 					{
@@ -2016,8 +2069,7 @@
 							"bonus": 0,
 							"tier1": "3 + P damage",
 							"tier2": "6 + P damage",
-							"tier3": "9 + P damage",
-							"crit": ""
+							"tier3": "9 + P damage"
 						}
 					},
 					{
@@ -2087,8 +2139,7 @@
 							"bonus": 0,
 							"tier1": "3 + P psychic damage; I < [weak], frightened (save ends)",
 							"tier2": "6 + P psychic damage; I < [average], frightened (save ends)",
-							"tier3": "9 + P psychic damage; I < [strong], frightened (save ends)",
-							"crit": ""
+							"tier3": "9 + P psychic damage; I < [strong], frightened (save ends)"
 						}
 					}
 				],
@@ -2143,8 +2194,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage; M < [weak], slowed (save ends)",
 							"tier2": "5 + R damage; M < [average], slowed (save ends)",
-							"tier3": "8 + R damage; M < [strong], restrained (save ends)",
-							"crit": ""
+							"tier3": "8 + R damage; M < [strong], restrained (save ends)"
 						}
 					},
 					{
@@ -2253,8 +2303,7 @@
 							"bonus": 0,
 							"tier1": "3 + R damage; R < [weak], the target has weakness 5 (save ends)",
 							"tier2": "6 + R damage; R < [average], the target has weakness 5 (save ends)",
-							"tier3": "9 + R damage; R < [strong], the target has weakness equal to 5 + your Reason score (save ends)",
-							"crit": ""
+							"tier3": "9 + R damage; R < [strong], the target has weakness equal to 5 + your Reason score (save ends)"
 						}
 					}
 				],
@@ -2521,8 +2570,7 @@
 							"bonus": 0,
 							"tier1": "3 + P corruption damage; P < [weak], weakened (save ends)",
 							"tier2": "5 + P corruption damage; the target is flung through time, and if P < [average] they are weakened (save ends)",
-							"tier3": "8 + P corruption damage; the target is flung through time, and if P < [strong] they are weakened (save ends)",
-							"crit": ""
+							"tier3": "8 + P corruption damage; the target is flung through time, and if P < [strong] they are weakened (save ends)"
 						}
 					},
 					{
@@ -2592,8 +2640,7 @@
 							"bonus": 0,
 							"tier1": "2 damage",
 							"tier2": "3 damage",
-							"tier3": "5 damage",
-							"crit": ""
+							"tier3": "5 damage"
 						}
 					},
 					{
@@ -2708,8 +2755,7 @@
 							"bonus": 0,
 							"tier1": "6 + P damage; P < [weak], dazed (save ends)",
 							"tier2": "10 + P damage; P < [average], dazed (save ends)",
-							"tier3": "14 + P damage; P < [strong], dazed (save ends)",
-							"crit": ""
+							"tier3": "14 + P damage; P < [strong], dazed (save ends)"
 						}
 					},
 					{
@@ -2832,8 +2878,7 @@
 							"bonus": 0,
 							"tier1": "12 sonic damage",
 							"tier2": "18 sonic damage",
-							"tier3": "24 sonic damage",
-							"crit": ""
+							"tier3": "24 sonic damage"
 						}
 					},
 					{
@@ -2895,8 +2940,7 @@
 							"bonus": 0,
 							"tier1": "10 + R psychic damage; R < [weak], slowed (save ends)",
 							"tier2": "14 + R psychic damage; R < [average], slowed (save ends)",
-							"tier3": "20 + R psychic damage; R < [strong], slowed (save ends)",
-							"crit": ""
+							"tier3": "20 + R psychic damage; R < [strong], slowed (save ends)"
 						}
 					},
 					{
@@ -2962,8 +3006,7 @@
 							"bonus": 0,
 							"tier1": "8 damage; A < [weak], the target is stitched to the other target (save ends)",
 							"tier2": "13 damage; A < [average], the target is stitched to the other target (save ends)",
-							"tier3": "17 damage; A < [strong], the target is stitched to the other target (save ends)",
-							"crit": ""
+							"tier3": "17 damage; A < [strong], the target is stitched to the other target (save ends)"
 						}
 					},
 					{
@@ -3029,8 +3072,7 @@
 							"bonus": 0,
 							"tier1": "10 + P damage; P < [weak], weakened (save ends)",
 							"tier2": "14 + P damage; P < [average], weakened (save ends)",
-							"tier3": "20 + P damage; P < [strong], weakened and slowed (save ends)",
-							"crit": ""
+							"tier3": "20 + P damage; P < [strong], weakened and slowed (save ends)"
 						}
 					},
 					{
@@ -3096,8 +3138,7 @@
 							"bonus": 0,
 							"tier1": "12 + R damage; R < [weak], the target takes a bane on their next power roll",
 							"tier2": "17 + R damage; R < [average], the target takes a bane on power rolls (save ends)",
-							"tier3": "23 + R damage; R < [strong], the target has a double bane on power rolls (save ends)",
-							"crit": ""
+							"tier3": "23 + R damage; R < [strong], the target has a double bane on power rolls (save ends)"
 						}
 					},
 					{
@@ -3417,8 +3458,7 @@
 																	"bonus": 0,
 																	"tier1": "You target two creatures, one of which can be you",
 																	"tier2": "You target three creatures, one of which can be you",
-																	"tier3": "You target four creatures, one of which can be you",
-																	"crit": ""
+																	"tier3": "You target four creatures, one of which can be you"
 																}
 															},
 															{
@@ -3494,8 +3534,7 @@
 																	"bonus": 0,
 																	"tier1": "The target’s speed is halved (save ends), or if P < [weak], the target is slowed (save ends).",
 																	"tier2": "The target is slowed (save ends), or if P < [average], the target’s speed is 0 (save ends).",
-																	"tier3": "The target is slowed (save ends), or if P < [strong], the target’s speed is 0 (save ends).",
-																	"crit": ""
+																	"tier3": "The target is slowed (save ends), or if P < [strong], the target’s speed is 0 (save ends)."
 																}
 															},
 															{
@@ -3524,6 +3563,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3626,8 +3666,7 @@
 																	"bonus": 0,
 																	"tier1": "8 + P psychic damage",
 																	"tier2": "13 + P psychic damage",
-																	"tier3": "17 + P psychic damage",
-																	"crit": ""
+																	"tier3": "17 + P psychic damage"
 																}
 															}
 														],
@@ -3697,8 +3736,7 @@
 																	"bonus": 0,
 																	"tier1": "P < [weak], the target is slowed until the effect ends",
 																	"tier2": "P < [average], the target’s speed is 0 until the effect ends",
-																	"tier3": "P < [strong], the target is restrained until the effect ends",
-																	"crit": ""
+																	"tier3": "P < [strong], the target is restrained until the effect ends"
 																}
 															},
 															{
@@ -3723,6 +3761,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3874,8 +3913,7 @@
 																	"bonus": 0,
 																	"tier1": "4 corruption damage; slowed (save ends)",
 																	"tier2": "6 corruption damage; slowed (save ends)",
-																	"tier3": "10 corruption damage; slowed (save ends)",
-																	"crit": ""
+																	"tier3": "10 corruption damage; slowed (save ends)"
 																}
 															}
 														],
@@ -3950,6 +3988,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3961,6 +4000,7 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": false
 			},
 			{
@@ -4201,8 +4241,7 @@
 																	"bonus": 0,
 																	"tier1": "3 damage; vertical push 2",
 																	"tier2": "6 damage; vertical push 4",
-																	"tier3": "9 damage; vertical push 6",
-																	"crit": ""
+																	"tier3": "9 damage; vertical push 6"
 																}
 															},
 															{
@@ -4275,8 +4314,7 @@
 																	"bonus": 0,
 																	"tier1": "6 + R damage; M < [weak], prone",
 																	"tier2": "10 + R damage; M < [average], prone",
-																	"tier3": "14 + R damage; M < [strong], prone and can’t stand (save ends)",
-																	"crit": ""
+																	"tier3": "14 + R damage; M < [strong], prone and can’t stand (save ends)"
 																}
 															},
 															{
@@ -4301,8 +4339,79 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-2-2a",
+											"name": "Gravitic Burst",
+											"description": "Everyone get away from me!",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-2-2a",
+													"name": "Gravitic Burst",
+													"description": "Everyone get away from me!",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Area",
+														"Psionic",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Burst",
+															"value": 1,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "Each enemy in the area",
+													"cost": 5,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Reason"
+																],
+																"bonus": 0,
+																"tier1": "3 damage; vertical push 2",
+																"tier2": "6 damage; vertical push 4",
+																"tier3": "9 damage; vertical push 6"
+															}
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
+														}
+													],
+													"preEffect": "",
+													"powerRoll": null,
+													"test": null,
+													"effect": "",
+													"strained": "",
+													"alternateEffects": [],
+													"spend": [],
+													"persistence": []
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -4393,8 +4502,7 @@
 																	"bonus": 0,
 																	"tier1": "6 damage; vertical pull 5 toward the center of the a",
 																	"tier2": "9 damage; vertical pull 7 toward the center of the area",
-																	"tier3": "13 damage; vertical pull 10 toward the center of the area",
-																	"crit": ""
+																	"tier3": "13 damage; vertical pull 10 toward the center of the area"
 																}
 															},
 															{
@@ -4471,8 +4579,7 @@
 																	"bonus": 0,
 																	"tier1": "Slide 4 + R; M < [weak], the forced movement is vertic",
 																	"tier2": "Slide 8 + R; M < [average], the forced movement is vertical",
-																	"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical",
-																	"crit": ""
+																	"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical"
 																}
 															},
 															{
@@ -4497,6 +4604,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4641,8 +4749,7 @@
 																	"bonus": 0,
 																	"tier1": "2 burst",
 																	"tier2": "3 burst",
-																	"tier3": "4 burst",
-																	"crit": ""
+																	"tier3": "4 burst"
 																}
 															},
 															{
@@ -4714,8 +4821,7 @@
 																	"bonus": 0,
 																	"tier1": "6 damage; push 7",
 																	"tier2": "9 damage; push 10",
-																	"tier3": "13 damage; push 15",
-																	"crit": ""
+																	"tier3": "13 damage; push 15"
 																}
 															},
 															{
@@ -4744,6 +4850,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4755,6 +4862,7 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": true
 			},
 			{
@@ -4946,8 +5054,7 @@
 																	"bonus": 0,
 																	"tier1": "6 + R psychic damage; I < [weak], slowed (save ends)",
 																	"tier2": "10 + R psychic damage; I < [average], weakened (save ends)",
-																	"tier3": "14 + R psychic damage; I < [strong], dazed (save ends)",
-																	"crit": ""
+																	"tier3": "14 + R psychic damage; I < [strong], dazed (save ends)"
 																}
 															},
 															{
@@ -5019,8 +5126,7 @@
 																	"bonus": 0,
 																	"tier1": "The target makes a free strike against one enemy of your choice.",
 																	"tier2": "The target shifts up to their speed and uses their signature ability against any enemies of your choice.",
-																	"tier3": "The target moves up to their speed and uses their signature ability against any enemies of your choice.",
-																	"crit": ""
+																	"tier3": "The target moves up to their speed and uses their signature ability against any enemies of your choice."
 																}
 															},
 															{
@@ -5049,6 +5155,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5098,6 +5205,7 @@
 													"Psionic"
 												],
 												"value": 5,
+												"valueFromController": null,
 												"valueCharacteristics": [],
 												"valueCharacteristicMultiplier": 0,
 												"valuePerLevel": 0,
@@ -5168,8 +5276,7 @@
 																	"bonus": 0,
 																	"tier1": "10 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends)",
 																	"tier2": "14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends)",
-																	"tier3": "20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)",
-																	"crit": ""
+																	"tier3": "20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)"
 																}
 															},
 															{
@@ -5246,8 +5353,7 @@
 																	"bonus": 0,
 																	"tier1": "Two creatures",
 																	"tier2": "Three creatures",
-																	"tier3": "Five creatures",
-																	"crit": ""
+																	"tier3": "Five creatures"
 																}
 															},
 															{
@@ -5272,6 +5378,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5360,8 +5467,7 @@
 																	"bonus": 0,
 																	"tier1": "15 + R psychic damage",
 																	"tier2": "24 + R psychic damage",
-																	"tier3": "28 + R psychic damage",
-																	"crit": ""
+																	"tier3": "28 + R psychic damage"
 																}
 															},
 															{
@@ -5441,8 +5547,7 @@
 																	"bonus": 0,
 																	"tier1": "R < [weak], frightened (save ends)",
 																	"tier2": "R < [average], frightened (save ends)",
-																	"tier3": "R < [strong], frightened (save ends)",
-																	"crit": ""
+																	"tier3": "R < [strong], frightened (save ends)"
 																}
 															},
 															{
@@ -5467,6 +5572,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5478,10 +5584,11 @@
 						"features": []
 					}
 				],
+				"abilities": [],
 				"selected": false
 			}
 		],
-		"level": 1,
+		"level": 2,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5511,6 +5618,43 @@
 		"description": "You worked in a church, temple, or other religious institution as part of the clergy.",
 		"features": [
 			{
+				"id": "career-disciple-feature-1",
+				"name": "Skill",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Crafting",
+						"Exploration",
+						"Interpersonal",
+						"Intrigue",
+						"Lore"
+					],
+					"count": 1,
+					"selected": [
+						"Strategy"
+					]
+				}
+			},
+			{
+				"id": "career-disciple-feature-2",
+				"name": "Lore Skills",
+				"description": "",
+				"type": "Skill Choice",
+				"data": {
+					"options": [],
+					"listOptions": [
+						"Lore"
+					],
+					"count": 2,
+					"selected": [
+						"Magic",
+						"Psionics"
+					]
+				}
+			},
+			{
 				"id": "career-disciple-feature-3",
 				"name": "Project Points",
 				"description": "",
@@ -5518,6 +5662,7 @@
 				"data": {
 					"field": "Project Points",
 					"value": 240,
+					"valueFromController": null,
 					"valueCharacteristics": [],
 					"valueCharacteristicMultiplier": 1,
 					"valuePerLevel": 0,
@@ -5639,39 +5784,6 @@
 						}
 					]
 				}
-			},
-			{
-				"id": "career-disciple-feature-1",
-				"name": "Lore Skill",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 1,
-					"selected": [
-						"Strategy"
-					]
-				}
-			},
-			{
-				"id": "career-disciple-feature-2",
-				"name": "Lore Skills",
-				"description": "",
-				"type": "Skill Choice",
-				"data": {
-					"options": [],
-					"listOptions": [
-						"Lore"
-					],
-					"count": 2,
-					"selected": [
-						"Magic",
-						"Psionics"
-					]
-				}
 			}
 		],
 		"incitingIncidents": {
@@ -5722,14 +5834,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5749,6 +5861,60 @@
 					"Caelian"
 				]
 			}
+		},
+		{
+			"id": "2EjfSfjKkz9cfpF7",
+			"name": "🔸 Motivate Earth",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "2EjfSfjKkz9cfpF7",
+					"name": "🔸 Motivate Earth",
+					"description": "The earth rises, falls, or opens up at your command.",
+					"type": {
+						"usage": "Main Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [
+						"Earth",
+						"Magic",
+						"Melee"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Special",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "text",
+							"text": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface."
+						}
+					],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			}
 		}
 	],
 	"state": {
@@ -5757,19 +5923,300 @@
 		"recoveriesUsed": 0,
 		"surges": 0,
 		"victories": 0,
-		"xp": 0,
+		"xp": 17,
 		"heroTokens": 0,
-		"renown": 0,
+		"renown": 3,
 		"wealth": 1,
-		"projectPoints": 0,
+		"projectPoints": -240,
 		"conditions": [],
-		"inventory": [],
-		"projects": [],
-		"controlledSlots": [],
-		"notes": "",
+		"inventory": [
+			{
+				"id": "96g6fs5avtYZ0Kr8",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [
+					{
+						"id": "imbuement-forceful-i",
+						"name": "Forceful I",
+						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+						"type": "Imbued Implement",
+						"crafting": {
+							"id": "imbuement-forceful-i-crafting",
+							"name": "Imbue Forceful I",
+							"description": "Imbue an item with Forceful I",
+							"itemPrerequisites": "A lead slingstone that killed a giant",
+							"source": "Texts or lore in High Kuric",
+							"characteristic": [
+								"Might",
+								"Reason",
+								"Intuition"
+							],
+							"goal": 150,
+							"effect": "",
+							"isCustom": false,
+							"progress": null
+						},
+						"level": 1,
+						"feature": {
+							"id": "imbuement-forceful-i",
+							"name": "Forceful I",
+							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+							"type": "Text",
+							"data": null
+						}
+					}
+				],
+				"count": 1,
+				"customizationsByLevel": []
+			},
+			{
+				"id": "pwG1riPWqV8gn3Z6",
+				"name": "Buzz Balm",
+				"description": "This cooling orange salve crackles and pops when exposed to the air.",
+				"type": "Consumable (1st echelon)",
+				"keywords": [
+					"Magic",
+					"Oil"
+				],
+				"crafting": {
+					"id": "item-buzz-balm-crafting",
+					"name": "Craft Buzz Balm",
+					"description": "Craft a Buzz Balm",
+					"itemPrerequisites": "An ounce of demon honey",
+					"source": "Texts or lore in Kalliak",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 45,
+					"effect": "",
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1,
+				"customizationsByLevel": []
+			}
+		],
+		"projects": [
+			{
+				"id": "OjoiFUVDefwDCh6F",
+				"name": "Imbue Forceful I",
+				"description": "Imbue an item with Forceful I",
+				"itemPrerequisites": "A lead slingstone that killed a giant",
+				"source": "Texts or lore in High Kuric",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 150
+				}
+			},
+			{
+				"id": "NdIpO9iSSVRytFoX",
+				"name": "Imbue Seeking",
+				"description": "Imbue an item with Seeking",
+				"itemPrerequisites": "An inch-long needle carved from a diamond",
+				"source": "Texts or lore in Caelian",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 120
+				}
+			}
+		],
+		"controlledSlots": [
+			{
+				"id": "U7InSuCjvElfP0or",
+				"monsterID": "familiar",
+				"count": 1,
+				"customization": {
+					"addOnIDs": [],
+					"itemIDs": [],
+					"levelAdjustment": 0,
+					"convertToSolo": false
+				},
+				"monsters": [
+					{
+						"id": "ybnT54QHc4YxZqgZ",
+						"name": "Familiar",
+						"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+						"picture": null,
+						"level": 0,
+						"role": {
+							"type": "No Role",
+							"organization": "No Organization"
+						},
+						"keywords": [],
+						"encounterValue": 0,
+						"size": {
+							"value": 1,
+							"mod": "T"
+						},
+						"speed": {
+							"value": 5,
+							"modes": []
+						},
+						"stamina": 0,
+						"stability": 0,
+						"freeStrikeDamage": 0,
+						"freeStrikeType": "Damage",
+						"characteristics": [
+							{
+								"characteristic": "Might",
+								"value": -3
+							},
+							{
+								"characteristic": "Agility",
+								"value": 2
+							},
+							{
+								"characteristic": "Reason",
+								"value": 0
+							},
+							{
+								"characteristic": "Intuition",
+								"value": 0
+							},
+							{
+								"characteristic": "Presence",
+								"value": 1
+							}
+						],
+						"features": [
+							{
+								"id": "familiar-1",
+								"name": "Stamina",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Stamina",
+									"value": 4,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0,
+									"valueFromController": null
+								}
+							},
+							{
+								"id": "familiar-2",
+								"name": "Telepathic",
+								"description": "While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.",
+								"type": "Text",
+								"data": null
+							}
+						],
+						"withCaptain": "",
+						"retainer": null,
+						"state": {
+							"staminaDamage": 0,
+							"staminaTemp": 0,
+							"recoveriesUsed": 0,
+							"conditions": [],
+							"reactionUsed": false,
+							"hidden": false,
+							"defeated": false
+						}
+					}
+				],
+				"state": {
+					"staminaDamage": 0,
+					"staminaTemp": 0,
+					"recoveriesUsed": 0,
+					"conditions": [],
+					"reactionUsed": false,
+					"hidden": false,
+					"defeated": false
+				}
+			}
+		],
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\n\n= 120 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
-		"defeated": false
+		"defeated": false,
+		"titles": []
 	},
-	"abilityCustomizations": []
+	"abilityCustomizations": [
+		{
+			"abilityID": "elementalist-sub-1-1-2",
+			"name": "",
+			"description": "",
+			"notes": "🔸 Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "comp-grounded-b",
+			"name": "Grounded Benefit",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded Drawback",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		}
+	]
 }
