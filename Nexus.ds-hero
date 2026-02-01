@@ -1,6 +1,6 @@
 {
-	"id": "SPlsR86nccfs39u6",
-	"name": "Nexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010",
+	"id": "WNSDjqhg81mzt5P4",
+	"name": "Nexus",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -427,7 +427,8 @@
 							],
 							"count": 2,
 							"selected": [
-								"Monsters"
+								"Monsters",
+								"Music"
 							]
 						}
 					},
@@ -958,7 +959,16 @@
 								"Supernatural"
 							],
 							"count": 1,
-							"selected": []
+							"selected": [
+								{
+									"id": "perk-lie-detector",
+									"name": "Lie Detector",
+									"description": "In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.",
+									"type": "Text",
+									"data": null,
+									"list": "Interpersonal"
+								}
+							]
 						}
 					}
 				]
@@ -4313,7 +4323,77 @@
 										}
 									],
 									"count": 1,
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-2-2a",
+											"name": "Gravitic Burst",
+											"description": "Everyone get away from me!",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-2-2a",
+													"name": "Gravitic Burst",
+													"description": "Everyone get away from me!",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Area",
+														"Psionic",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Burst",
+															"value": 1,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "Each enemy in the area",
+													"cost": 5,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Reason"
+																],
+																"bonus": 0,
+																"tier1": "3 damage; vertical push 2",
+																"tier2": "6 damage; vertical push 4",
+																"tier3": "9 damage; vertical push 6"
+															}
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
+														}
+													],
+													"preEffect": "",
+													"powerRoll": null,
+													"test": null,
+													"effect": "",
+													"strained": "",
+													"alternateEffects": [],
+													"spend": [],
+													"persistence": []
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -5485,7 +5565,7 @@
 				"selected": false
 			}
 		],
-		"level": 1,
+		"level": 2,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5587,7 +5667,7 @@
 									{
 										"id": "familiar",
 										"name": "Familiar",
-										"description": "",
+										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
 										"monster": {
 											"id": "familiar",
 											"name": "Familiar",
@@ -5643,6 +5723,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 2,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 2,
@@ -5672,7 +5753,10 @@
 										"info": {
 											"isSignature": false,
 											"cost": 0,
-											"count": 1
+											"count": 1,
+											"level3": [],
+											"level6": [],
+											"level10": []
 										}
 									}
 								]
@@ -5758,6 +5842,28 @@
 					"Caelian"
 				]
 			}
+		},
+		{
+			"id": "UQmDww4QKNAYNGkl",
+			"name": "Ability",
+			"description": "",
+			"type": "Class Ability",
+			"data": {
+				"cost": 0,
+				"allowAnySource": true,
+				"minLevel": 1,
+				"count": 1,
+				"selectedIDs": [],
+				"classID": "class-elementalist",
+				"source": {
+					"fromClassAbilities": true,
+					"fromSelectedSubclassAbilities": true,
+					"fromUnselectedSubclassAbilities": false,
+					"fromClassLevels": false,
+					"fromSelectedSubclassLevels": false,
+					"fromUnselectedSubclassLevels": false
+				}
+			}
 		}
 	],
 	"state": {
@@ -5765,21 +5871,226 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
-		"xp": 0,
+		"victories": 1,
+		"xp": 16,
 		"heroTokens": 0,
 		"renown": 0,
 		"wealth": 1,
-		"projectPoints": 0,
+		"projectPoints": -240,
 		"conditions": [],
-		"inventory": [],
-		"projects": [],
+		"inventory": [
+			{
+				"id": "96g6fs5avtYZ0Kr8",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [
+					{
+						"id": "imbuement-forceful-i",
+						"name": "Forceful I",
+						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+						"type": "Imbued Implement",
+						"crafting": {
+							"id": "imbuement-forceful-i-crafting",
+							"name": "Imbue Forceful I",
+							"description": "Imbue an item with Forceful I",
+							"itemPrerequisites": "A lead slingstone that killed a giant",
+							"source": "Texts or lore in High Kuric",
+							"characteristic": [
+								"Might",
+								"Reason",
+								"Intuition"
+							],
+							"goal": 150,
+							"effect": "",
+							"isCustom": false,
+							"progress": null
+						},
+						"level": 1,
+						"feature": {
+							"id": "imbuement-forceful-i",
+							"name": "Forceful I",
+							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+							"type": "Text",
+							"data": null
+						}
+					}
+				],
+				"count": 1,
+				"customizationsByLevel": []
+			},
+			{
+				"id": "pwG1riPWqV8gn3Z6",
+				"name": "Buzz Balm",
+				"description": "This cooling orange salve crackles and pops when exposed to the air.",
+				"type": "Consumable (1st echelon)",
+				"keywords": [
+					"Magic",
+					"Oil"
+				],
+				"crafting": {
+					"id": "item-buzz-balm-crafting",
+					"name": "Craft Buzz Balm",
+					"description": "Craft a Buzz Balm",
+					"itemPrerequisites": "An ounce of demon honey",
+					"source": "Texts or lore in Kalliak",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 45,
+					"effect": "",
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1,
+				"customizationsByLevel": []
+			}
+		],
+		"projects": [
+			{
+				"id": "OjoiFUVDefwDCh6F",
+				"name": "Imbue Forceful I",
+				"description": "Imbue an item with Forceful I",
+				"itemPrerequisites": "A lead slingstone that killed a giant",
+				"source": "Texts or lore in High Kuric",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 150
+				}
+			},
+			{
+				"id": "NdIpO9iSSVRytFoX",
+				"name": "Imbue Seeking",
+				"description": "Imbue an item with Seeking",
+				"itemPrerequisites": "An inch-long needle carved from a diamond",
+				"source": "Texts or lore in Caelian",
+				"characteristic": [
+					"Might",
+					"Reason",
+					"Intuition"
+				],
+				"goal": 150,
+				"effect": "",
+				"isCustom": false,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": null,
+					"points": 110
+				}
+			}
+		],
 		"controlledSlots": [],
-		"notes": "",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\nfirst rest +20\n\n\n= 110 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
 		"titles": []
 	},
-	"abilityCustomizations": []
+	"abilityCustomizations": [
+		{
+			"abilityID": "comp-grounded-b",
+			"name": "Motivate Earth",
+			"description": "",
+			"notes": "🔸Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded",
+			"description": "",
+			"notes": "🔸Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "elementalist-sub-1-1-2",
+			"name": "",
+			"description": "",
+			"notes": "🔸 Complication",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "talent-sub-2-2-2a",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "talent-ability-9",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		},
+		{
+			"abilityID": "talent-sub-2-1-1",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null,
+			"costModifier": 0
+		}
+	]
 }
