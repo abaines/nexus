@@ -6321,6 +6321,26 @@
 			"damageBonus": 0,
 			"characteristic": null,
 			"costModifier": 0
+		},
+		{
+			"abilityID": "imbued-implement",
+			"name": "Seeking",
+			"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+			"notes": "",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "96g6fs5avtYZ0Kr8",
+			"name": "Forceful I",
+			"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+			"notes": "",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
 		}
 	]
 }
