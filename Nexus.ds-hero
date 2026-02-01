@@ -6031,6 +6031,108 @@
 				"imbuements": [],
 				"count": 1,
 				"customizationsByLevel": []
+			},
+			{
+				"id": "imbued-implement",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [
+					{
+						"id": "imbuement-seeking",
+						"name": "Seeking",
+						"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+						"type": "Imbued Implement",
+						"crafting": {
+							"id": "imbuement-seeking-crafting",
+							"name": "Imbue Seeking",
+							"description": "Imbue an item with Seeking.",
+							"itemPrerequisites": "An inch-long needle carved from a diamond",
+							"source": "Texts or lore in Caelian",
+							"characteristic": [
+								"Might",
+								"Reason",
+								"Intuition"
+							],
+							"goal": 150,
+							"isCustom": false,
+							"progress": null
+						},
+						"level": 1,
+						"feature": {
+							"id": "imbuement-seeking",
+							"name": "Seeking",
+							"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+							"type": "Multiple Features",
+							"data": {
+								"features": [
+									{
+										"id": "imbuement-seeking-magic",
+										"name": "Seeking (Magic)",
+										"description": "Your ranged magic abilities gain a +2 distance bonus.",
+										"type": "Ability Distance",
+										"data": {
+											"keywords": [
+												"Ranged",
+												"Magic"
+											],
+											"value": 2,
+											"valueFromController": null,
+											"valueCharacteristics": [],
+											"valueCharacteristicMultiplier": 0,
+											"valuePerLevel": 0,
+											"valuePerEchelon": 0
+										}
+									},
+									{
+										"id": "imbuement-seeking-psionic",
+										"name": "Seeking (Psionic)",
+										"description": "Your ranged psionic abilities gain a +2 distance bonus.",
+										"type": "Ability Distance",
+										"data": {
+											"keywords": [
+												"Ranged",
+												"Psionic"
+											],
+											"value": 2,
+											"valueFromController": null,
+											"valueCharacteristics": [],
+											"valueCharacteristicMultiplier": 0,
+											"valuePerLevel": 0,
+											"valuePerEchelon": 0
+										}
+									},
+									{
+										"id": "imbuement-seeking-text",
+										"name": "Seeking",
+										"description": "If you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+										"type": "Text",
+										"data": null
+									}
+								]
+							}
+						}
+					}
+				],
+				"count": 1,
+				"customizationsByLevel": []
 			}
 		],
 		"projects": [
@@ -6183,7 +6285,7 @@
 				}
 			}
 		],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 135 / 150 for seeking item\n\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
