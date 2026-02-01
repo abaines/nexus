@@ -13,15 +13,12 @@ mkdir -p .backup_originals
 count=0
 
 # Get all .ds-hero files sorted by modification date (oldest first), excluding Nexus.ds-hero
-while IFS= read -r line; do
+while IFS= read -r filename; do
     # Stop if we've reached the max
     if [[ $count -ge $MAX_FILES ]]; then
         echo "Reached limit of $MAX_FILES files. Stopping."
         break
     fi
-    
-    # Extract filename from ls output (last column)
-    filename=$(echo "$line" | awk '{for(i=9;i<=NF;i++) printf "%s%s", $i, (i<NF?" ":""); print ""}')
     
     # Skip if this is already Nexus.ds-hero
     if [[ "$filename" == "Nexus.ds-hero" ]]; then
@@ -50,7 +47,7 @@ while IFS= read -r line; do
     
     ((count++))
     
-done < <(ls -lt --time-style=long-iso *.ds-hero 2>/dev/null | tac)
+done < <(ls -1t *.ds-hero 2>/dev/null | tac)
 
 echo ""
 echo "Migration complete! Processed $count files."
