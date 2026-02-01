@@ -1,6 +1,6 @@
 {
-	"id": "WNSDjqhg81mzt5P4",
-	"name": "Nexus",
+	"id": "m94APlbGeCoeXGOb",
+	"name": "Nexus2.5",
 	"picture": null,
 	"folder": "",
 	"settingIDs": [
@@ -5667,7 +5667,7 @@
 									{
 										"id": "familiar",
 										"name": "Familiar",
-										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+										"description": "",
 										"monster": {
 											"id": "familiar",
 											"name": "Familiar",
@@ -5723,7 +5723,6 @@
 													"data": {
 														"field": "Stamina",
 														"value": 2,
-														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 2,
@@ -5753,10 +5752,7 @@
 										"info": {
 											"isSignature": false,
 											"cost": 0,
-											"count": 1,
-											"level3": [],
-											"level6": [],
-											"level10": []
+											"count": 1
 										}
 									}
 								]
@@ -5844,24 +5840,56 @@
 			}
 		},
 		{
-			"id": "UQmDww4QKNAYNGkl",
-			"name": "Ability",
+			"id": "2EjfSfjKkz9cfpF7",
+			"name": "🔸 Motivate Earth",
 			"description": "",
-			"type": "Class Ability",
+			"type": "Ability",
 			"data": {
-				"cost": 0,
-				"allowAnySource": true,
-				"minLevel": 1,
-				"count": 1,
-				"selectedIDs": [],
-				"classID": "class-elementalist",
-				"source": {
-					"fromClassAbilities": true,
-					"fromSelectedSubclassAbilities": true,
-					"fromUnselectedSubclassAbilities": false,
-					"fromClassLevels": false,
-					"fromSelectedSubclassLevels": false,
-					"fromUnselectedSubclassLevels": false
+				"ability": {
+					"id": "2EjfSfjKkz9cfpF7",
+					"name": "🔸 Motivate Earth",
+					"description": "The earth rises, falls, or opens up at your command.",
+					"type": {
+						"usage": "Main Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [
+						"Earth",
+						"Magic",
+						"Melee"
+					],
+					"distance": [
+						{
+							"type": "Melee",
+							"value": 1,
+							"value2": 0,
+							"within": 0,
+							"special": "",
+							"qualifier": ""
+						}
+					],
+					"target": "Special",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "text",
+							"text": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface."
+						}
+					],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
 				}
 			}
 		}
@@ -5871,10 +5899,10 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 1,
-		"xp": 16,
+		"victories": 0,
+		"xp": 17,
 		"heroTokens": 0,
-		"renown": 0,
+		"renown": 3,
 		"wealth": 1,
 		"projectPoints": -240,
 		"conditions": [],
@@ -6020,38 +6048,123 @@
 					"prerequisites": true,
 					"source": true,
 					"followerID": null,
-					"points": 110
+					"points": 120
 				}
 			}
 		],
-		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\nfirst rest +20\n\n\n= 110 / 150 for seeking item\n",
+		"controlledSlots": [
+			{
+				"id": "U7InSuCjvElfP0or",
+				"monsterID": "familiar",
+				"count": 1,
+				"customization": {
+					"addOnIDs": [],
+					"itemIDs": [],
+					"levelAdjustment": 0,
+					"convertToSolo": false
+				},
+				"monsters": [
+					{
+						"id": "ybnT54QHc4YxZqgZ",
+						"name": "Familiar",
+						"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+						"picture": null,
+						"level": 0,
+						"role": {
+							"type": "No Role",
+							"organization": "No Organization"
+						},
+						"keywords": [],
+						"encounterValue": 0,
+						"size": {
+							"value": 1,
+							"mod": "T"
+						},
+						"speed": {
+							"value": 5,
+							"modes": []
+						},
+						"stamina": 0,
+						"stability": 0,
+						"freeStrikeDamage": 0,
+						"freeStrikeType": "Damage",
+						"characteristics": [
+							{
+								"characteristic": "Might",
+								"value": -3
+							},
+							{
+								"characteristic": "Agility",
+								"value": 2
+							},
+							{
+								"characteristic": "Reason",
+								"value": 0
+							},
+							{
+								"characteristic": "Intuition",
+								"value": 0
+							},
+							{
+								"characteristic": "Presence",
+								"value": 1
+							}
+						],
+						"features": [
+							{
+								"id": "familiar-1",
+								"name": "Stamina",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Stamina",
+									"value": 4,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0,
+									"valueFromController": null
+								}
+							},
+							{
+								"id": "familiar-2",
+								"name": "Telepathic",
+								"description": "While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.",
+								"type": "Text",
+								"data": null
+							}
+						],
+						"withCaptain": "",
+						"retainer": null,
+						"state": {
+							"staminaDamage": 0,
+							"staminaTemp": 0,
+							"recoveriesUsed": 0,
+							"conditions": [],
+							"reactionUsed": false,
+							"hidden": false,
+							"defeated": false
+						}
+					}
+				],
+				"state": {
+					"staminaDamage": 0,
+					"staminaTemp": 0,
+					"recoveriesUsed": 0,
+					"conditions": [],
+					"reactionUsed": false,
+					"hidden": false,
+					"defeated": false
+				}
+			}
+		],
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\n\n= 120 / 150 for seeking item\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
 		"titles": []
 	},
 	"abilityCustomizations": [
-		{
-			"abilityID": "comp-grounded-b",
-			"name": "Motivate Earth",
-			"description": "",
-			"notes": "🔸Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
-		{
-			"abilityID": "comp-grounded-d",
-			"name": "Grounded",
-			"description": "",
-			"notes": "🔸Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
 		{
 			"abilityID": "elementalist-sub-1-1-2",
 			"name": "",
@@ -6063,8 +6176,8 @@
 			"costModifier": 0
 		},
 		{
-			"abilityID": "talent-sub-2-2-2a",
-			"name": "",
+			"abilityID": "comp-grounded-b",
+			"name": "Grounded Benefit",
 			"description": "",
 			"notes": "",
 			"distanceBonus": 0,
@@ -6073,18 +6186,8 @@
 			"costModifier": 0
 		},
 		{
-			"abilityID": "talent-ability-9",
-			"name": "",
-			"description": "",
-			"notes": "",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
-		{
-			"abilityID": "talent-sub-2-1-1",
-			"name": "",
+			"abilityID": "comp-grounded-d",
+			"name": "Grounded Drawback",
 			"description": "",
 			"notes": "",
 			"distanceBonus": 0,
