@@ -5917,6 +5917,55 @@
 					"persistence": []
 				}
 			}
+		},
+		{
+			"id": "LIvLQtj2d0QM8KBS",
+			"name": "Scan",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "LIvLQtj2d0QM8KBS",
+					"name": "Scan",
+					"description": "You can extend your psionic senses beyond their usual range. Once on each of your turns, you can search for hidden creatures as a free maneuver.",
+					"type": {
+						"usage": "Maneuver",
+						"free": true,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "roll",
+							"roll": {
+								"characteristic": [
+									"Intuition"
+								],
+								"bonus": 0,
+								"tier1": "Tier 1",
+								"tier2": "Tier 2",
+								"tier3": "Tier 3"
+							}
+						}
+					],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			}
 		}
 	],
 	"state": {
@@ -6336,6 +6385,16 @@
 			"abilityID": "96g6fs5avtYZ0Kr8",
 			"name": "Forceful I",
 			"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+			"notes": "",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "LIvLQtj2d0QM8KBS",
+			"name": "",
+			"description": "",
 			"notes": "",
 			"costModifier": 0,
 			"distanceBonus": 0,
