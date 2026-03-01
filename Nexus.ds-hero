@@ -5986,8 +5986,8 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 3,
 		"surges": 0,
-		"victories": 6,
-		"xp": 17,
+		"victories": 0,
+		"xp": 23,
 		"heroTokens": 0,
 		"renown": 3,
 		"wealth": 1,
@@ -6238,6 +6238,24 @@
 					"source": true,
 					"followerID": null,
 					"points": 150
+				}
+			},
+			{
+				"id": "dFdv5KukIJSH1VTi",
+				"name": "🧾Recipe for Thought Sending",
+				"description": "Have the brain of a psionic creature",
+				"itemPrerequisites": "",
+				"source": "",
+				"characteristic": [
+					"Reason"
+				],
+				"goal": 45,
+				"isCustom": true,
+				"progress": {
+					"prerequisites": false,
+					"source": false,
+					"followerID": null,
+					"points": 38
 				}
 			}
 		],
