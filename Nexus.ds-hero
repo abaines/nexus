@@ -144,7 +144,6 @@
 							"value": 2
 						}
 					],
-					"respiteChange": false,
 					"count": "ancestry",
 					"selected": [
 						{
@@ -554,12 +553,19 @@
 									"feature": {
 										"id": "talent-1-5a",
 										"name": "Battle Augmentation",
-										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\n* While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels.\n* While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.\n* You can use light armor treasures and light weapon treasures.\n\nIf you have a kit, you can’t take this augmentation.",
+										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\nYou can use light armor treasures and light weapon treasures. If you have a kit, you can’t take this augmentation.",
 										"type": "Multiple Features",
 										"data": {
 											"features": [
 												{
 													"id": "talent-1-5aa",
+													"name": "Battle Augmentation",
+													"description": "While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.",
+													"type": "Text",
+													"data": null
+												},
+												{
+													"id": "talent-1-5ab",
 													"name": "Stamina",
 													"description": "",
 													"type": "Bonus",
@@ -571,24 +577,6 @@
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
 														"valuePerEchelon": 3
-													}
-												},
-												{
-													"id": "talent-1-5ab",
-													"name": "Ability damage modifier",
-													"description": "",
-													"type": "Ability Damage",
-													"data": {
-														"keywords": [
-															"Weapon"
-														],
-														"value": 1,
-														"valueFromController": null,
-														"valueCharacteristics": [],
-														"valueCharacteristicMultiplier": 0,
-														"valuePerLevel": 0,
-														"valuePerEchelon": 0,
-														"damageType": "Damage"
 													}
 												},
 												{
@@ -739,7 +727,6 @@
 									"value": 1
 								}
 							],
-							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -876,7 +863,6 @@
 									"value": 1
 								}
 							],
-							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -3565,7 +3551,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3763,7 +3748,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3990,7 +3974,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4341,7 +4324,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": [
 										{
@@ -4606,7 +4588,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4852,7 +4833,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5157,7 +5137,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5380,7 +5359,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5574,7 +5552,6 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5836,14 +5813,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5920,13 +5897,13 @@
 		},
 		{
 			"id": "LIvLQtj2d0QM8KBS",
-			"name": "Scan",
+			"name": "🔸Scan",
 			"description": "",
 			"type": "Ability",
 			"data": {
 				"ability": {
 					"id": "LIvLQtj2d0QM8KBS",
-					"name": "Scan",
+					"name": "🔸Scan",
 					"description": "You can extend your psionic senses beyond their usual range. Once on each of your turns, you can search for hidden creatures as a free maneuver.",
 					"type": {
 						"usage": "Maneuver",
@@ -5966,45 +5943,56 @@
 					"persistence": []
 				}
 			}
+		},
+		{
+			"id": "4F5ziVe2DRWpGTio",
+			"name": "🔸Vanishing Ward",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "4F5ziVe2DRWpGTio",
+					"name": "🔸Vanishing Ward",
+					"description": "Your ward allows you to slip away from threats. Whenever you take damage, you become invisible until the end of your next turn.",
+					"type": {
+						"usage": "Triggered Action",
+						"free": true,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "Self",
+					"cost": 0,
+					"repeatable": true,
+					"minLevel": 1,
+					"sections": [],
+					"preEffect": "",
+					"powerRoll": null,
+					"test": null,
+					"effect": "",
+					"strained": "",
+					"alternateEffects": [],
+					"spend": [],
+					"persistence": []
+				}
+			}
 		}
 	],
 	"state": {
-		"staminaDamage": 5,
+		"staminaDamage": 6,
 		"staminaTemp": 0,
-		"recoveriesUsed": 1,
+		"recoveriesUsed": 3,
 		"surges": 0,
-		"victories": 4,
+		"victories": 6,
 		"xp": 17,
 		"heroTokens": 0,
 		"renown": 3,
 		"wealth": 1,
 		"projectPoints": -240,
-		"conditions": [
-			{
-				"id": "aBXuT-C76PG-n68UJ-fc9Hb-h8PYb-GyULl",
-				"type": "Dazed",
-				"text": "",
-				"ends": "Until removed"
-			},
-			{
-				"id": "40Um4-xfJ4a-2gbPb-xYAwW-5U2SH-n2aPw",
-				"type": "Slowed",
-				"text": "",
-				"ends": "Until removed"
-			},
-			{
-				"id": "LeMA1-GFyU3-jcWRC-fxRSS-ng557-H2Vry",
-				"type": "Weakened",
-				"text": "",
-				"ends": "Until removed"
-			},
-			{
-				"id": "xsy33-RLM37-qAOdW-NiGte-DwYTp-sMR5e",
-				"type": "Prone",
-				"text": "",
-				"ends": "Until removed"
-			}
-		],
+		"conditions": [],
 		"inventory": [
 			{
 				"id": "96g6fs5avtYZ0Kr8",
@@ -6418,6 +6406,16 @@
 		},
 		{
 			"abilityID": "LIvLQtj2d0QM8KBS",
+			"name": "",
+			"description": "",
+			"notes": "",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "talent-1-6d",
 			"name": "",
 			"description": "",
 			"notes": "",
