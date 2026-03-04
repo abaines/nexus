@@ -6028,11 +6028,11 @@
 					"characteristics": [
 						{
 							"characteristic": "Might",
-							"value": 1
+							"value": 0
 						},
 						{
 							"characteristic": "Agility",
-							"value": 0
+							"value": 1
 						},
 						{
 							"characteristic": "Reason",
