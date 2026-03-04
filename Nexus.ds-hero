@@ -5847,14 +5847,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -6499,7 +6499,8 @@
 			"notes": "",
 			"costModifier": 0,
 			"distanceBonus": 0,
-			"damageBonus": 0
+			"damageBonus": 0,
+			"characteristic": null
 		},
 		{
 			"abilityID": "talent-1-6d",
