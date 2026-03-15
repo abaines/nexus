@@ -6029,11 +6029,11 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 0,
+		"staminaDamage": 13,
 		"staminaTemp": 0,
-		"recoveriesUsed": 0,
+		"recoveriesUsed": 2,
 		"surges": 0,
-		"victories": 0,
+		"victories": 3,
 		"xp": 23,
 		"heroTokens": 0,
 		"renown": 3,
@@ -6240,6 +6240,47 @@
 						}
 					}
 				],
+				"count": 1,
+				"customizationsByLevel": []
+			},
+			{
+				"id": "item-scannerstone",
+				"name": "Scannerstone",
+				"description": "This flat, palm-sized triangular stone is decorated with a starfield of tiny gems.",
+				"type": "Trinket (2nd echelon)",
+				"keywords": [
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-scannerstone-crafting",
+					"name": "Craft Scannerstone",
+					"description": "Craft a Scannerstone.",
+					"itemPrerequisites": ": A piece of polished obsidian, seven flawless pea-sized diamonds",
+					"source": " Texts or lore in Variac",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 300,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "When held against a wall or other solid surface 1 square thick or less, the Scannerstone creates an image floating in the air beside it that shows a rough miniature approximation of the space on the other side of the surface. The image displays floors, walls, and other barriers but doesn’t show other objects. It shows representations of any moving creatures on the other side, but not creatures who are still.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
 				"count": 1,
 				"customizationsByLevel": []
 			}
