@@ -6029,9 +6029,9 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 6,
+		"staminaDamage": 0,
 		"staminaTemp": 0,
-		"recoveriesUsed": 3,
+		"recoveriesUsed": 0,
 		"surges": 0,
 		"victories": 0,
 		"xp": 23,
