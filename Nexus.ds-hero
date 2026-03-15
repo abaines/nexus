@@ -5962,7 +5962,7 @@
 				"ability": {
 					"id": "4F5ziVe2DRWpGTio",
 					"name": "🔸Vanishing Ward",
-					"description": "Your ward allows you to slip away from threats. Whenever you take damage, you become invisible until the end of your next turn.",
+					"description": "Your ward allows you to slip away from threats.&#x20;",
 					"type": {
 						"usage": "Triggered Action",
 						"free": true,
@@ -5977,7 +5977,12 @@
 					"cost": 0,
 					"repeatable": true,
 					"minLevel": 1,
-					"sections": [],
+					"sections": [
+						{
+							"type": "text",
+							"text": "Whenever you take damage, you become invisible until the end of your next turn."
+						}
+					],
 					"preEffect": "",
 					"powerRoll": null,
 					"test": null,
