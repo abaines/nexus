@@ -6034,7 +6034,7 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 13,
+		"staminaDamage": 1,
 		"staminaTemp": 0,
 		"recoveriesUsed": 2,
 		"surges": 0,
