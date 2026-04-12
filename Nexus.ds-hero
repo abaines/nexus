@@ -6066,7 +6066,7 @@
 		"heroTokens": 0,
 		"renown": 3,
 		"wealth": 2,
-		"projectPoints": -229,
+		"projectPoints": -240,
 		"conditions": [],
 		"inventory": [
 			{
@@ -6372,6 +6372,24 @@
 					"source": false,
 					"followerID": null,
 					"points": 45
+				}
+			},
+			{
+				"id": "LWMNL-2tCrJ-RxJuV-tyvDN-ATfzw-Xw1FX",
+				"name": "Thought Sending",
+				"description": "🔸 Your ranged magic and psionic abilities gain a +2 distance bonus. Additionally, you can telepathically communicate with any willing creature who knows a language and whose name you know, provided they are on the same world as you. You must initiate the conversation, but once you do, the creature can respond until you end the conversation.",
+				"itemPrerequisites": "The brain of a psionic creature",
+				"source": "Variac",
+				"characteristic": [
+					"Reason"
+				],
+				"goal": 150,
+				"isCustom": true,
+				"progress": {
+					"prerequisites": true,
+					"source": true,
+					"followerID": "Bzh9c-kNHfj-DSADQ-SHp90-0AoOS-8kUFj",
+					"points": 11
 				}
 			}
 		],
