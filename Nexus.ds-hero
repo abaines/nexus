@@ -6057,16 +6057,16 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 13,
-		"staminaTemp": 0,
-		"recoveriesUsed": 2,
+		"staminaDamage": 12,
+		"staminaTemp": 15,
+		"recoveriesUsed": 3,
 		"surges": 0,
-		"victories": 3,
+		"victories": 6,
 		"xp": 23,
 		"heroTokens": 0,
 		"renown": 3,
-		"wealth": 1,
-		"projectPoints": -240,
+		"wealth": 2,
+		"projectPoints": -229,
 		"conditions": [],
 		"inventory": [
 			{
@@ -6280,7 +6280,7 @@
 					"Psionic"
 				],
 				"crafting": {
-					"id": "GP72b-j9o2N-HojPB-eW3oJ-RoPxk-ck74X",
+					"id": "tkTR8-BEVwx-Jvb7C-tMHnv-KXWcP-5xB8j",
 					"name": "",
 					"description": "",
 					"itemPrerequisites": ": A piece of polished obsidian, seven flawless pea-sized diamonds",
@@ -6371,7 +6371,7 @@
 					"prerequisites": false,
 					"source": false,
 					"followerID": null,
-					"points": 38
+					"points": 45
 				}
 			}
 		],
@@ -6481,7 +6481,7 @@
 				}
 			}
 		],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
