@@ -224,7 +224,7 @@
 			"environment": {
 				"id": "env-nomadic",
 				"name": "Nomadic",
-				"description": "A nomadic culture travels from place to place to survive. Members of a nomadic culture might follow animal migrations or the weather, travel to sell their wares or services, or simply enjoy a restless lifestyle full of new experiences and peoples. Those who grow up in nomadic cultures learn to navigate the wilderness and work closely with others to survive.",
+				"description": "A nomadic culture travels from place to place to survive.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -239,7 +239,7 @@
 			"organization": {
 				"id": "org-communal",
 				"name": "Communal",
-				"description": "A communal culture is a place where all members of the culture are considered equal. The community works together to make important decisions that affect the majority of the culture. While they elect leaders to carry out these decisions and organize their efforts, each person has a relatively equal say in how the culture operates, and everyone contributes to help their people survive and thrive. Individuals often share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures. Many communal cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in communal cultures focus on fending for themselves while avoiding the danger that other groups can represent.",
+				"description": "A communal culture is a place where all members of the culture are considered equal.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -254,7 +254,7 @@
 			"upbringing": {
 				"id": "up-academic",
 				"name": "Academic",
-				"description": "Your hero was raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.",
+				"description": "Your hero was raised by people who collect, study, and share books and other records.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -289,7 +289,7 @@
 		"environment": {
 			"id": "env-nomadic",
 			"name": "Nomadic",
-			"description": "A nomadic culture travels from place to place to survive. Members of a nomadic culture might follow animal migrations or the weather, travel to sell their wares or services, or simply enjoy a restless lifestyle full of new experiences and peoples. Those who grow up in nomadic cultures learn to navigate the wilderness and work closely with others to survive.",
+			"description": "A nomadic culture travels from place to place to survive.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -306,7 +306,7 @@
 		"organization": {
 			"id": "org-communal",
 			"name": "Communal",
-			"description": "A communal culture is a place where all members of the culture are considered equal. The community works together to make important decisions that affect the majority of the culture. While they elect leaders to carry out these decisions and organize their efforts, each person has a relatively equal say in how the culture operates, and everyone contributes to help their people survive and thrive. Individuals often share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures. Many communal cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in communal cultures focus on fending for themselves while avoiding the danger that other groups can represent.",
+			"description": "A communal culture is a place where all members of the culture are considered equal.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -323,7 +323,7 @@
 		"upbringing": {
 			"id": "up-academic",
 			"name": "Academic",
-			"description": "Your hero was raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.",
+			"description": "Your hero was raised by people who collect, study, and share books and other records.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -6280,9 +6280,9 @@
 					"Psionic"
 				],
 				"crafting": {
-					"id": "item-scannerstone-crafting",
-					"name": "Craft Scannerstone",
-					"description": "Craft a Scannerstone.",
+					"id": "0hlqC-0G8IU-xB633-8OxDC-HTOdP-GYIVt",
+					"name": "",
+					"description": "",
 					"itemPrerequisites": ": A piece of polished obsidian, seven flawless pea-sized diamonds",
 					"source": " Texts or lore in Variac",
 					"characteristic": [
