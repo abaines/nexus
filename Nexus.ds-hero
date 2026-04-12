@@ -144,6 +144,7 @@
 							"value": 2
 						}
 					],
+					"respiteChange": false,
 					"count": "ancestry",
 					"selected": [
 						{
@@ -553,19 +554,12 @@
 									"feature": {
 										"id": "talent-1-5a",
 										"name": "Battle Augmentation",
-										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\nYou can use light armor treasures and light weapon treasures. If you have a kit, you can’t take this augmentation.",
+										"description": "\nYou can wear light armor and wield light weapons effectively, even though you don’t have a kit.\n\n* While you wear light armor, you gain a +3 bonus to Stamina, and that bonus increases by 3 at 4th, 7th, and 10th levels.\n* While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.\n* You can use light armor treasures and light weapon treasures.\n\nIf you have a kit, you can’t take this augmentation.",
 										"type": "Multiple Features",
 										"data": {
 											"features": [
 												{
 													"id": "talent-1-5aa",
-													"name": "Battle Augmentation",
-													"description": "While you wield a light weapon, you gain a +1 damage bonus with weapon abilities, including free strikes.",
-													"type": "Text",
-													"data": null
-												},
-												{
-													"id": "talent-1-5ab",
 													"name": "Stamina",
 													"description": "",
 													"type": "Bonus",
@@ -577,6 +571,24 @@
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 0,
 														"valuePerEchelon": 3
+													}
+												},
+												{
+													"id": "talent-1-5ab",
+													"name": "Ability damage modifier",
+													"description": "",
+													"type": "Ability Damage",
+													"data": {
+														"keywords": [
+															"Weapon"
+														],
+														"value": 1,
+														"valueFromController": null,
+														"valueCharacteristics": [],
+														"valueCharacteristicMultiplier": 0,
+														"valuePerLevel": 0,
+														"valuePerEchelon": 0,
+														"damageType": "Damage"
 													}
 												},
 												{
@@ -727,6 +739,7 @@
 									"value": 1
 								}
 							],
+							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -863,6 +876,7 @@
 									"value": 1
 								}
 							],
+							"respiteChange": true,
 							"count": 1,
 							"selected": [
 								{
@@ -1383,7 +1397,7 @@
 								{
 									"id": "talent-9-1b",
 									"name": "Damage Modifier",
-									"description": "Psychic Immunity +10",
+									"description": "",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -3562,6 +3576,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3759,6 +3774,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -3985,6 +4001,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4335,6 +4352,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": [
 										{
@@ -4599,6 +4617,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -4844,6 +4863,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5148,6 +5168,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5370,6 +5391,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5563,6 +5585,7 @@
 											"value": 1
 										}
 									],
+									"respiteChange": false,
 									"count": 1,
 									"selected": []
 								}
@@ -5824,14 +5847,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
