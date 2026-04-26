@@ -103,15 +103,7 @@
 												"type": "text",
 												"text": "You can remove an edge or a bane on the roll, turn a double edge into an edge, or turn a double bane into a bane. You can only use this benefit once per round."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -176,15 +168,7 @@
 											"type": "text",
 											"text": "You can remove an edge or a bane on the roll, turn a double edge into an edge, or turn a double bane into a bane. You can only use this benefit once per round."
 										}
-									],
-									"preEffect": "",
-									"powerRoll": null,
-									"test": null,
-									"effect": "",
-									"strained": "",
-									"alternateEffects": [],
-									"spend": [],
-									"persistence": []
+									]
 								}
 							}
 						},
@@ -208,7 +192,7 @@
 			"description": "Nomadic, communal, academic.",
 			"type": "Ancestral",
 			"language": {
-				"id": "culture-memonek",
+				"id": "culture-memonek-language",
 				"name": "Language",
 				"description": "",
 				"type": "Language Choice",
@@ -220,7 +204,6 @@
 					]
 				}
 			},
-			"languages": [],
 			"environment": {
 				"id": "env-nomadic",
 				"name": "Nomadic",
@@ -273,7 +256,7 @@
 		"description": "Nomadic, communal, academic.",
 		"type": "Ancestral",
 		"language": {
-			"id": "culture-memonek",
+			"id": "culture-memonek-language",
 			"name": "Language",
 			"description": "",
 			"type": "Language Choice",
@@ -285,7 +268,6 @@
 				]
 			}
 		},
-		"languages": [],
 		"environment": {
 			"id": "env-nomadic",
 			"name": "Nomadic",
@@ -511,15 +493,7 @@
 										"repeatable": false,
 										"effect": "The target takes an extra 2 psychic damage. You also take 2 psychic damage that can’t be reduced in any way."
 									}
-								],
-								"preEffect": "",
-								"powerRoll": null,
-								"test": null,
-								"effect": "",
-								"strained": "",
-								"alternateEffects": [],
-								"spend": [],
-								"persistence": []
+								]
 							}
 						}
 					},
@@ -841,15 +815,7 @@
 														"type": "text",
 														"text": "You can push your attacker up to a number of squares equal to your Reason score."
 													}
-												],
-												"preEffect": "",
-												"powerRoll": null,
-												"test": null,
-												"effect": "",
-												"strained": "",
-												"alternateEffects": [],
-												"spend": [],
-												"persistence": []
+												]
 											}
 										}
 									},
@@ -1082,15 +1048,7 @@
 										"type": "text",
 										"text": "\nWhile you are in this state, your body remains unconscious and prone, and your mind is a separate entity with size 1T. Your mind automatically has concealment, and can freely move through solid matter. If you end your turn inside solid matter, you are forced out into the space where you entered it.\n\nAny abilities or features you use originate from your mind. Both your mind and your body can take damage while separated, with any such damage applied to your Stamina. Your mind is instantly forced back into your body if you take any damage, and you can immediately return to your body as a free maneuver."
 									}
-								],
-								"preEffect": "",
-								"powerRoll": null,
-								"test": null,
-								"effect": "",
-								"strained": "",
-								"alternateEffects": [],
-								"spend": [],
-								"persistence": []
+								]
 							}
 						}
 					},
@@ -1649,15 +1607,7 @@
 						"repeatable": false,
 						"effect": "You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the power roll."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-2",
@@ -1711,15 +1661,7 @@
 						"repeatable": false,
 						"effect": "You are slowed until the end of your next turn. Additionally, a target slowed by this ability is restrained instead."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-3",
@@ -1778,15 +1720,7 @@
 						"repeatable": false,
 						"effect": "The size of the cube increases by 2, but the fire disappears at the end of your turn."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-4",
@@ -1839,15 +1773,7 @@
 						"repeatable": false,
 						"effect": "You must vertical push the target instead of sliding them."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-5",
@@ -1900,15 +1826,7 @@
 						"repeatable": false,
 						"effect": "The size of the burst increases by 2, and you are bleeding until the start of your next turn."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-6",
@@ -1966,15 +1884,7 @@
 						"repeatable": false,
 						"effect": "The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can’t be reduced in any way."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-7",
@@ -2032,15 +1942,7 @@
 						"repeatable": false,
 						"effect": "You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can’t be reduced in any way."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-8",
@@ -2098,15 +2000,7 @@
 						"repeatable": false,
 						"effect": "The target takes an extra 3 damage. You also take 3 damage that can’t be reduced in any way."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-9",
@@ -2157,15 +2051,7 @@
 							"tier3": "9 + P psychic damage; I < [strong], frightened (save ends)"
 						}
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-10",
@@ -2216,15 +2102,7 @@
 						"type": "text",
 						"text": "You can vertical pull the target up to 2 squares. If the target is made restrained by this ability, this forced movement ignores their stability."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-11",
@@ -2262,15 +2140,7 @@
 						"type": "text",
 						"text": "Ability rolls made against the target take a bane until the start of your next turn. Whenever the target takes damage while under this effect, they can use a triggered action to make a free strike against the source of the damage."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-12",
@@ -2321,15 +2191,7 @@
 							"tier3": "9 + R damage; R < [strong], the target has weakness equal to 5 + your Reason score (save ends)"
 						}
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-13",
@@ -2374,15 +2236,7 @@
 						"repeatable": false,
 						"effect": "You take 1d6 damage and are slowed (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-14",
@@ -2427,15 +2281,7 @@
 						"repeatable": false,
 						"effect": "You are weakened (save ends). While you are weakened this way, whenever you are force moved, the forced movement distance gains a +5 bonus."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-15",
@@ -2480,15 +2326,7 @@
 						"repeatable": false,
 						"effect": "You can’t use maneuvers (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-16",
@@ -2533,15 +2371,7 @@
 						"repeatable": false,
 						"effect": "You take 1d6 damage, and you can’t use triggered actions (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-17",
@@ -2599,15 +2429,7 @@
 						"repeatable": false,
 						"effect": "You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a human). If you obtain a tier 3 outcome on the power roll, you gain 2 clarity."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-18",
@@ -2665,15 +2487,7 @@
 						"repeatable": false,
 						"effect": "You create five orbs, and you are weakened while you have any orbs active."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-19",
@@ -2718,15 +2532,7 @@
 						"repeatable": false,
 						"effect": "The size of the aura increases by 1. Whenever your aura reflects an ability, you take 2d6 damage and forget a memory, as determined by you and the Director."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-20",
@@ -2784,15 +2590,7 @@
 						"repeatable": false,
 						"effect": "The potency of this ability increases by 1. You take 2d6 damage and gain 3 surges that you can use immediately."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-21",
@@ -2837,15 +2635,7 @@
 						"repeatable": false,
 						"effect": "The target gains 2 surges. You are weakened and slowed (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-22",
@@ -2903,15 +2693,7 @@
 						"repeatable": false,
 						"effect": "If you obtain a tier 2 outcome or better, you are slowed until the end of your turn and each target is slowed until the end of their turn."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-23",
@@ -2969,15 +2751,7 @@
 						"repeatable": false,
 						"effect": "While slowed this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double bane on ability rolls made against the target while they are slowed this way."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-24",
@@ -3035,15 +2809,7 @@
 						"repeatable": false,
 						"effect": "You target yourself and three enemies instead."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-25",
@@ -3101,15 +2867,7 @@
 						"repeatable": false,
 						"effect": "You feel dispirited until you finish a respite. If you obtain a tier 3 outcome on the power roll, you and the target each have damage weakness 5 (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-26",
@@ -3167,15 +2925,7 @@
 						"repeatable": false,
 						"effect": "You take 3d6 damage."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-27",
@@ -3220,15 +2970,7 @@
 						"repeatable": false,
 						"effect": "You and the target both permanently grow visibly younger (the equivalent of 20 human years, to the minimum of an 18-year-old). Additionally, you are weakened and slowed (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			},
 			{
 				"id": "talent-ability-28",
@@ -3273,15 +3015,7 @@
 						"repeatable": false,
 						"effect": "You can’t use maneuvers (save ends)."
 					}
-				],
-				"preEffect": "",
-				"powerRoll": null,
-				"test": null,
-				"effect": "",
-				"strained": "",
-				"alternateEffects": [],
-				"spend": [],
-				"persistence": []
+				]
 			}
 		],
 		"subclasses": [
@@ -3341,15 +3075,7 @@
 												"repeatable": false,
 												"effect": "The target can use a maneuver."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -3394,15 +3120,7 @@
 												"type": "text",
 												"text": "You can use this ability after seeing the result of the triggering roll. The target must reroll the power roll and use the new roll."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							}
@@ -3487,15 +3205,7 @@
 																"repeatable": false,
 																"effect": "Your speed is halved until the end of the encounter."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -3563,15 +3273,7 @@
 																"repeatable": false,
 																"effect": "The potency of this ability increases by 1 and you take 1d6 damage. At the start of each combat round while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required)."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -3684,15 +3386,7 @@
 																	"tier3": "17 + P psychic damage"
 																}
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -3761,15 +3455,7 @@
 																"repeatable": false,
 																"effect": "Any creature or object force moved in the area takes 2 corruption damage for each square of the area they enter. Creatures and objects restrained in the area can be force moved. You are restrained until the effect ends."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -3845,15 +3531,7 @@
 												"repeatable": false,
 												"effect": "You can’t target yourself, and you take the damage and any additional effects instead of the target."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							}
@@ -3931,15 +3609,7 @@
 																	"tier3": "10 corruption damage; slowed (save ends)"
 																}
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -3988,15 +3658,7 @@
 																"type": "text",
 																"text": "The targets share 6 of their Heroic Resource among themselves, as you determine. A target can’t gain more than 3 of their Heroic Resource this way. After using this ability, you can’t gain any clarity until the end of the next combat round."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4081,15 +3743,7 @@
 												"repeatable": false,
 												"effect": "You can vertical slide the target."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -4134,15 +3788,7 @@
 												"type": "text",
 												"text": "The target takes half the triggering damage, or the distance of the triggering forced movement is reduced by a number of squares equal to your Reason score. If the target took damage and was force moved, you choose the effect. If the forced movement is reduced to 0 squares, the target can push the source of the forced movement a number of squares equal to your Reason score."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							}
@@ -4189,15 +3835,7 @@
 												"type": "text",
 												"text": "You reduce the falling damage by an amount equal to 2 + your Reason score."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -4266,15 +3904,7 @@
 																"repeatable": false,
 																"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4339,15 +3969,7 @@
 																"repeatable": false,
 																"effect": "You take half the damage the target takes."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4414,15 +4036,7 @@
 															"repeatable": false,
 															"effect": "The size of the burst increases by 1, and you are weakened until the end of your turn."
 														}
-													],
-													"preEffect": "",
-													"powerRoll": null,
-													"test": null,
-													"effect": "",
-													"strained": "",
-													"alternateEffects": [],
-													"spend": [],
-													"persistence": []
+													]
 												}
 											}
 										}
@@ -4531,15 +4145,7 @@
 																"repeatable": false,
 																"effect": "The size of the area increases by 2. You also target yourself and each ally within distance."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4604,15 +4210,7 @@
 																"repeatable": false,
 																"effect": "The forced movement ignores stability. You take 2d6 damage and are weakened (save ends)."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4681,15 +4279,7 @@
 												"repeatable": false,
 												"effect": "The effects last for 1 hour instead."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -4774,15 +4364,7 @@
 																"repeatable": false,
 																"effect": "You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4850,15 +4432,7 @@
 																"repeatable": false,
 																"effect": "You are weakened (save ends). If you scored a critical hit with this ability, you die."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -4929,15 +4503,7 @@
 												"type": "text",
 												"text": "The target takes psychic damage equal to half the triggering damage."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							},
@@ -4989,15 +4555,7 @@
 												"repeatable": false,
 												"effect": "You target one additional creature or object."
 											}
-										],
-										"preEffect": "",
-										"powerRoll": null,
-										"test": null,
-										"effect": "",
-										"strained": "",
-										"alternateEffects": [],
-										"spend": [],
-										"persistence": []
+										]
 									}
 								}
 							}
@@ -5079,15 +4637,7 @@
 																"repeatable": false,
 																"effect": "You start crying, and you can’t use triggered actions or make free strikes until the end of the target’s next turn."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5155,15 +4705,7 @@
 																"repeatable": false,
 																"effect": "You take 1d6 damage and are weakened until the end of your turn."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5301,15 +4843,7 @@
 																"repeatable": false,
 																"effect": "While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5378,15 +4912,7 @@
 																"repeatable": false,
 																"effect": "The effect ends early if you take damage from an enemy’s ability."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5496,15 +5022,7 @@
 																"repeatable": false,
 																"effect": "The ability roll scores a critical hit on a natural 17 or higher. You take half the damage the target takes, and you can’t reduce this damage in any way."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5572,15 +5090,7 @@
 																"repeatable": false,
 																"effect": "You can’t use this ability if doing so would cause you to have negative clarity."
 															}
-														],
-														"preEffect": "",
-														"powerRoll": null,
-														"test": null,
-														"effect": "",
-														"strained": "",
-														"alternateEffects": [],
-														"spend": [],
-														"persistence": []
+														]
 													}
 												}
 											},
@@ -5705,7 +5215,7 @@
 									{
 										"id": "familiar",
 										"name": "Familiar",
-										"description": "",
+										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
 										"monster": {
 											"id": "familiar",
 											"name": "Familiar",
@@ -5761,6 +5271,7 @@
 													"data": {
 														"field": "Stamina",
 														"value": 2,
+														"valueFromController": null,
 														"valueCharacteristics": [],
 														"valueCharacteristicMultiplier": 1,
 														"valuePerLevel": 2,
@@ -5790,7 +5301,11 @@
 										"info": {
 											"isSignature": false,
 											"cost": 0,
-											"count": 1
+											"count": 1,
+											"level": 1,
+											"level3": [],
+											"level6": [],
+											"level10": []
 										}
 									}
 								]
@@ -5835,11 +5350,10 @@
 				}
 			],
 			"selected": {
-				"id": "6OngkqvyJy1H3L0R",
+				"id": "MPvl7-EqrMG-5Yjtv-43ljP-HnLik-NtkFN",
 				"name": "🔸 The Butterfly Collector",
 				"description": "Hailing from the advanced plane of Axiom, you understand that history is not a static line but a mutable thread. Your patrons, foreseers of countless futures, determined that the prime plane was a nexus of catastrophic possibilities. To avert widespread despair, they initiated a grand project: to subtly alter the flow of time. You were chosen as their agent, a living archive sent to gather the impossibly vast data needed to enact these changes. You left your home not in disgrace or disillusionment, but with a profound purpose: to become a hero whose every observation could save a billion lives."
-			},
-			"selectedID": null
+			}
 		}
 	},
 	"complication": {
@@ -5849,14 +5363,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5878,155 +5392,13 @@
 			}
 		},
 		{
-			"id": "2EjfSfjKkz9cfpF7",
-			"name": "🔸 Motivate Earth",
-			"description": "",
-			"type": "Ability",
-			"data": {
-				"ability": {
-					"id": "2EjfSfjKkz9cfpF7",
-					"name": "🔸 Motivate Earth",
-					"description": "The earth rises, falls, or opens up at your command.",
-					"type": {
-						"usage": "Main Action",
-						"free": false,
-						"trigger": "",
-						"time": "",
-						"qualifiers": [],
-						"freeStrike": false
-					},
-					"keywords": [
-						"Earth",
-						"Magic",
-						"Melee"
-					],
-					"distance": [
-						{
-							"type": "Melee",
-							"value": 1,
-							"value2": 0,
-							"within": 0,
-							"special": "",
-							"qualifier": ""
-						}
-					],
-					"target": "Special",
-					"cost": 0,
-					"repeatable": false,
-					"minLevel": 1,
-					"sections": [
-						{
-							"type": "text",
-							"text": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\nAlternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface."
-						}
-					],
-					"preEffect": "",
-					"powerRoll": null,
-					"test": null,
-					"effect": "",
-					"strained": "",
-					"alternateEffects": [],
-					"spend": [],
-					"persistence": []
-				}
-			}
-		},
-		{
-			"id": "LIvLQtj2d0QM8KBS",
-			"name": "🔸Scan",
-			"description": "",
-			"type": "Ability",
-			"data": {
-				"ability": {
-					"id": "LIvLQtj2d0QM8KBS",
-					"name": "🔸Scan",
-					"description": "You can extend your psionic senses beyond their usual range. Once on each of your turns, you can search for hidden creatures as a free maneuver.",
-					"type": {
-						"usage": "Maneuver",
-						"free": true,
-						"trigger": "",
-						"time": "",
-						"qualifiers": [],
-						"freeStrike": false
-					},
-					"keywords": [],
-					"distance": [],
-					"target": "",
-					"cost": 0,
-					"repeatable": false,
-					"minLevel": 1,
-					"sections": [
-						{
-							"type": "roll",
-							"roll": {
-								"characteristic": [],
-								"bonus": 3,
-								"tier1": "Tier 1",
-								"tier2": "Tier 2",
-								"tier3": "Tier 3"
-							}
-						}
-					],
-					"preEffect": "",
-					"powerRoll": null,
-					"test": null,
-					"effect": "",
-					"strained": "",
-					"alternateEffects": [],
-					"spend": [],
-					"persistence": []
-				}
-			}
-		},
-		{
-			"id": "4F5ziVe2DRWpGTio",
-			"name": "🔸Vanishing Ward",
-			"description": "",
-			"type": "Ability",
-			"data": {
-				"ability": {
-					"id": "4F5ziVe2DRWpGTio",
-					"name": "🔸Vanishing Ward",
-					"description": "Your ward allows you to slip away from threats.&#x20;",
-					"type": {
-						"usage": "Triggered Action",
-						"free": true,
-						"trigger": "",
-						"time": "",
-						"qualifiers": [],
-						"freeStrike": false
-					},
-					"keywords": [],
-					"distance": [],
-					"target": "Self",
-					"cost": 0,
-					"repeatable": true,
-					"minLevel": 1,
-					"sections": [
-						{
-							"type": "text",
-							"text": "Whenever you take damage, you become invisible until the end of your next turn."
-						}
-					],
-					"preEffect": "",
-					"powerRoll": null,
-					"test": null,
-					"effect": "",
-					"strained": "",
-					"alternateEffects": [],
-					"spend": [],
-					"persistence": []
-				}
-			}
-		},
-		{
-			"id": "L1xCB-awnYq-LQ2qE-Y7Uhz-M3vdM-0tmlD",
+			"id": "kKbQH-vkCrs-9rrjl-vkZXW-xXaOe-xjy3l",
 			"name": "Follower",
 			"description": "",
 			"type": "Follower",
 			"data": {
 				"follower": {
-					"id": "Bzh9c-kNHfj-DSADQ-SHp90-0AoOS-8kUFj",
+					"id": "cRRqB-kV6tU-ZloXx-7IWoO-2pE5y-UmZoQ",
 					"name": "🔸 Follower",
 					"description": "",
 					"type": "Artisan",
@@ -6056,80 +5428,68 @@
 					"languages": []
 				}
 			}
+		},
+		{
+			"id": "NdE5y-sFAKG-IEHJI-CszuD-i66I5-eFlnj",
+			"name": "Forced Movement: Slide +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Slide",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
+		},
+		{
+			"id": "CeFLu-hZJIk-RhVja-y3Z4Z-JtMvi-UJhtR",
+			"name": "Forced Movement: Push +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Push",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
+		},
+		{
+			"id": "WfQm3-lNnp8-4HSY2-wZFa0-A1BLb-X62ce",
+			"name": "Forced Movement: Pull +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Pull",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
 		}
 	],
 	"state": {
-		"staminaDamage": 0,
+		"staminaDamage": 18,
 		"staminaTemp": 0,
-		"recoveriesUsed": 0,
+		"recoveriesUsed": 2,
 		"surges": 0,
-		"victories": 0,
+		"victories": 2,
 		"xp": 32,
 		"heroTokens": 0,
 		"renown": 3,
 		"wealth": 2,
-		"projectPoints": -240,
+		"projectPoints": 0,
 		"conditions": [],
 		"inventory": [
 			{
-				"id": "96g6fs5avtYZ0Kr8",
-				"name": "Imbued Implement",
-				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
-				"type": "Imbued Implement",
-				"keywords": [],
-				"crafting": null,
-				"effect": "",
-				"featuresByLevel": [
-					{
-						"level": 1,
-						"features": []
-					},
-					{
-						"level": 5,
-						"features": []
-					},
-					{
-						"level": 9,
-						"features": []
-					}
-				],
-				"imbuements": [
-					{
-						"id": "imbuement-forceful-i",
-						"name": "Forceful I",
-						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
-						"type": "Imbued Implement",
-						"crafting": {
-							"id": "imbuement-forceful-i-crafting",
-							"name": "Imbue Forceful I",
-							"description": "Imbue an item with Forceful I",
-							"itemPrerequisites": "A lead slingstone that killed a giant",
-							"source": "Texts or lore in High Kuric",
-							"characteristic": [
-								"Might",
-								"Reason",
-								"Intuition"
-							],
-							"goal": 150,
-							"effect": "",
-							"isCustom": false,
-							"progress": null
-						},
-						"level": 1,
-						"feature": {
-							"id": "imbuement-forceful-i",
-							"name": "Forceful I",
-							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
-							"type": "Text",
-							"data": null
-						}
-					}
-				],
-				"count": 1,
-				"customizationsByLevel": []
-			},
-			{
-				"id": "pwG1riPWqV8gn3Z6",
+				"id": "item-buzz-balm",
 				"name": "Buzz Balm",
 				"description": "This cooling orange salve crackles and pops when exposed to the air.",
 				"type": "Consumable (1st echelon)",
@@ -6140,7 +5500,7 @@
 				"crafting": {
 					"id": "item-buzz-balm-crafting",
 					"name": "Craft Buzz Balm",
-					"description": "Craft a Buzz Balm",
+					"description": "Craft a Buzz Balm.",
 					"itemPrerequisites": "An ounce of demon honey",
 					"source": "Texts or lore in Kalliak",
 					"characteristic": [
@@ -6148,7 +5508,6 @@
 						"Intuition"
 					],
 					"goal": 45,
-					"effect": "",
 					"isCustom": false,
 					"progress": null
 				},
@@ -6168,21 +5527,81 @@
 					}
 				],
 				"imbuements": [],
-				"count": 1,
-				"customizationsByLevel": []
+				"count": 1
 			},
 			{
-				"id": "imbued-implement",
-				"name": "Imbued Implement",
-				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
-				"type": "Imbued Implement",
+				"id": "43f8o-vic7Z-4yBzb-0mvbv-8UkQc-HFM9z",
+				"name": "Test Item",
+				"description": "Test",
+				"type": "Trinket (1st echelon)",
 				"keywords": [],
 				"crafting": null,
 				"effect": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
-						"features": []
+						"features": [
+							{
+								"id": "4KUts-vliiI-ct60C-Lr7Ul-9c225-LY8TC",
+								"name": "Test Range",
+								"description": "",
+								"type": "Ability Distance",
+								"data": {
+									"keywords": [],
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "b1jVg-G8LoP-MvHvY-lUuj1-zyd8Q-98kaF",
+								"name": "Test Push",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Push",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "SV2yv-HYNly-OkFQE-zVb0x-zKDxT-KOHrD",
+								"name": "Test Pull",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Pull",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "sq4kn-42rsV-rb26U-wAltX-xxJ7v-fuJuG",
+								"name": "Test Slide",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Slide",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							}
+						]
 					},
 					{
 						"level": 5,
@@ -6193,85 +5612,8 @@
 						"features": []
 					}
 				],
-				"imbuements": [
-					{
-						"id": "imbuement-seeking",
-						"name": "Seeking",
-						"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-						"type": "Imbued Implement",
-						"crafting": {
-							"id": "imbuement-seeking-crafting",
-							"name": "Imbue Seeking",
-							"description": "Imbue an item with Seeking.",
-							"itemPrerequisites": "An inch-long needle carved from a diamond",
-							"source": "Texts or lore in Caelian",
-							"characteristic": [
-								"Might",
-								"Reason",
-								"Intuition"
-							],
-							"goal": 150,
-							"isCustom": false,
-							"progress": null
-						},
-						"level": 1,
-						"feature": {
-							"id": "imbuement-seeking",
-							"name": "Seeking",
-							"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-							"type": "Multiple Features",
-							"data": {
-								"features": [
-									{
-										"id": "imbuement-seeking-magic",
-										"name": "Seeking (Magic)",
-										"description": "Your ranged magic abilities gain a +2 distance bonus.",
-										"type": "Ability Distance",
-										"data": {
-											"keywords": [
-												"Ranged",
-												"Magic"
-											],
-											"value": 2,
-											"valueFromController": null,
-											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 0,
-											"valuePerLevel": 0,
-											"valuePerEchelon": 0
-										}
-									},
-									{
-										"id": "imbuement-seeking-psionic",
-										"name": "Seeking (Psionic)",
-										"description": "Your ranged psionic abilities gain a +2 distance bonus.",
-										"type": "Ability Distance",
-										"data": {
-											"keywords": [
-												"Ranged",
-												"Psionic"
-											],
-											"value": 2,
-											"valueFromController": null,
-											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 0,
-											"valuePerLevel": 0,
-											"valuePerEchelon": 0
-										}
-									},
-									{
-										"id": "imbuement-seeking-text",
-										"name": "Seeking",
-										"description": "If you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-										"type": "Text",
-										"data": null
-									}
-								]
-							}
-						}
-					}
-				],
-				"count": 1,
-				"customizationsByLevel": []
+				"imbuements": [],
+				"count": 1
 			},
 			{
 				"id": "item-scannerstone",
@@ -6282,9 +5624,9 @@
 					"Psionic"
 				],
 				"crafting": {
-					"id": "O2AfI-w3wVV-reO1Y-mBxv9-m3K03-QbNwj",
-					"name": "",
-					"description": "",
+					"id": "item-scannerstone-crafting",
+					"name": "Craft Scannerstone",
+					"description": "Craft a Scannerstone.",
 					"itemPrerequisites": ": A piece of polished obsidian, seven flawless pea-sized diamonds",
 					"source": " Texts or lore in Variac",
 					"characteristic": [
@@ -6311,278 +5653,144 @@
 					}
 				],
 				"imbuements": [],
-				"count": 1,
-				"customizationsByLevel": []
-			}
-		],
-		"projects": [
-			{
-				"id": "OjoiFUVDefwDCh6F",
-				"name": "Imbue Forceful I",
-				"description": "Imbue an item with Forceful I",
-				"itemPrerequisites": "A lead slingstone that killed a giant",
-				"source": "Texts or lore in High Kuric",
-				"characteristic": [
-					"Might",
-					"Reason",
-					"Intuition"
-				],
-				"goal": 150,
-				"effect": "",
-				"isCustom": false,
-				"progress": {
-					"prerequisites": true,
-					"source": true,
-					"followerID": null,
-					"points": 150
-				}
+				"count": 1
 			},
 			{
-				"id": "NdIpO9iSSVRytFoX",
-				"name": "Imbue Seeking",
-				"description": "Imbue an item with Seeking",
-				"itemPrerequisites": "An inch-long needle carved from a diamond",
-				"source": "Texts or lore in Caelian",
-				"characteristic": [
-					"Might",
-					"Reason",
-					"Intuition"
+				"id": "item-breath-of-dawn",
+				"name": "Breath of Dawn",
+				"description": "A glass flask contains a whirl of gentle sunlight.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Psionic"
 				],
-				"goal": 150,
-				"effect": "",
-				"isCustom": false,
-				"progress": {
-					"prerequisites": true,
-					"source": true,
-					"followerID": null,
-					"points": 150
-				}
-			},
-			{
-				"id": "dFdv5KukIJSH1VTi",
-				"name": "🧾Recipe for Thought Sending",
-				"description": "Have the brain of a psionic creature",
-				"itemPrerequisites": "",
-				"source": "",
-				"characteristic": [
-					"Reason"
-				],
-				"goal": 45,
-				"isCustom": true,
-				"progress": {
-					"prerequisites": false,
-					"source": false,
-					"followerID": null,
-					"points": 45
-				}
-			},
-			{
-				"id": "LWMNL-2tCrJ-RxJuV-tyvDN-ATfzw-Xw1FX",
-				"name": "Thought Sending",
-				"description": "🔸 Your ranged magic and psionic abilities gain a +2 distance bonus. Additionally, you can telepathically communicate with any willing creature who knows a language and whose name you know, provided they are on the same world as you. You must initiate the conversation, but once you do, the creature can respond until you end the conversation.",
-				"itemPrerequisites": "The brain of a psionic creature",
-				"source": "Variac",
-				"characteristic": [
-					"Reason"
-				],
-				"goal": 150,
-				"isCustom": true,
-				"progress": {
-					"prerequisites": true,
-					"source": true,
-					"followerID": "Bzh9c-kNHfj-DSADQ-SHp90-0AoOS-8kUFj",
-					"points": 28
-				}
-			}
-		],
-		"controlledSlots": [
-			{
-				"id": "U7InSuCjvElfP0or",
-				"monsterID": "familiar",
-				"count": 1,
-				"customization": {
-					"addOnIDs": [],
-					"itemIDs": [],
-					"levelAdjustment": 0,
-					"convertToSolo": false
+				"crafting": {
+					"id": "item-breath-of-dawn-crafting",
+					"name": "Craft Breath of Dawn",
+					"description": "Craft a Breath of Dawn.",
+					"itemPrerequisites": "The breath of a mystic sage captured at sunrise",
+					"source": "Texts or lore in Hyrallic",
+					"characteristic": [
+						"Intuition",
+						"Presence"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
 				},
-				"monsters": [
+				"effect": "As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the frightened, slowed, and taunted conditions on yourself, and you gain a +8 bonus to Stability until the end of the encounter.",
+				"featuresByLevel": [
 					{
-						"id": "ybnT54QHc4YxZqgZ",
-						"name": "Familiar",
-						"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
-						"picture": null,
-						"level": 0,
-						"role": {
-							"type": "No Role",
-							"organization": "No Organization"
-						},
-						"keywords": [],
-						"encounterValue": 0,
-						"size": {
-							"value": 1,
-							"mod": "T"
-						},
-						"speed": {
-							"value": 5,
-							"modes": []
-						},
-						"stamina": 0,
-						"stability": 0,
-						"freeStrikeDamage": 0,
-						"freeStrikeType": "Damage",
-						"characteristics": [
-							{
-								"characteristic": "Might",
-								"value": -3
-							},
-							{
-								"characteristic": "Agility",
-								"value": 2
-							},
-							{
-								"characteristic": "Reason",
-								"value": 0
-							},
-							{
-								"characteristic": "Intuition",
-								"value": 0
-							},
-							{
-								"characteristic": "Presence",
-								"value": 1
-							}
-						],
-						"features": [
-							{
-								"id": "familiar-1",
-								"name": "Stamina",
-								"description": "",
-								"type": "Bonus",
-								"data": {
-									"field": "Stamina",
-									"value": 4,
-									"valueCharacteristics": [],
-									"valueCharacteristicMultiplier": 1,
-									"valuePerLevel": 0,
-									"valuePerEchelon": 0,
-									"valueFromController": null
-								}
-							},
-							{
-								"id": "familiar-2",
-								"name": "Telepathic",
-								"description": "While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.",
-								"type": "Text",
-								"data": null
-							}
-						],
-						"withCaptain": "",
-						"retainer": null,
-						"state": {
-							"staminaDamage": 0,
-							"staminaTemp": 0,
-							"recoveriesUsed": 0,
-							"conditions": [],
-							"reactionUsed": false,
-							"hidden": false,
-							"defeated": false
-						}
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
 					}
 				],
-				"state": {
-					"staminaDamage": 0,
-					"staminaTemp": 0,
-					"recoveriesUsed": 0,
-					"conditions": [],
-					"reactionUsed": false,
-					"hidden": false,
-					"defeated": false
-				}
+				"imbuements": [],
+				"count": 3
+			},
+			{
+				"id": "item-concealment-potion",
+				"name": "Concealment Potion",
+				"description": "This dark, viscous liquid tastes like burnt leaves.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Potion",
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-concealment-potion-crafting",
+					"name": "Craft Concealment Potion",
+					"description": "Craft a Concealment Potion.",
+					"itemPrerequisites": "An ounce of sap from a tree damaged by psionic fire",
+					"source": "Texts or lore in Yllyric",
+					"characteristic": [
+						"Agility",
+						"Intuition"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the Hide maneuver even while you are observed.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 2
+			},
+			{
+				"id": "item-vial-of-ethereal-attack",
+				"name": "Vial of Ethereal Attack",
+				"description": "Clear liquid seems to constantly churn within an obsidian vial, even when at rest.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-vial-of-ethereal-attack-crafting",
+					"name": "Craft Vial of Ethereal Attack",
+					"description": "Craft a Vial of Ethereal Attack.",
+					"itemPrerequisites": "A signed agreement with a ghost, a large obsidian disk",
+					"source": "Texts or lore in Anjali",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-cube ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a combat round or starts their turn there takes 10 psychic damage. At the start of each of your turns, you can move the vortex up to 5 squares (no action required).",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1
 			}
 		],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n\n",
+		"projects": [],
+		"titles": [],
+		"controlledSlots": [],
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n\n",
 		"encounterState": "ready",
 		"hidden": false,
-		"defeated": false,
-		"titles": []
+		"defeated": false
 	},
 	"abilityCustomizations": [
-		{
-			"abilityID": "elementalist-sub-1-1-2",
-			"name": "",
-			"description": "",
-			"notes": "🔸 Complication",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
-		{
-			"abilityID": "comp-grounded-b",
-			"name": "Grounded Benefit",
-			"description": "",
-			"notes": "",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
-		{
-			"abilityID": "comp-grounded-d",
-			"name": "Grounded Drawback",
-			"description": "",
-			"notes": "",
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null,
-			"costModifier": 0
-		},
-		{
-			"abilityID": "imbued-implement",
-			"name": "Seeking",
-			"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-			"notes": "",
-			"costModifier": 0,
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "96g6fs5avtYZ0Kr8",
-			"name": "Forceful I",
-			"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
-			"notes": "",
-			"costModifier": 0,
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "LIvLQtj2d0QM8KBS",
-			"name": "",
-			"description": "",
-			"notes": "",
-			"costModifier": 0,
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
-		{
-			"abilityID": "talent-1-6d",
-			"name": "",
-			"description": "",
-			"notes": "",
-			"costModifier": 0,
-			"distanceBonus": 0,
-			"damageBonus": 0,
-			"characteristic": null
-		},
 		{
 			"abilityID": "talent-sub-2-1-1",
 			"name": "",
 			"description": "",
-			"notes": "",
+			"notes": "+2 force",
 			"costModifier": 0,
 			"distanceBonus": 0,
 			"damageBonus": 0,
