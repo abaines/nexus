@@ -5149,7 +5149,7 @@
 					],
 					"count": 1,
 					"selected": [
-						"Religion"
+						"Strategy"
 					]
 				}
 			},
@@ -5164,7 +5164,10 @@
 						"Lore"
 					],
 					"count": 2,
-					"selected": []
+					"selected": [
+						"Magic",
+						"Psionics"
+					]
 				}
 			},
 			{
@@ -5192,7 +5195,115 @@
 						"Supernatural"
 					],
 					"count": 1,
-					"selected": []
+					"selected": [
+						{
+							"id": "perk-familiar",
+							"name": "Familiar",
+							"description": "",
+							"type": "Summon",
+							"data": {
+								"summons": [
+									{
+										"id": "familiar",
+										"name": "Familiar",
+										"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+										"monster": {
+											"id": "familiar",
+											"name": "Familiar",
+											"description": "\nA supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.\n\nThe familiar can hold small objects in their mouth or claws, but can’t perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth).\n\nThey can’t harm other creatures or objects. They can flank in combat, but only with you.\n\nIf your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.",
+											"picture": null,
+											"level": 0,
+											"role": {
+												"type": "No Role",
+												"organization": "No Organization"
+											},
+											"keywords": [],
+											"encounterValue": 0,
+											"size": {
+												"value": 1,
+												"mod": "T"
+											},
+											"speed": {
+												"value": 5,
+												"modes": []
+											},
+											"stamina": 0,
+											"stability": 0,
+											"freeStrikeDamage": 0,
+											"freeStrikeType": "Damage",
+											"characteristics": [
+												{
+													"characteristic": "Might",
+													"value": -3
+												},
+												{
+													"characteristic": "Agility",
+													"value": 2
+												},
+												{
+													"characteristic": "Reason",
+													"value": 0
+												},
+												{
+													"characteristic": "Intuition",
+													"value": 0
+												},
+												{
+													"characteristic": "Presence",
+													"value": 1
+												}
+											],
+											"features": [
+												{
+													"id": "familiar-1",
+													"name": "Stamina",
+													"description": "",
+													"type": "Bonus",
+													"data": {
+														"field": "Stamina",
+														"value": 2,
+														"valueFromController": null,
+														"valueCharacteristics": [],
+														"valueCharacteristicMultiplier": 1,
+														"valuePerLevel": 2,
+														"valuePerEchelon": 0
+													}
+												},
+												{
+													"id": "familiar-2",
+													"name": "Telepathic",
+													"description": "While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.",
+													"type": "Text",
+													"data": null
+												}
+											],
+											"withCaptain": "",
+											"retainer": null,
+											"state": {
+												"staminaDamage": 0,
+												"staminaTemp": 0,
+												"recoveriesUsed": 0,
+												"conditions": [],
+												"reactionUsed": false,
+												"hidden": false,
+												"defeated": false
+											}
+										},
+										"info": {
+											"isSignature": false,
+											"cost": 0,
+											"count": 1,
+											"level": 1,
+											"level3": [],
+											"level6": [],
+											"level10": []
+										}
+									}
+								]
+							},
+							"list": "Supernatural"
+						}
+					]
 				}
 			}
 		],
