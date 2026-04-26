@@ -411,7 +411,7 @@
 							"count": 2,
 							"selected": [
 								"Monsters",
-								"Read Person"
+								"Music"
 							]
 						}
 					},
@@ -428,8 +428,7 @@
 							],
 							"count": 2,
 							"selected": [
-								"Interrogate",
-								"Music"
+								"Interrogate"
 							]
 						}
 					},
