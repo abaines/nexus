@@ -391,7 +391,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": -1
+							"value": 0
 						}
 					},
 					{
@@ -5428,6 +5428,51 @@
 					"languages": []
 				}
 			}
+		},
+		{
+			"id": "NdE5y-sFAKG-IEHJI-CszuD-i66I5-eFlnj",
+			"name": "Forced Movement: Slide +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Slide",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
+		},
+		{
+			"id": "CeFLu-hZJIk-RhVja-y3Z4Z-JtMvi-UJhtR",
+			"name": "Forced Movement: Push +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Push",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
+		},
+		{
+			"id": "WfQm3-lNnp8-4HSY2-wZFa0-A1BLb-X62ce",
+			"name": "Forced Movement: Pull +2",
+			"description": "",
+			"type": "Bonus",
+			"data": {
+				"field": "Forced Movement: Pull",
+				"value": 2,
+				"valueFromController": null,
+				"valueCharacteristics": [],
+				"valueCharacteristicMultiplier": 1,
+				"valuePerLevel": 0,
+				"valuePerEchelon": 0
+			}
 		}
 	],
 	"state": {
@@ -5467,132 +5512,6 @@
 					"progress": null
 				},
 				"effect": "As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.",
-				"featuresByLevel": [
-					{
-						"level": 1,
-						"features": []
-					},
-					{
-						"level": 5,
-						"features": []
-					},
-					{
-						"level": 9,
-						"features": []
-					}
-				],
-				"imbuements": [],
-				"count": 1
-			},
-			{
-				"id": "imbued-implement",
-				"name": "Imbued Implement",
-				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
-				"type": "Imbued Implement",
-				"keywords": [],
-				"crafting": null,
-				"effect": "",
-				"featuresByLevel": [
-					{
-						"level": 1,
-						"features": []
-					},
-					{
-						"level": 5,
-						"features": []
-					},
-					{
-						"level": 9,
-						"features": []
-					}
-				],
-				"imbuements": [
-					{
-						"id": "imbuement-seeking",
-						"name": "Seeking",
-						"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-						"type": "Imbued Implement",
-						"crafting": {
-							"id": "imbuement-seeking-crafting",
-							"name": "Imbue Seeking",
-							"description": "Imbue an item with Seeking.",
-							"itemPrerequisites": "An inch-long needle carved from a diamond",
-							"source": "Texts or lore in Caelian",
-							"characteristic": [
-								"Might",
-								"Reason",
-								"Intuition"
-							],
-							"goal": 150,
-							"isCustom": false,
-							"progress": null
-						},
-						"level": 1,
-						"feature": {
-							"id": "imbuement-seeking",
-							"name": "Seeking",
-							"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-							"type": "Multiple Features",
-							"data": {
-								"features": [
-									{
-										"id": "imbuement-seeking-magic",
-										"name": "Seeking (Magic)",
-										"description": "Your ranged magic abilities gain a +2 distance bonus.",
-										"type": "Ability Distance",
-										"data": {
-											"keywords": [
-												"Ranged",
-												"Magic"
-											],
-											"value": 2,
-											"valueFromController": null,
-											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 0,
-											"valuePerLevel": 0,
-											"valuePerEchelon": 0
-										}
-									},
-									{
-										"id": "imbuement-seeking-psionic",
-										"name": "Seeking (Psionic)",
-										"description": "Your ranged psionic abilities gain a +2 distance bonus.",
-										"type": "Ability Distance",
-										"data": {
-											"keywords": [
-												"Ranged",
-												"Psionic"
-											],
-											"value": 2,
-											"valueFromController": null,
-											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 0,
-											"valuePerLevel": 0,
-											"valuePerEchelon": 0
-										}
-									},
-									{
-										"id": "imbuement-seeking-text",
-										"name": "Seeking",
-										"description": "If you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
-										"type": "Text",
-										"data": null
-									}
-								]
-							}
-						}
-					}
-				],
-				"count": 1
-			},
-			{
-				"id": "imbued-implement",
-				"name": "Imbued Implement",
-				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
-				"type": "Imbued Implement",
-				"keywords": [],
-				"crafting": null,
-				"effect": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
