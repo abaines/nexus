@@ -5476,7 +5476,7 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 32,
+		"staminaDamage": 18,
 		"staminaTemp": 0,
 		"recoveriesUsed": 2,
 		"surges": 0,
