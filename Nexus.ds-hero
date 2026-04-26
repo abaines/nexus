@@ -5381,6 +5381,44 @@
 					"Caelian"
 				]
 			}
+		},
+		{
+			"id": "kKbQH-vkCrs-9rrjl-vkZXW-xXaOe-xjy3l",
+			"name": "Follower",
+			"description": "",
+			"type": "Follower",
+			"data": {
+				"follower": {
+					"id": "cRRqB-kV6tU-ZloXx-7IWoO-2pE5y-UmZoQ",
+					"name": "",
+					"description": "",
+					"type": "Artisan",
+					"characteristics": [
+						{
+							"characteristic": "Might",
+							"value": 1
+						},
+						{
+							"characteristic": "Agility",
+							"value": 0
+						},
+						{
+							"characteristic": "Reason",
+							"value": 1
+						},
+						{
+							"characteristic": "Intuition",
+							"value": 0
+						},
+						{
+							"characteristic": "Presence",
+							"value": 0
+						}
+					],
+					"skills": [],
+					"languages": []
+				}
+			}
 		}
 	],
 	"state": {
