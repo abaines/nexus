@@ -5476,9 +5476,9 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 0,
+		"staminaDamage": 32,
 		"staminaTemp": 0,
-		"recoveriesUsed": 0,
+		"recoveriesUsed": 2,
 		"surges": 0,
 		"victories": 2,
 		"xp": 32,
