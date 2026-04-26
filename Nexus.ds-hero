@@ -5105,7 +5105,28 @@
 			}
 		],
 		"level": 5,
-		"characteristics": []
+		"characteristics": [
+			{
+				"characteristic": "Might",
+				"value": 0
+			},
+			{
+				"characteristic": "Agility",
+				"value": 0
+			},
+			{
+				"characteristic": "Reason",
+				"value": 2
+			},
+			{
+				"characteristic": "Intuition",
+				"value": 1
+			},
+			{
+				"characteristic": "Presence",
+				"value": 2
+			}
+		]
 	},
 	"career": null,
 	"complication": {
