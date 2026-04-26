@@ -391,7 +391,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": -1
+							"value": 0
 						}
 					},
 					{
@@ -5480,7 +5480,7 @@
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 2,
 		"xp": 32,
 		"heroTokens": 0,
 		"renown": 3,
@@ -5664,5 +5664,16 @@
 		"hidden": false,
 		"defeated": false
 	},
-	"abilityCustomizations": []
+	"abilityCustomizations": [
+		{
+			"abilityID": "talent-sub-2-1-1",
+			"name": "",
+			"description": "",
+			"notes": "+2 force",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		}
+	]
 }
