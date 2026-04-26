@@ -5442,7 +5442,96 @@
 		"wealth": 2,
 		"projectPoints": 0,
 		"conditions": [],
-		"inventory": [],
+		"inventory": [
+			{
+				"id": "imbued-implement",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [
+					{
+						"id": "imbuement-forceful-i",
+						"name": "Forceful I",
+						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+						"type": "Imbued Implement",
+						"crafting": {
+							"id": "imbuement-forceful-i-crafting",
+							"name": "Imbue Forceful I",
+							"description": "Imbue an item with Forceful I.",
+							"itemPrerequisites": "A lead slingstone that killed a giant",
+							"source": "Texts or lore in High Kuric",
+							"characteristic": [
+								"Might",
+								"Reason",
+								"Intuition"
+							],
+							"goal": 150,
+							"isCustom": false,
+							"progress": null
+						},
+						"level": 1,
+						"feature": {
+							"id": "imbuement-forceful-i",
+							"name": "Forceful I",
+							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+							"type": "Multiple Features",
+							"data": {
+								"features": [
+									{
+										"id": "imbuement-forceful-i-push",
+										"name": "Forced Movement: Push",
+										"description": "",
+										"type": "Bonus",
+										"data": {
+											"field": "Forced Movement: Push",
+											"value": 2,
+											"valueFromController": null,
+											"valueCharacteristics": [],
+											"valueCharacteristicMultiplier": 1,
+											"valuePerLevel": 0,
+											"valuePerEchelon": 0
+										}
+									},
+									{
+										"id": "imbuement-forceful-i-pull",
+										"name": "Forced Movement: Pull",
+										"description": "",
+										"type": "Bonus",
+										"data": {
+											"field": "Forced Movement: Pull",
+											"value": 2,
+											"valueFromController": null,
+											"valueCharacteristics": [],
+											"valueCharacteristicMultiplier": 1,
+											"valuePerLevel": 0,
+											"valuePerEchelon": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				],
+				"count": 1
+			}
+		],
 		"projects": [],
 		"titles": [],
 		"controlledSlots": [],
