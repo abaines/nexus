@@ -5654,12 +5654,133 @@
 				],
 				"imbuements": [],
 				"count": 1
+			},
+			{
+				"id": "item-breath-of-dawn",
+				"name": "Breath of Dawn",
+				"description": "A glass flask contains a whirl of gentle sunlight.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-breath-of-dawn-crafting",
+					"name": "Craft Breath of Dawn",
+					"description": "Craft a Breath of Dawn.",
+					"itemPrerequisites": "The breath of a mystic sage captured at sunrise",
+					"source": "Texts or lore in Hyrallic",
+					"characteristic": [
+						"Intuition",
+						"Presence"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the frightened, slowed, and taunted conditions on yourself, and you gain a +8 bonus to Stability until the end of the encounter.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 3
+			},
+			{
+				"id": "item-concealment-potion",
+				"name": "Concealment Potion",
+				"description": "This dark, viscous liquid tastes like burnt leaves.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Potion",
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-concealment-potion-crafting",
+					"name": "Craft Concealment Potion",
+					"description": "Craft a Concealment Potion.",
+					"itemPrerequisites": "An ounce of sap from a tree damaged by psionic fire",
+					"source": "Texts or lore in Yllyric",
+					"characteristic": [
+						"Agility",
+						"Intuition"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the Hide maneuver even while you are observed.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 2
+			},
+			{
+				"id": "item-vial-of-ethereal-attack",
+				"name": "Vial of Ethereal Attack",
+				"description": "Clear liquid seems to constantly churn within an obsidian vial, even when at rest.",
+				"type": "Consumable (2nd echelon)",
+				"keywords": [
+					"Psionic"
+				],
+				"crafting": {
+					"id": "item-vial-of-ethereal-attack-crafting",
+					"name": "Craft Vial of Ethereal Attack",
+					"description": "Craft a Vial of Ethereal Attack.",
+					"itemPrerequisites": "A signed agreement with a ghost, a large obsidian disk",
+					"source": "Texts or lore in Anjali",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 90,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-cube ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a combat round or starts their turn there takes 10 psychic damage. At the start of each of your turns, you can move the vortex up to 5 squares (no action required).",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1
 			}
 		],
 		"projects": [],
 		"titles": [],
 		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false
