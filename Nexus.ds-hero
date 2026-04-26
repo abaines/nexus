@@ -428,7 +428,8 @@
 							],
 							"count": 2,
 							"selected": [
-								"Interrogate"
+								"Interrogate",
+								"Read Person"
 							]
 						}
 					},
