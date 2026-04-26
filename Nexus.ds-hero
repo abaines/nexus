@@ -5340,7 +5340,11 @@
 					"description": "The faith-based organization you were once part of became corrupt. It used its status in the community to accumulate wealth through tithes and its leaders sought political appointments. During a season of drought, the institution stockpiled resources and refused to give aid, resulting in the deaths of many. You became a hero to fight against such corruption and to honor your dearly departed."
 				}
 			],
-			"selected": null
+			"selected": {
+				"id": "MPvl7-EqrMG-5Yjtv-43ljP-HnLik-NtkFN",
+				"name": "🔸 The Butterfly Collector",
+				"description": "Hailing from the advanced plane of Axiom, you understand that history is not a static line but a mutable thread. Your patrons, foreseers of countless futures, determined that the prime plane was a nexus of catastrophic possibilities. To avert widespread despair, they initiated a grand project: to subtly alter the flow of time. You were chosen as their agent, a living archive sent to gather the impossibly vast data needed to enact these changes. You left your home not in disgrace or disillusionment, but with a profound purpose: to become a hero whose every observation could save a billion lives."
+			}
 		}
 	},
 	"complication": {
