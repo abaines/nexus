@@ -5467,16 +5467,16 @@
 				],
 				"imbuements": [
 					{
-						"id": "imbuement-forceful-i",
-						"name": "Forceful I",
-						"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+						"id": "imbuement-seeking",
+						"name": "Seeking",
+						"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
 						"type": "Imbued Implement",
 						"crafting": {
-							"id": "imbuement-forceful-i-crafting",
-							"name": "Imbue Forceful I",
-							"description": "Imbue an item with Forceful I.",
-							"itemPrerequisites": "A lead slingstone that killed a giant",
-							"source": "Texts or lore in High Kuric",
+							"id": "imbuement-seeking-crafting",
+							"name": "Imbue Seeking",
+							"description": "Imbue an item with Seeking.",
+							"itemPrerequisites": "An inch-long needle carved from a diamond",
+							"source": "Texts or lore in Caelian",
 							"characteristic": [
 								"Might",
 								"Reason",
@@ -5488,41 +5488,54 @@
 						},
 						"level": 1,
 						"feature": {
-							"id": "imbuement-forceful-i",
-							"name": "Forceful I",
-							"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+							"id": "imbuement-seeking",
+							"name": "Seeking",
+							"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
 							"type": "Multiple Features",
 							"data": {
 								"features": [
 									{
-										"id": "imbuement-forceful-i-push",
-										"name": "Forced Movement: Push",
-										"description": "",
-										"type": "Bonus",
+										"id": "imbuement-seeking-magic",
+										"name": "Seeking (Magic)",
+										"description": "Your ranged magic abilities gain a +2 distance bonus.",
+										"type": "Ability Distance",
 										"data": {
-											"field": "Forced Movement: Push",
+											"keywords": [
+												"Ranged",
+												"Magic"
+											],
 											"value": 2,
 											"valueFromController": null,
 											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 1,
+											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
 											"valuePerEchelon": 0
 										}
 									},
 									{
-										"id": "imbuement-forceful-i-pull",
-										"name": "Forced Movement: Pull",
-										"description": "",
-										"type": "Bonus",
+										"id": "imbuement-seeking-psionic",
+										"name": "Seeking (Psionic)",
+										"description": "Your ranged psionic abilities gain a +2 distance bonus.",
+										"type": "Ability Distance",
 										"data": {
-											"field": "Forced Movement: Pull",
+											"keywords": [
+												"Ranged",
+												"Psionic"
+											],
 											"value": 2,
 											"valueFromController": null,
 											"valueCharacteristics": [],
-											"valueCharacteristicMultiplier": 1,
+											"valueCharacteristicMultiplier": 0,
 											"valuePerLevel": 0,
 											"valuePerEchelon": 0
 										}
+									},
+									{
+										"id": "imbuement-seeking-text",
+										"name": "Seeking",
+										"description": "If you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+										"type": "Text",
+										"data": null
 									}
 								]
 							}
@@ -5555,6 +5568,31 @@
 					"progress": null
 				},
 				"effect": "As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1
+			},
+			{
+				"id": "imbued-implement",
+				"name": "Imbued Implement",
+				"description": "\nImplements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project. \n\nAn implement imbued with an enhancement grants you special benefits while it is wielded.",
+				"type": "Imbued Implement",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
