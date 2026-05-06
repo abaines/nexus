@@ -136,8 +136,8 @@
 							"value": 2
 						}
 					],
-					"respiteChange": false,
 					"count": "ancestry",
+					"selectAt": "build",
 					"selected": [
 						{
 							"id": "memonek-feature-3-5",
@@ -713,8 +713,8 @@
 									"value": 1
 								}
 							],
-							"respiteChange": true,
 							"count": 1,
+							"selectAt": "respite",
 							"selected": [
 								{
 									"id": "talent-1-5e",
@@ -842,8 +842,8 @@
 									"value": 1
 								}
 							],
-							"respiteChange": true,
 							"count": 1,
+							"selectAt": "respite",
 							"selected": [
 								{
 									"id": "talent-1-6d",
@@ -3280,8 +3280,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -3462,8 +3462,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -3665,8 +3665,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -3976,8 +3976,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": [
 										{
 											"id": "talent-sub-2-2-2a",
@@ -4217,8 +4217,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -4439,8 +4439,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -4712,8 +4712,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -4919,8 +4919,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
@@ -5097,8 +5097,8 @@
 											"value": 1
 										}
 									],
-									"respiteChange": false,
 									"count": 1,
+									"selectAt": "build",
 									"selected": []
 								}
 							}
