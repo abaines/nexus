@@ -5477,7 +5477,7 @@
 	],
 	"state": {
 		"staminaDamage": 8,
-		"staminaTemp": 20,
+		"staminaTemp": 7,
 		"recoveriesUsed": 8,
 		"surges": 3,
 		"victories": 5,
