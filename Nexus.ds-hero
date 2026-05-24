@@ -391,7 +391,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": 9
+							"value": 14
 						}
 					},
 					{
@@ -5363,14 +5363,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5476,7 +5476,7 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 22,
+		"staminaDamage": 8,
 		"staminaTemp": 20,
 		"recoveriesUsed": 8,
 		"surges": 3,
@@ -5816,5 +5816,10 @@
 			"damageBonus": 0,
 			"characteristic": null
 		}
+	],
+	"sourcebookIDs": [
+		"core",
+		"orden",
+		"beastheart"
 	]
 }
