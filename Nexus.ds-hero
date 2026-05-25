@@ -1181,7 +1181,16 @@
 								"Supernatural"
 							],
 							"count": 1,
-							"selected": []
+							"selected": [
+								{
+									"id": "perk-thingspeaker",
+									"name": "Thingspeaker",
+									"description": "\nWhen you hold an object in your hand for 1 uninterrupted minute, you can sense whether it bears emotional resonance. Objects with emotional resonance could include treasured gifts, murder weapons, or personal keepsakes.\nIf the Director determines that the object bears emotional resonance, you learn the most dominant emotion associated with the object, then receive a vision that answers one of the following questions:\n\n* What was the name of the person whose emotion is imprinted on this object?\n* Why does this emotion linger on the object?\n* How long has it been since the object was held by the person whose emotion lingers on it?\n\nAfter asking one question, you can choose to delve deeper by asking one additional question from the list, but you are then overcome with emotions that do not belong to you.\nYou take a bane on Intuition and Presence tests until you finish a respite, and you can’t use this perk again while you suffer this bane.",
+									"type": "Text",
+									"data": null,
+									"list": "Supernatural"
+								}
+							]
 						}
 					},
 					{
@@ -4219,7 +4228,70 @@
 									],
 									"count": 1,
 									"selectAt": "build",
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-6-1b",
+											"name": "Greater Kinetic Grip",
+											"description": "You raise the target into the air without breaking a sweat.",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-6-1b",
+													"name": "Greater Kinetic Grip",
+													"description": "You raise the target into the air without breaking a sweat.",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Psionic",
+														"Ranged",
+														"Strike",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Ranged",
+															"value": 10,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "One creature or object",
+													"cost": 9,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Presence"
+																],
+																"bonus": 0,
+																"tier1": "Slide 4 + R; M < [weak], the forced movement is vertic",
+																"tier2": "Slide 8 + R; M < [average], the forced movement is vertical",
+																"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical"
+															}
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "The forced movement ignores stability. You take 2d6 damage and are weakened (save ends)."
+														}
+													]
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -5113,7 +5185,7 @@
 				"selected": false
 			}
 		],
-		"level": 5,
+		"level": 6,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5302,7 +5374,7 @@
 											"isSignature": false,
 											"cost": 0,
 											"count": 1,
-											"level": 1,
+											"level": 6,
 											"level3": [],
 											"level6": [],
 											"level10": []
@@ -5363,14 +5435,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
