@@ -5435,14 +5435,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5502,48 +5502,92 @@
 			}
 		},
 		{
-			"id": "NdE5y-sFAKG-IEHJI-CszuD-i66I5-eFlnj",
-			"name": "Forced Movement: Slide +2",
+			"id": "eae50bdc-c601-4c54-bf54-a2a322f048f6",
+			"name": "🔸Seeking",
 			"description": "",
-			"type": "Bonus",
+			"type": "Ability",
 			"data": {
-				"field": "Forced Movement: Slide",
-				"value": 2,
-				"valueFromController": null,
-				"valueCharacteristics": [],
-				"valueCharacteristicMultiplier": 1,
-				"valuePerLevel": 0,
-				"valuePerEchelon": 0
+				"ability": {
+					"id": "eae50bdc-c601-4c54-bf54-a2a322f048f6",
+					"name": "🔸Seeking",
+					"description": "Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.",
+					"type": {
+						"usage": "No Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "One creature or object",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": []
+				}
 			}
 		},
 		{
-			"id": "CeFLu-hZJIk-RhVja-y3Z4Z-JtMvi-UJhtR",
-			"name": "Forced Movement: Push +2",
+			"id": "472eb1b0-298e-44c0-b0d6-058f9370adaf",
+			"name": "🔸Forceful I",
 			"description": "",
-			"type": "Bonus",
+			"type": "Ability",
 			"data": {
-				"field": "Forced Movement: Push",
-				"value": 2,
-				"valueFromController": null,
-				"valueCharacteristics": [],
-				"valueCharacteristicMultiplier": 1,
-				"valuePerLevel": 0,
-				"valuePerEchelon": 0
+				"ability": {
+					"id": "472eb1b0-298e-44c0-b0d6-058f9370adaf",
+					"name": "🔸Forceful I",
+					"description": "Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.",
+					"type": {
+						"usage": "No Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "Self",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": []
+				}
 			}
 		},
 		{
-			"id": "WfQm3-lNnp8-4HSY2-wZFa0-A1BLb-X62ce",
-			"name": "Forced Movement: Pull +2",
+			"id": "23738551-cfbf-4128-8583-4acf2427e9ca",
+			"name": "[incomplete] 🚧 Thought Sending",
 			"description": "",
-			"type": "Bonus",
+			"type": "Ability",
 			"data": {
-				"field": "Forced Movement: Pull",
-				"value": 2,
-				"valueFromController": null,
-				"valueCharacteristics": [],
-				"valueCharacteristicMultiplier": 1,
-				"valuePerLevel": 0,
-				"valuePerEchelon": 0
+				"ability": {
+					"id": "23738551-cfbf-4128-8583-4acf2427e9ca",
+					"name": "[incomplete] 🚧 Thought Sending",
+					"description": "Your ranged magic and psionic abilities gain a +2 distance bonus. Additionally, you can telepathically communicate with any willing creature who knows a language and whose name you know, provided they are on the same world as you. You must initiate the conversation, but once you do, the creature can respond until you end the conversation.",
+					"type": {
+						"usage": "No Action",
+						"free": false,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "Self",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "text",
+							"text": "143 / 150 project progress"
+						}
+					]
+				}
 			}
 		}
 	],
