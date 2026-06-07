@@ -5559,13 +5559,13 @@
 		},
 		{
 			"id": "23738551-cfbf-4128-8583-4acf2427e9ca",
-			"name": "[incomplete] 🚧 Thought Sending",
+			"name": "🔸 Thought Sending",
 			"description": "",
 			"type": "Ability",
 			"data": {
 				"ability": {
 					"id": "23738551-cfbf-4128-8583-4acf2427e9ca",
-					"name": "[incomplete] 🚧 Thought Sending",
+					"name": "🔸 Thought Sending",
 					"description": "Your ranged magic and psionic abilities gain a +2 distance bonus. Additionally, you can telepathically communicate with any willing creature who knows a language and whose name you know, provided they are on the same world as you. You must initiate the conversation, but once you do, the creature can respond until you end the conversation.",
 					"type": {
 						"usage": "No Action",
@@ -5581,12 +5581,7 @@
 					"cost": 0,
 					"repeatable": false,
 					"minLevel": 1,
-					"sections": [
-						{
-							"type": "text",
-							"text": "143 / 150 project progress"
-						}
-					]
+					"sections": []
 				}
 			}
 		},
@@ -5970,7 +5965,7 @@
 		"projects": [],
 		"titles": [],
 		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n28+15+11+14+18+13+19+9+16= 143 / 150 project on Thought Sending\n\n\n\n\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n28+15+11+14+18+13+19+9+16= 143 / 150 project on Thought Sending\n+18 from friends\ndone with 11 over/remaining\n\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false
