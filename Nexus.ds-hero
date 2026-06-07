@@ -5589,6 +5589,34 @@
 					]
 				}
 			}
+		},
+		{
+			"id": "27930311-5f4c-493d-90b1-8aeb484e4032",
+			"name": "🔸Vanishing Ward",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "27930311-5f4c-493d-90b1-8aeb484e4032",
+					"name": "🔸Vanishing Ward",
+					"description": "Your ward allows you to slip away from threats. Whenever you take damage, you become invisible until the end of your next turn.",
+					"type": {
+						"usage": "Triggered Action",
+						"free": true,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "Self",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": []
+				}
+			}
 		}
 	],
 	"state": {
@@ -5925,6 +5953,16 @@
 		{
 			"abilityID": "comp-grounded-d",
 			"name": "🔸Grounded",
+			"description": "",
+			"notes": "",
+			"costModifier": 0,
+			"distanceBonus": 0,
+			"damageBonus": 0,
+			"characteristic": null
+		},
+		{
+			"abilityID": "talent-1-6d",
+			"name": "",
 			"description": "",
 			"notes": "",
 			"costModifier": 0,
