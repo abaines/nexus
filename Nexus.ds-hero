@@ -399,7 +399,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": 9
+							"value": -4
 						}
 					},
 					{
@@ -5706,8 +5706,8 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 1,
-		"staminaTemp": 5,
+		"staminaDamage": 4,
+		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
 		"victories": 4,
@@ -6099,7 +6099,7 @@
 		{
 			"abilityID": "talent-6-2",
 			"name": "🔸 Psi Boost",
-			"description": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n\n**Dynamic Power** (1 Clarity) If the ability force moves a target, the forced movement distance gains a bonus equal to 3.\n**Sharpened Power** (1 Clarity) If the ability has any power roll, that roll gains an edge.\n**Extended Power** (1 Clarity) If the ability is ranged, the distance gains a bonus equal to 3. If the ability is melee, the distance gains a +2 bonus.\n**Heightened Power** (1 Clarity) If the ability deals rolled damage, it deals extra damage equal to 3.\n\n**Expanded Power** (3 Clarity) If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.\n\n**Magnified Power** (5 Clarity) If the ability has a potency, you increase that potency by an amount equal to 3.\n**Shared Power** (5 Clarity) If the ability targets individual creatures or objects, you target one additional creature or object within distance.",
+			"description": "Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a psi boost to it and enhance its effects. A psi boost’s effects only last until the end of the turn which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.\n\n**Dynamic Power** (1 Clarity) If the ability force moves a target, the <u>forced movement</u> distance gains a bonus equal to 3.\n**Heightened Power** (1 Clarity) If the ability deals rolled damage, it deals extra <u>damage</u> equal to 3.\n**Sharpened Power** (1 Clarity) If the ability has any power roll, that roll gains an <u>edge</u>.\n**Extended Power** (1 Clarity) If the ability is ranged, the distance gains a bonus equal to 3. If the ability is melee, the <u>distance</u> gains a +2 bonus.\n\n\n**Expanded Power** (3 Clarity) If the ability targets an area, you increase the <u>size of the area</u> by 1. If the area is a line, you increase the size of one dimension, not both.\n\n**Magnified Power** (5 Clarity) If the ability has a potency, you increase that <u>potency</u> by an amount equal to 3.\n**Shared Power** (5 Clarity) If the ability targets individual creatures or objects, you target <u>one additional creature</u> or object within distance.",
 			"notes": "",
 			"costModifier": 0,
 			"distanceBonus": 0,
