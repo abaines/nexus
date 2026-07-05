@@ -5977,6 +5977,46 @@
 				],
 				"imbuements": [],
 				"count": 1
+			},
+			{
+				"id": "item-snapdragon",
+				"name": "Snapdragon",
+				"description": "This delicate orange blossom has a sickly-sweet smell.",
+				"type": "Consumable (1st echelon)",
+				"keywords": [
+					"Magic"
+				],
+				"crafting": {
+					"id": "item-snapdragon-crafting",
+					"name": "Craft Snapdragon",
+					"description": "Craft a Snapdragon.",
+					"itemPrerequisites": "Fifty snapdragon seeds",
+					"source": "Texts or lore in Yllyric",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 45,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 bonus to the distance of any forced movement it imposes. If the ability does not impose forced movement, you can push each creature targeted by the ability up to 2 squares.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 4
 			}
 		],
 		"projects": [],
