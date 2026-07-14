@@ -199,7 +199,6 @@
 				"data": {
 					"options": [],
 					"count": 1,
-					"selectAt": "build",
 					"selected": [
 						"Axiomatic"
 					]
@@ -217,7 +216,6 @@
 						"Interpersonal"
 					],
 					"count": 1,
-					"selectAt": "build",
 					"selected": []
 				}
 			},
@@ -233,7 +231,6 @@
 						"Exploration"
 					],
 					"count": 1,
-					"selectAt": "build",
 					"selected": []
 				}
 			},
@@ -248,7 +245,6 @@
 						"Lore"
 					],
 					"count": 1,
-					"selectAt": "build",
 					"selected": []
 				}
 			}
@@ -267,7 +263,6 @@
 			"data": {
 				"options": [],
 				"count": 1,
-				"selectAt": "build",
 				"selected": [
 					"Axiomatic"
 				]
@@ -285,7 +280,6 @@
 					"Interpersonal"
 				],
 				"count": 1,
-				"selectAt": "build",
 				"selected": [
 					"Navigate"
 				]
@@ -303,7 +297,6 @@
 					"Exploration"
 				],
 				"count": 1,
-				"selectAt": "build",
 				"selected": [
 					"Mechanics"
 				]
@@ -320,7 +313,6 @@
 					"Lore"
 				],
 				"count": 1,
-				"selectAt": "build",
 				"selected": [
 					"Timescape"
 				]
@@ -417,7 +409,6 @@
 								"Lore"
 							],
 							"count": 2,
-							"selectAt": "build",
 							"selected": [
 								"Monsters",
 								"Music"
@@ -436,7 +427,6 @@
 								"Lore"
 							],
 							"count": 2,
-							"selectAt": "build",
 							"selected": [
 								"Interrogate",
 								"Read Person"
@@ -515,7 +505,6 @@
 						"data": {
 							"options": [],
 							"count": 1,
-							"selectAt": "build",
 							"selected": [
 								"Mindspeech"
 							]
@@ -1136,7 +1125,6 @@
 								"Lore"
 							],
 							"count": 1,
-							"selectAt": "build",
 							"selected": [
 								"Search"
 							]
@@ -1310,8 +1298,9 @@
 								"Lore"
 							],
 							"count": 1,
-							"selectAt": "build",
-							"selected": []
+							"selected": [
+								"Hide"
+							]
 						}
 					}
 				]
@@ -1547,7 +1536,6 @@
 								"Lore"
 							],
 							"count": 1,
-							"selectAt": "build",
 							"selected": []
 						}
 					},
@@ -5199,7 +5187,7 @@
 				"selected": false
 			}
 		],
-		"level": 6,
+		"level": 7,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5243,7 +5231,6 @@
 						"Lore"
 					],
 					"count": 1,
-					"selectAt": "build",
 					"selected": [
 						"Strategy"
 					]
@@ -5260,7 +5247,6 @@
 						"Lore"
 					],
 					"count": 2,
-					"selectAt": "build",
 					"selected": [
 						"Magic",
 						"Psionics"
@@ -5390,7 +5376,7 @@
 											"isSignature": false,
 											"cost": 0,
 											"count": 1,
-											"level": 6,
+											"level": 7,
 											"level3": [],
 											"level6": [],
 											"level10": []
