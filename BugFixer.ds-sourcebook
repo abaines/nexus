@@ -1,5 +1,5 @@
 {
-	"id": "5TRo8-MRC3K-PqnoE-NLpR1-hnWCN-jMOKl",
+	"id": "nqc0M-8SXXs-4wQpy-R74CB-vE8hw-tl4s4",
 	"name": "BugFixer",
 	"description": "",
 	"type": "Homebrew",
@@ -32,7 +32,7 @@
 							"type": "Ability Distance",
 							"data": {
 								"keywords": [],
-								"value": 2,
+								"value": 4,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
