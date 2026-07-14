@@ -6045,8 +6045,8 @@
 		{
 			"abilityID": "talent-sub-2-1-1",
 			"name": "",
-			"description": "",
-			"notes": "🔸 +2 force",
+			"description": "Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.\n\n🔸 6 squares total \\[+2 from forceful]",
+			"notes": "🔸 6 squares total \\[+2 from forceful]",
 			"costModifier": 0,
 			"distanceBonus": 0,
 			"damageBonus": 0,
