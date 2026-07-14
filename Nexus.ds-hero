@@ -5746,92 +5746,6 @@
 				"count": 1
 			},
 			{
-				"id": "43f8o-vic7Z-4yBzb-0mvbv-8UkQc-HFM9z",
-				"name": "Test Item",
-				"description": "Test",
-				"type": "Trinket (1st echelon)",
-				"keywords": [],
-				"crafting": null,
-				"effect": "",
-				"featuresByLevel": [
-					{
-						"level": 1,
-						"features": [
-							{
-								"id": "4KUts-vliiI-ct60C-Lr7Ul-9c225-LY8TC",
-								"name": "Test Range",
-								"description": "",
-								"type": "Ability Distance",
-								"data": {
-									"keywords": [],
-									"value": 2,
-									"valueFromController": null,
-									"valueCharacteristics": [],
-									"valueCharacteristicMultiplier": 1,
-									"valuePerLevel": 0,
-									"valuePerEchelon": 0
-								}
-							},
-							{
-								"id": "b1jVg-G8LoP-MvHvY-lUuj1-zyd8Q-98kaF",
-								"name": "Test Push",
-								"description": "",
-								"type": "Bonus",
-								"data": {
-									"field": "Forced Movement: Push",
-									"value": 2,
-									"valueFromController": null,
-									"valueCharacteristics": [],
-									"valueCharacteristicMultiplier": 1,
-									"valuePerLevel": 0,
-									"valuePerEchelon": 0
-								}
-							},
-							{
-								"id": "SV2yv-HYNly-OkFQE-zVb0x-zKDxT-KOHrD",
-								"name": "Test Pull",
-								"description": "",
-								"type": "Bonus",
-								"data": {
-									"field": "Forced Movement: Pull",
-									"value": 2,
-									"valueFromController": null,
-									"valueCharacteristics": [],
-									"valueCharacteristicMultiplier": 1,
-									"valuePerLevel": 0,
-									"valuePerEchelon": 0
-								}
-							},
-							{
-								"id": "sq4kn-42rsV-rb26U-wAltX-xxJ7v-fuJuG",
-								"name": "Test Slide",
-								"description": "",
-								"type": "Bonus",
-								"data": {
-									"field": "Forced Movement: Slide",
-									"value": 2,
-									"valueFromController": null,
-									"valueCharacteristics": [],
-									"valueCharacteristicMultiplier": 1,
-									"valuePerLevel": 0,
-									"valuePerEchelon": 0
-								}
-							}
-						]
-					},
-					{
-						"level": 5,
-						"features": []
-					},
-					{
-						"level": 9,
-						"features": []
-					}
-				],
-				"imbuements": [],
-				"count": 1
-			},
-			{
 				"id": "item-scannerstone",
 				"name": "Scannerstone",
 				"description": "This flat, palm-sized triangular stone is decorated with a starfield of tiny gems.",
@@ -6031,6 +5945,92 @@
 				],
 				"imbuements": [],
 				"count": 4
+			},
+			{
+				"id": "43f8o-vic7Z-4yBzb-0mvbv-8UkQc-HFM9z",
+				"name": "Test Item",
+				"description": "Test",
+				"type": "Trinket (1st echelon)",
+				"keywords": [],
+				"crafting": null,
+				"effect": "",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": [
+							{
+								"id": "4KUts-vliiI-ct60C-Lr7Ul-9c225-LY8TC",
+								"name": "Test Range",
+								"description": "",
+								"type": "Ability Distance",
+								"data": {
+									"keywords": [],
+									"value": 4,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "b1jVg-G8LoP-MvHvY-lUuj1-zyd8Q-98kaF",
+								"name": "Test Push",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Push",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "SV2yv-HYNly-OkFQE-zVb0x-zKDxT-KOHrD",
+								"name": "Test Pull",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Pull",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							},
+							{
+								"id": "sq4kn-42rsV-rb26U-wAltX-xxJ7v-fuJuG",
+								"name": "Test Slide",
+								"description": "",
+								"type": "Bonus",
+								"data": {
+									"field": "Forced Movement: Slide",
+									"value": 2,
+									"valueFromController": null,
+									"valueCharacteristics": [],
+									"valueCharacteristicMultiplier": 1,
+									"valuePerLevel": 0,
+									"valuePerEchelon": 0
+								}
+							}
+						]
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 1
 			}
 		],
 		"projects": [],
@@ -6096,8 +6096,6 @@
 	"sourcebookIDs": [
 		"core",
 		"orden",
-		"beastheart",
-		"nqc0M-8SXXs-4wQpy-R74CB-vE8hw-tl4s4",
-		"02860753-315c-4353-8e31-d40eee1f6618"
+		"beastheart"
 	]
 }
