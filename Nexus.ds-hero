@@ -199,6 +199,7 @@
 				"data": {
 					"options": [],
 					"count": 1,
+					"selectAt": "build",
 					"selected": [
 						"Axiomatic"
 					]
@@ -216,6 +217,7 @@
 						"Interpersonal"
 					],
 					"count": 1,
+					"selectAt": "build",
 					"selected": []
 				}
 			},
@@ -231,6 +233,7 @@
 						"Exploration"
 					],
 					"count": 1,
+					"selectAt": "build",
 					"selected": []
 				}
 			},
@@ -245,6 +248,7 @@
 						"Lore"
 					],
 					"count": 1,
+					"selectAt": "build",
 					"selected": []
 				}
 			}
@@ -263,6 +267,7 @@
 			"data": {
 				"options": [],
 				"count": 1,
+				"selectAt": "build",
 				"selected": [
 					"Axiomatic"
 				]
@@ -280,6 +285,7 @@
 					"Interpersonal"
 				],
 				"count": 1,
+				"selectAt": "build",
 				"selected": [
 					"Navigate"
 				]
@@ -297,6 +303,7 @@
 					"Exploration"
 				],
 				"count": 1,
+				"selectAt": "build",
 				"selected": [
 					"Mechanics"
 				]
@@ -313,6 +320,7 @@
 					"Lore"
 				],
 				"count": 1,
+				"selectAt": "build",
 				"selected": [
 					"Timescape"
 				]
@@ -409,6 +417,7 @@
 								"Lore"
 							],
 							"count": 2,
+							"selectAt": "build",
 							"selected": [
 								"Monsters",
 								"Music"
@@ -427,6 +436,7 @@
 								"Lore"
 							],
 							"count": 2,
+							"selectAt": "build",
 							"selected": [
 								"Interrogate",
 								"Read Person"
@@ -505,6 +515,7 @@
 						"data": {
 							"options": [],
 							"count": 1,
+							"selectAt": "build",
 							"selected": [
 								"Mindspeech"
 							]
@@ -1125,6 +1136,7 @@
 								"Lore"
 							],
 							"count": 1,
+							"selectAt": "build",
 							"selected": [
 								"Search"
 							]
@@ -1298,6 +1310,7 @@
 								"Lore"
 							],
 							"count": 1,
+							"selectAt": "build",
 							"selected": [
 								"Hide"
 							]
@@ -1536,6 +1549,7 @@
 								"Lore"
 							],
 							"count": 1,
+							"selectAt": "build",
 							"selected": []
 						}
 					},
@@ -5231,6 +5245,7 @@
 						"Lore"
 					],
 					"count": 1,
+					"selectAt": "build",
 					"selected": [
 						"Strategy"
 					]
@@ -5247,6 +5262,7 @@
 						"Lore"
 					],
 					"count": 2,
+					"selectAt": "build",
 					"selected": [
 						"Magic",
 						"Psionics"
@@ -6039,7 +6055,8 @@
 		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n28+15+11+14+18+13+19+9+16= 143 / 150 project on Thought Sending\n+18 from friends\ndone with 11 over/remaining\n\n",
 		"encounterState": "ready",
 		"hidden": false,
-		"defeated": false
+		"defeated": false,
+		"tutorialMode": "Complete"
 	},
 	"abilityCustomizations": [
 		{
