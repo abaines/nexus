@@ -411,7 +411,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": 0
+							"value": -1
 						}
 					},
 					{
@@ -5471,14 +5471,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "Grounded Benefit",
+				"name": "",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "Grounded Drawback",
+				"name": "",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -5729,14 +5729,47 @@
 					"sections": []
 				}
 			}
+		},
+		{
+			"id": "fee5db6c-c31a-4fed-bd64-df592818fc67",
+			"name": "🔸Scan",
+			"description": "",
+			"type": "Ability",
+			"data": {
+				"ability": {
+					"id": "fee5db6c-c31a-4fed-bd64-df592818fc67",
+					"name": "🔸Scan",
+					"description": "You can extend your psionic senses beyond their usual range.",
+					"type": {
+						"usage": "Maneuver",
+						"free": true,
+						"trigger": "",
+						"time": "",
+						"qualifiers": [],
+						"freeStrike": false
+					},
+					"keywords": [],
+					"distance": [],
+					"target": "Self",
+					"cost": 0,
+					"repeatable": false,
+					"minLevel": 1,
+					"sections": [
+						{
+							"type": "text",
+							"text": "Once on each of your turns, you can search for hidden creatures as a free maneuver."
+						}
+					]
+				}
+			}
 		}
 	],
 	"state": {
 		"staminaDamage": 0,
-		"staminaTemp": 0,
+		"staminaTemp": 15,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 2,
 		"xp": 52,
 		"heroTokens": 0,
 		"renown": 3,
@@ -6071,6 +6104,47 @@
 				],
 				"imbuements": [],
 				"count": 1
+			},
+			{
+				"id": "62e33754-1c99-44c6-8bcf-5bff57e52104",
+				"name": "Healing Potion",
+				"description": "Thick and red, this liquid tastes of sour beer.",
+				"type": "Consumable (1st echelon)",
+				"keywords": [
+					"Magic",
+					"Potion"
+				],
+				"crafting": {
+					"id": "item-healing-potion-crafting",
+					"name": "Craft Healing Potion",
+					"description": "Craft a Healing Potion.",
+					"itemPrerequisites": "An ounce of costmary leaves",
+					"source": "Texts or lore in Caelian",
+					"characteristic": [
+						"Reason",
+						"Intuition"
+					],
+					"goal": 45,
+					"isCustom": false,
+					"progress": null
+				},
+				"effect": "When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.",
+				"featuresByLevel": [
+					{
+						"level": 1,
+						"features": []
+					},
+					{
+						"level": 5,
+						"features": []
+					},
+					{
+						"level": 9,
+						"features": []
+					}
+				],
+				"imbuements": [],
+				"count": 2
 			}
 		],
 		"projects": [],
