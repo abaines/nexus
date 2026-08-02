@@ -6005,7 +6005,7 @@
 								"type": "Ability Distance",
 								"data": {
 									"keywords": [],
-									"value": 4,
+									"value": 2,
 									"valueFromController": null,
 									"valueCharacteristics": [],
 									"valueCharacteristicMultiplier": 1,
