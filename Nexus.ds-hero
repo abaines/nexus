@@ -411,7 +411,7 @@
 							],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": 5
+							"value": 0
 						}
 					},
 					{
@@ -5732,11 +5732,11 @@
 		}
 	],
 	"state": {
-		"staminaDamage": 5,
+		"staminaDamage": 0,
 		"staminaTemp": 0,
 		"recoveriesUsed": 0,
 		"surges": 0,
-		"victories": 0,
+		"victories": 4,
 		"xp": 48,
 		"heroTokens": 0,
 		"renown": 3,
@@ -5987,7 +5987,7 @@
 				"count": 4
 			},
 			{
-				"id": "43f8o-vic7Z-4yBzb-0mvbv-8UkQc-HFM9z",
+				"id": "f486f8df-6e1f-41e0-8f6a-1d3b78b96654",
 				"name": "Test Item",
 				"description": "Test",
 				"type": "Trinket (1st echelon)",
@@ -6005,7 +6005,7 @@
 								"type": "Ability Distance",
 								"data": {
 									"keywords": [],
-									"value": 2,
+									"value": 4,
 									"valueFromController": null,
 									"valueCharacteristics": [],
 									"valueCharacteristicMultiplier": 1,
@@ -6076,7 +6076,7 @@
 		"projects": [],
 		"titles": [],
 		"controlledSlots": [],
-		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n28+15+11+14+18+13+19+9+16= 143 / 150 project on Thought Sending\n+18 from friends\ndone with 11 over/remaining\n\n",
+		"notes": "Name:\nNexus Cron Tor Turing 6 of 8, Tertiary Adjunct of Unimatrix 010\n\nInventory:\nconstruct crow parts (BKC initials)\n\nitem for talking with Memonek ambassador\n\nProject:\ndisciple +240\nforceful item -150\n\ncarry over 90\nfirst respite +20\nsecond respite +10\nthird respite +15 and +15 points from paige/Jackie\n\n= 150 / 150 for seeking item\n\n2026-02-01\n2 roll over to next item\n2026-03-29\n+8 project points\n\n\n28+15+11+14+18+13+19+9+16= 143 / 150 project on Thought Sending\n+18 from friends\ndone with 11 over/remaining\n\n2026-08-02\n+33 tradeskill\n44 total\n\n\n",
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
@@ -6137,7 +6137,8 @@
 	"sourcebookIDs": [
 		"core",
 		"orden",
-		"beastheart"
+		"beastheart",
+		"732c5909-d6b3-4bb1-8f64-c76685ef1da9"
 	],
 	"isActive": true
 }
