@@ -5471,14 +5471,14 @@
 		"features": [
 			{
 				"id": "comp-grounded-b",
-				"name": "",
+				"name": "Grounded Benefit",
 				"description": "You gain the 1st-level Elementalist Specialization feature Motivate Earth. If you also gain this feature in any other way, the Motivate Earth ability becomes a ranged ability for you with a distance of ranged 5.",
 				"type": "Text",
 				"data": null
 			},
 			{
 				"id": "comp-grounded-d",
-				"name": "",
+				"name": "Grounded Drawback",
 				"description": "You attract lightning. When any creature within 2 squares of you takes lightning damage, you take 5 lightning damage that can’t be reduced in any way.",
 				"type": "Text",
 				"data": null
@@ -6127,7 +6127,7 @@
 					"Potion"
 				],
 				"crafting": {
-					"id": "item-healing-potion-crafting",
+					"id": "62e33754-1c99-44c6-8bcf-5bff57e52104-crafting",
 					"name": "Craft Healing Potion",
 					"description": "Craft a Healing Potion.",
 					"itemPrerequisites": "An ounce of costmary leaves",
