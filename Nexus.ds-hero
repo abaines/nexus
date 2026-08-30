@@ -47,9 +47,33 @@
 							"feature": {
 								"id": "memonek-feature-3-2",
 								"name": "Systematic Mind",
-								"description": "You gain an edge on tests made to parse schematics, maps, and other systematic documents that aren’t inherently chaotic. In addition, you treat any language you don’t know as if you know a related language.",
-								"type": "Text",
-								"data": null
+								"description": "",
+								"type": "Multiple Features",
+								"data": {
+									"features": [
+										{
+											"id": "memonek-feature-3-2a",
+											"name": "Systematic Mind",
+											"description": "You treat any language you don’t know as if you know a related language.",
+											"type": "Text",
+											"data": null
+										},
+										{
+											"id": "memonek-feature-3-2b",
+											"name": "Systematic Mind",
+											"description": "",
+											"type": "Roll Modifier",
+											"data": {
+												"modifier": "Edge",
+												"rollType": "Test",
+												"skills": [],
+												"skillLists": [],
+												"characteristics": [],
+												"condition": "When parsing schematics, maps, and other systematic documents that aren’t inherently chaotic"
+											}
+										}
+									]
+								}
 							},
 							"value": 1
 						},
@@ -67,9 +91,17 @@
 							"feature": {
 								"id": "memonek-feature-3-4",
 								"name": "Useful Emotion",
-								"description": "Velloparatha - the worldsickness - might hinder, but you know how to turn your pain into something your enemies feel. At the start of any combat, you gain 1 surge.",
-								"type": "Text",
-								"data": null
+								"description": "Velloparatha - the worldsickness - might hinder, but you know how to turn your pain into something your enemies feel.",
+								"type": "Surge Gain",
+								"data": {
+									"tag": "start-combat",
+									"trigger": "Start of combat",
+									"value": "1",
+									"frequency": "Per Encounter",
+									"used": false,
+									"replacesTags": [],
+									"condition": ""
+								}
 							},
 							"value": 1
 						},
@@ -214,7 +246,7 @@
 			"environment": {
 				"id": "env-nomadic",
 				"name": "Nomadic",
-				"description": "Choose 1 from Exploration skills, Interpersonal skills.",
+				"description": "A nomadic culture travels from place to place to survive.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -230,7 +262,7 @@
 			"organization": {
 				"id": "org-communal",
 				"name": "Communal",
-				"description": "Choose 1 from Crafting skills, Exploration skills.",
+				"description": "A communal culture is a place where all members of the culture are considered equal.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -246,7 +278,7 @@
 			"upbringing": {
 				"id": "up-academic",
 				"name": "Academic",
-				"description": "Choose 1 from Lore skills.",
+				"description": "Your hero was raised by people who collect, study, and share books and other records.",
 				"type": "Skill Choice",
 				"data": {
 					"options": [],
@@ -288,7 +320,7 @@
 		"environment": {
 			"id": "env-nomadic",
 			"name": "Nomadic",
-			"description": "Choose 1 from Exploration skills, Interpersonal skills.",
+			"description": "A nomadic culture travels from place to place to survive.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -306,7 +338,7 @@
 		"organization": {
 			"id": "org-communal",
 			"name": "Communal",
-			"description": "Choose 1 from Crafting skills, Exploration skills.",
+			"description": "A communal culture is a place where all members of the culture are considered equal.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -324,7 +356,7 @@
 		"upbringing": {
 			"id": "up-academic",
 			"name": "Academic",
-			"description": "Choose 1 from Lore skills.",
+			"description": "Your hero was raised by people who collect, study, and share books and other records.",
 			"type": "Skill Choice",
 			"data": {
 				"options": [],
@@ -401,14 +433,19 @@
 								{
 									"tag": "start",
 									"trigger": "Start of your turn",
-									"value": "1d3"
+									"value": "1d3",
+									"frequency": "Per Round",
+									"used": false
 								},
 								{
 									"tag": "move",
-									"trigger": "The first time each combat round that a creature is force moved",
-									"value": "1"
+									"trigger": "A creature is force moved",
+									"value": "1",
+									"frequency": "Per Round",
+									"used": false
 								}
 							],
+							"thresholds": [],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
 							"value": 0
@@ -617,7 +654,7 @@
 									"feature": {
 										"id": "talent-1-5b",
 										"name": "Density Augmentation",
-										"description": "Stamina, Stability",
+										"description": "",
 										"type": "Multiple Features",
 										"data": {
 											"features": [
@@ -702,7 +739,7 @@
 									"feature": {
 										"id": "talent-1-5e",
 										"name": "Speed Augmentation",
-										"description": "Speed, Disengage",
+										"description": "",
 										"type": "Multiple Features",
 										"data": {
 											"features": [
@@ -748,7 +785,7 @@
 								{
 									"id": "talent-1-5e",
 									"name": "Speed Augmentation",
-									"description": "Speed, Disengage",
+									"description": "",
 									"type": "Multiple Features",
 									"data": {
 										"features": [
@@ -1084,7 +1121,7 @@
 					{
 						"id": "talent-4-3",
 						"name": "Mind Recovery",
-						"description": "Mind Recovery, Mind Recovery",
+						"description": "",
 						"type": "Multiple Features",
 						"data": {
 							"features": [
@@ -1102,8 +1139,10 @@
 									"type": "Heroic Resource Gain",
 									"data": {
 										"tag": "move 2",
-										"trigger": "The first time each combat round that a creature is force moved",
+										"trigger": "A creature is force moved",
 										"value": "2",
+										"frequency": "Per Round",
+										"used": false,
 										"replacesTags": [
 											"move"
 										]
@@ -1308,6 +1347,8 @@
 							"tag": "start 2",
 							"trigger": "Start of your turn",
 							"value": "1d3 + 1",
+							"frequency": "Per Round",
+							"used": false,
 							"replacesTags": [
 								"start"
 							]
@@ -1385,7 +1426,7 @@
 					{
 						"id": "talent-9-1",
 						"name": "Fortress of Perfect Thought",
-						"description": "Fortress of Perfect Thought, Damage Modifier, Condition Immunity",
+						"description": "",
 						"type": "Multiple Features",
 						"data": {
 							"features": [
@@ -1463,8 +1504,10 @@
 						"type": "Heroic Resource Gain",
 						"data": {
 							"tag": "move 3",
-							"trigger": "The first time each combat round that a creature is force moved",
+							"trigger": "A creature is force moved",
 							"value": "3",
+							"frequency": "Per Round",
+							"used": false,
 							"replacesTags": [
 								"move",
 								"move 2"
@@ -1474,7 +1517,7 @@
 					{
 						"id": "talent-10-3",
 						"name": "Omnisensory",
-						"description": "Ability distance modifier, Omnisensory",
+						"description": "",
 						"type": "Multiple Features",
 						"data": {
 							"features": [
@@ -1523,7 +1566,7 @@
 					{
 						"id": "talent-10-5",
 						"name": "Psion",
-						"description": "Psion, Psion",
+						"description": "",
 						"type": "Multiple Features",
 						"data": {
 							"features": [
@@ -1536,6 +1579,8 @@
 										"tag": "start 3",
 										"trigger": "Start of your turn",
 										"value": "1d3 + 2",
+										"frequency": "Per Round",
+										"used": false,
 										"replacesTags": [
 											"start",
 											"start 2"
@@ -1580,11 +1625,14 @@
 							"type": "epic",
 							"gains": [
 								{
-									"tag": "",
+									"tag": "respite",
 									"trigger": "Finish a respite",
-									"value": "XP gained"
+									"value": "XP gained",
+									"frequency": "At Will",
+									"used": false
 								}
 							],
+							"thresholds": [],
 							"details": "You can spend vision to use one additional psionic ability on your turn, provided you pay the entire cost of the ability in vision. If you choose to use a psionic ability that usually costs no clarity, you must spend 1 vision to use it.",
 							"canBeNegative": false,
 							"value": 0
@@ -3066,6 +3114,7 @@
 				"id": "talent-sub-1",
 				"name": "Chronopathy",
 				"description": "Chronopathy abilities allow you to view future and past events, and to manipulate time to aid allies and hinder foes.",
+				"classID": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
@@ -3727,6 +3776,7 @@
 				"id": "talent-sub-2",
 				"name": "Telekinesis",
 				"description": "Telekinesis abilities allow you to physically manipulate creatures and objects.",
+				"classID": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
@@ -4241,7 +4291,7 @@
 																		"Presence"
 																	],
 																	"bonus": 0,
-																	"tier1": "Slide 4 + R; M < [weak], the forced movement is vertic",
+																	"tier1": "Slide 4 + R; M < [weak], the forced movement is vertical",
 																	"tier2": "Slide 8 + R; M < [average], the forced movement is vertical",
 																	"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical"
 																}
@@ -4309,7 +4359,7 @@
 																	"Presence"
 																],
 																"bonus": 0,
-																"tier1": "Slide 4 + R; M < [weak], the forced movement is vertic",
+																"tier1": "Slide 4 + R; M < [weak], the forced movement is vertical",
 																"tier2": "Slide 8 + R; M < [average], the forced movement is vertical",
 																"tier3": "Slide 12 + R; prone; M < [strong], the forced movement is vertical"
 															}
@@ -4564,6 +4614,7 @@
 				"id": "talent-sub-3",
 				"name": "Telepathy",
 				"description": "Telepathy abilities allow you to communicate with, read, and influence the minds of other creatures.",
+				"classID": "",
 				"featuresByLevel": [
 					{
 						"level": 1,
@@ -4673,9 +4724,33 @@
 							{
 								"id": "talent-sub-3-2-1",
 								"name": "Ease the Mind",
-								"description": "You gain an edge on tests made to stop combat and start a negotiation. Additionally, if you are present during a negotiation, any NPC who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).",
-								"type": "Text",
-								"data": null
+								"description": "",
+								"type": "Multiple Features",
+								"data": {
+									"features": [
+										{
+											"id": "talent-sub-3-2-1a",
+											"name": "Ease the Mind",
+											"description": "If you are present during a negotiation, any NPC who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).",
+											"type": "Text",
+											"data": null
+										},
+										{
+											"id": "talent-sub-3-2-1b",
+											"name": "Ease the Mind",
+											"description": "",
+											"type": "Roll Modifier",
+											"data": {
+												"modifier": "Edge",
+												"rollType": "Test",
+												"skills": [],
+												"skillLists": [],
+												"characteristics": [],
+												"condition": "When stopping combat and starting a negotiation"
+											}
+										}
+									]
+								}
 							},
 							{
 								"id": "talent-sub-3-2-2",
@@ -4846,7 +4921,7 @@
 							{
 								"id": "talent-sub-3-5-2",
 								"name": "Remote Amplification",
-								"description": "Remote Amplification, Ability distance modifier",
+								"description": "",
 								"type": "Multiple Features",
 								"data": {
 									"features": [
@@ -6166,7 +6241,8 @@
 		"encounterState": "ready",
 		"hidden": false,
 		"defeated": false,
-		"tutorialMode": "Complete"
+		"tutorialMode": "Complete",
+		"inventoryText": ""
 	},
 	"abilityCustomizations": [
 		{
