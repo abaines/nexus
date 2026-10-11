@@ -28,7 +28,7 @@
 			},
 			{
 				"id": "memonek-feature-3",
-				"name": "Memonek Traits",
+				"name": "Purchased Traits",
 				"description": "",
 				"type": "Choice",
 				"data": {
@@ -4646,7 +4646,73 @@
 									],
 									"count": 1,
 									"selectAt": "build",
-									"selected": []
+									"selected": [
+										{
+											"id": "talent-sub-2-9-1b",
+											"name": "Gravitic Nova",
+											"description": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+											"type": "Ability",
+											"data": {
+												"ability": {
+													"id": "talent-sub-2-9-1b",
+													"name": "Gravitic Nova",
+													"description": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+													"type": {
+														"usage": "Main Action",
+														"free": false,
+														"trigger": "",
+														"time": "",
+														"qualifiers": [],
+														"freeStrike": false
+													},
+													"keywords": [
+														"Area",
+														"Psionic",
+														"Telekinesis"
+													],
+													"distance": [
+														{
+															"type": "Burst",
+															"value": 3,
+															"value2": 0,
+															"within": 0,
+															"special": "",
+															"qualifier": ""
+														}
+													],
+													"target": "Each enemy and object in the area",
+													"cost": 11,
+													"repeatable": false,
+													"minLevel": 1,
+													"sections": [
+														{
+															"type": "roll",
+															"roll": {
+																"characteristic": [
+																	"Presence"
+																],
+																"bonus": 0,
+																"tier1": "6 damage; push 7",
+																"tier2": "9 damage; push 10",
+																"tier3": "13 damage; push 15"
+															}
+														},
+														{
+															"type": "text",
+															"text": "On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage."
+														},
+														{
+															"type": "field",
+															"name": "Strained",
+															"value": 0,
+															"repeatable": false,
+															"effect": "You are weakened (save ends). If you scored a critical hit with this ability, you die."
+														}
+													]
+												}
+											}
+										}
+									]
 								}
 							}
 						]
@@ -5343,7 +5409,7 @@
 				"selected": false
 			}
 		],
-		"level": 8,
+		"level": 9,
 		"characteristics": [
 			{
 				"characteristic": "Might",
@@ -5534,7 +5600,7 @@
 											"isSignature": false,
 											"cost": 0,
 											"count": 1,
-											"level": 8,
+											"level": 9,
 											"level3": [],
 											"level6": [],
 											"level10": []
@@ -5906,7 +5972,7 @@
 		"recoveriesUsed": 1,
 		"surges": 0,
 		"victories": 8,
-		"xp": 60,
+		"xp": 64,
 		"heroTokens": 0,
 		"renown": 3,
 		"wealth": 2,
@@ -6351,5 +6417,6 @@
 		"beastheart",
 		"732c5909-d6b3-4bb1-8f64-c76685ef1da9"
 	],
-	"isActive": true
+	"isActive": true,
+	"extensionIDs": []
 }
