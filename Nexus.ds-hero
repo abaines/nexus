@@ -448,7 +448,7 @@
 							"thresholds": [],
 							"details": "\nYou can spend clarity you don’t have, pushing that Heroic Resource into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.\n\nWhenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.\n\nWhenever you use an ability with a strain effect outside of combat, you can take 1d6 damage and incur the effect if you don't incur it for other reasons.",
 							"canBeNegative": true,
-							"value": 22
+							"value": 13
 						}
 					},
 					{
@@ -928,6 +928,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": "signature",
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -937,6 +938,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 2,
 							"selectedIDs": [
 								"talent-ability-1",
@@ -951,6 +953,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 3,
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -960,6 +963,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 1,
 							"selectedIDs": [
 								"talent-ability-9"
@@ -973,6 +977,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 5,
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -982,6 +987,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 1,
 							"selectedIDs": [
 								"talent-ability-13"
@@ -1036,6 +1042,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 7,
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -1045,6 +1052,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 1,
 							"selectedIDs": [
 								"talent-ability-19"
@@ -1218,6 +1226,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 9,
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -1227,6 +1236,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 1,
 							"selectedIDs": [
 								"talent-ability-22"
@@ -1452,6 +1462,7 @@
 						"type": "Class Ability",
 						"data": {
 							"cost": 11,
+							"type": "Any",
 							"source": {
 								"fromClassAbilities": true,
 								"fromSelectedSubclassAbilities": true,
@@ -1461,6 +1472,7 @@
 								"fromUnselectedSubclassLevels": false
 							},
 							"minLevel": 1,
+							"maxLevel": 10,
 							"count": 1,
 							"selectedIDs": [
 								"talent-ability-26"
@@ -6219,7 +6231,7 @@
 					}
 				],
 				"imbuements": [],
-				"count": 3
+				"count": 2
 			},
 			{
 				"id": "f486f8df-6e1f-41e0-8f6a-1d3b78b96654",
